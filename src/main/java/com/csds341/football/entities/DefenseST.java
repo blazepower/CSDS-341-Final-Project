@@ -3,13 +3,15 @@ package com.csds341.football.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Entity
 public class DefenseST {
     private @Id
     @GeneratedValue
     Integer defenseId;
-    // TODO: Add team as one to one
+    @OneToOne
+    private Team team;
     private Integer interceptions;
     private Integer sacks;
     private Integer rshYdsAllowed;
@@ -19,12 +21,13 @@ public class DefenseST {
     }
 
     public DefenseST(Integer defenseId, Integer interceptions, Integer sacks,
-                     Integer rshYdsAllowed, Integer passYdsAllowed) {
+                     Integer rshYdsAllowed, Integer passYdsAllowed, Team team) {
         this.defenseId = defenseId;
         this.interceptions = interceptions;
         this.sacks = sacks;
         this.rshYdsAllowed = rshYdsAllowed;
         this.passYdsAllowed = passYdsAllowed;
+        this.team = team;
     }
 
     public Integer getDefenseId() {
@@ -46,4 +49,6 @@ public class DefenseST {
     public Integer getPassYdsAllowed() {
         return passYdsAllowed;
     }
+
+    public Team getTeam() { return team; }
 }

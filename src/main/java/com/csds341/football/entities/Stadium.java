@@ -3,6 +3,7 @@ package com.csds341.football.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Entity
 public class Stadium {
@@ -12,18 +13,21 @@ public class Stadium {
     private String state;
     private Integer capacity;
     private String homeTeam;
+    @OneToOne
+    private Team team;
 
     public Stadium() {
     }
 
     public Stadium(Integer stadiumId, String stadiumName, String city,
-                   String state, Integer capacity, String homeTeam) {
+                   String state, Integer capacity, String homeTeam, Team team) {
         this.stadiumId = stadiumId;
         this.stadiumName = stadiumName;
         this.city = city;
         this.state = state;
         this.capacity = capacity;
         this.homeTeam = homeTeam;
+        this.team = team;
     }
 
     public Integer getStadiumId() {
@@ -48,5 +52,9 @@ public class Stadium {
 
     public String getHomeTeam() {
         return homeTeam;
+    }
+
+    public Team getTeam() {
+        return team;
     }
 }
