@@ -4,6 +4,8 @@ import com.csds341.football.entities.Team;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
+import java.util.List;
+
 public interface TeamRepository extends JpaRepository<Team, Integer> {
     @Query(
             "select distinct t.teamId, avg(w.recYds) " +
@@ -16,7 +18,7 @@ public interface TeamRepository extends JpaRepository<Team, Integer> {
     @Query(
             "select t.teamId from Team t where t.division = 'NFC'"
     )
-    Integer getTeamIdOfTeamNFC();
+    List<Integer> getTeamIdOfTeamNFC();
 
     @Query(
             "select t.teamName from Team t, Kicker k " +
