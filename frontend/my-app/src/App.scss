@@ -1,0 +1,31 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.members {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.button-div {
+  margin: 3rem 0;
+  width: 100vw;
+  height: 150px;
+  button {
+    display: block;
+    margin: auto;
+  }
+}
+
+.query-div {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
