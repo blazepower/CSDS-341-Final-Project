@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Kicker {
     private @Id @GeneratedValue
-    Integer wId;
+    Integer kId;
     @ManyToOne
     private Team team;
     private String name;
@@ -18,16 +18,16 @@ public class Kicker {
     public Kicker() {
     }
 
-    public Kicker(Integer wId, Team team, String name, Integer fgMade, Integer fgMissed) {
-        this.wId = wId;
+    public Kicker(Integer kId, Team team, String name, Integer fgMade, Integer fgMissed) {
+        this.kId = kId;
         this.team = team;
         this.name = name;
         this.fgMade = fgMade;
         this.fgMissed = fgMissed;
     }
 
-    public Integer getwId() {
-        return wId;
+    public Integer getwKId() {
+        return kId;
     }
 
     public Team getTeam() {
