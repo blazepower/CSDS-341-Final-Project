@@ -23,9 +23,7 @@ public class Runningback {
     public Runningback() {
     }
 
-    public Runningback(Integer rId, Team team, String name, Integer recYds, Integer rshYds, Integer catches, Integer tds, Integer fumbles, Integer drops) {
-        this.rId = rId;
-        this.team = team;
+    public Runningback(String name, Integer recYds, Integer rshYds, Integer catches, Integer tds, Integer fumbles, Integer drops) {
         this.name = name;
         this.recYds = recYds;
         this.rshYds = rshYds;
@@ -69,5 +67,9 @@ public class Runningback {
 
     public Integer getDrops() {
         return drops;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

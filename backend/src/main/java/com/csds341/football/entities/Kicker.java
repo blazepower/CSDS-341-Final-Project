@@ -18,9 +18,7 @@ public class Kicker {
     public Kicker() {
     }
 
-    public Kicker(Integer kId, Team team, String name, Integer fgMade, Integer fgMissed) {
-        this.kId = kId;
-        this.team = team;
+    public Kicker(String name, Integer fgMade, Integer fgMissed) {
         this.name = name;
         this.fgMade = fgMade;
         this.fgMissed = fgMissed;
@@ -44,5 +42,9 @@ public class Kicker {
 
     public Integer getFgMissed() {
         return fgMissed;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

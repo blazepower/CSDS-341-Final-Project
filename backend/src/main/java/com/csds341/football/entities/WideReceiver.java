@@ -22,9 +22,8 @@ public class WideReceiver {
     public WideReceiver() {
     }
 
-    public WideReceiver(Integer wId, Team team, String name, Integer recYds, Integer catches, Integer tds, Integer fumbles, Integer drops) {
-        this.wId = wId;
-        this.team = team;
+    public WideReceiver(String name, Integer recYds, Integer catches,
+                        Integer tds, Integer fumbles, Integer drops) {
         this.name = name;
         this.recYds = recYds;
         this.catches = catches;
@@ -63,5 +62,9 @@ public class WideReceiver {
 
     public Integer getDrops() {
         return drops;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

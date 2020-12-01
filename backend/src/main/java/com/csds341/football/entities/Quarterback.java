@@ -18,9 +18,7 @@ public class Quarterback {
     private Integer completions;
     private Integer tds;
 
-    public Quarterback(Integer quid, Team team, String name, Integer passYds, Integer rushYds, Integer completions, Integer tds) {
-        this.quId = quid;
-        this.team = team;
+    public Quarterback(String name, Integer passYds, Integer rushYds, Integer completions, Integer tds) {
         this.name = name;
         this.passYds = passYds;
         this.rushYds = rushYds;
@@ -57,5 +55,9 @@ public class Quarterback {
 
     public Integer getTds() {
         return tds;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

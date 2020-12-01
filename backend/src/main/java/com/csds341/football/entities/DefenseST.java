@@ -20,14 +20,12 @@ public class DefenseST {
     public DefenseST() {
     }
 
-    public DefenseST(Integer defenseId, Integer interceptions, Integer sacks,
-                     Integer rshYdsAllowed, Integer passYdsAllowed, Team team) {
-        this.defenseId = defenseId;
+    public DefenseST(Integer interceptions, Integer sacks,
+                     Integer rshYdsAllowed, Integer passYdsAllowed) {
         this.interceptions = interceptions;
         this.sacks = sacks;
         this.rshYdsAllowed = rshYdsAllowed;
         this.passYdsAllowed = passYdsAllowed;
-        this.team = team;
     }
 
     public Integer getDefenseId() {
@@ -51,4 +49,8 @@ public class DefenseST {
     }
 
     public Team getTeam() { return team; }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
 }
