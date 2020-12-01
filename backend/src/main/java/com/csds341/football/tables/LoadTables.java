@@ -26,7 +26,13 @@ public class LoadTables {
     public LoadTables() {}
 
     @Bean
-    CommandLineRunner initTeamTable(TeamRepository teams, DefenseSTRepository defenseSTRepository, KickerRepository kickerRepository, QuarterbackRepository quarterbackRepository, RunningbackRepository runningbackRepository, WideReceiverRepository wideReceiverRepository, StadiumRepository stadiumRepository) throws IOException, JSONException {
+    CommandLineRunner initTeamTable(TeamRepository teams,
+                                    DefenseSTRepository defenseSTRepository,
+                                    KickerRepository kickerRepository,
+                                    QuarterbackRepository quarterbackRepository,
+                                    RunningbackRepository runningbackRepository,
+                                    WideReceiverRepository wideReceiverRepository,
+                                    StadiumRepository stadiumRepository) throws IOException, JSONException {
         InputStream inputStream = new ClassPathResource("data.json").getInputStream();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
         StringBuilder builder = new StringBuilder();
@@ -44,21 +50,46 @@ public class LoadTables {
                 List<Kicker> kickers = new ArrayList<>();
 
                 List<WideReceiver> wideReceivers = new ArrayList<>();
-                Team t = new Team(team.getString("teamName"), team.getString("location"), team.getInt("superbowls"), team.getString("Division"), team.getString("headCoach"), team.getString("manager"), team.getString("owner"), team.getString("record"));
+                Team t = new Team(
+                        team.getString("teamName"),
+                        team.getString("location"),
+                        team.getInt("superbowls"),
+                        team.getString("Division"),
+                        team.getString("headCoach"),
+                        team.getString("manager"),
+                        team.getString("owner"),
+                        team.getString("record")
+                );
 
-                Stadium stadium = new Stadium(team.getString("stadium"), team.getString("location"), team.getInt("stadiumCapacity"), team.getString("teamName"));
+                Stadium stadium = new Stadium(
+                        team.getString("stadium"),
+                        team.getString("location"),
+                        team.getInt("stadiumCapacity"),
+                        team.getString("teamName")
+                );
                 stadium.setTeam(t);
                 stadiumRepository.save(stadium);
 
                 JSONObject defenceObj = team.getJSONObject("defence");
-                DefenseST defenseST = new DefenseST(defenceObj.getInt("Interceptions"), defenceObj.getInt("Sacks"), defenceObj.getInt("rshYdsAllowed"), defenceObj.getInt("passYdsAllowed"));
+                DefenseST defenseST = new DefenseST(
+                        defenceObj.getInt("Interceptions"),
+                        defenceObj.getInt("Sacks"),
+                        defenceObj.getInt("rshYdsAllowed"),
+                        defenceObj.getInt("passYdsAllowed")
+                );
                 defenseST.setTeam(t);
                 defenseSTRepository.save(defenseST);
 
                 JSONArray quarterbackArray = team.getJSONArray("QuarterBack");
                 for (int j = 0; j < quarterbackArray.length(); j++) {
                     JSONObject currQB = quarterbackArray.getJSONObject(j);
-                    Quarterback q = new Quarterback(currQB.getString("name"), currQB.getInt("passingYards"), currQB.getInt("rushingYards"), currQB.getInt("completions"), currQB.getInt("tds"));
+                    Quarterback q = new Quarterback(
+                            currQB.getString("name"),
+                            currQB.getInt("passingYards"),
+                            currQB.getInt("rushingYards"),
+                            currQB.getInt("completions"),
+                            currQB.getInt("tds")
+                    );
                     q.setTeam(t);
                     quarterbackRepository.save(q);
                     quarterbacks.add(q);
@@ -67,7 +98,15 @@ public class LoadTables {
                 JSONArray rbArray = team.getJSONArray("RunningBack");
                 for (int j = 0; j < rbArray.length(); j++) {
                     JSONObject currRB = rbArray.getJSONObject(j);
-                    Runningback r = new Runningback(currRB.getString("name"), currRB.getInt("recYds"), currRB.getInt("rshYds"), currRB.getInt("catches"), currRB.getInt("tds"), currRB.getInt("fumbles"), currRB.getInt("drops"));
+                    Runningback r = new Runningback(
+                            currRB.getString("name"),
+                            currRB.getInt("recYds"),
+                            currRB.getInt("rshYds"),
+                            currRB.getInt("catches"),
+                            currRB.getInt("tds"),
+                            currRB.getInt("fumbles"),
+                            currRB.getInt("drops")
+                    );
                     r.setTeam(t);
                     runningbackRepository.save(r);
                     runningbacks.add(r);
@@ -76,7 +115,14 @@ public class LoadTables {
                 JSONArray wrArray = team.getJSONArray("wideReceiver");
                 for (int j = 0; j < wrArray.length(); j++) {
                     JSONObject currWR = wrArray.getJSONObject(j);
-                    WideReceiver w = new WideReceiver(currWR.getString("name"), currWR.getInt("recYds"), currWR.getInt("catches"), currWR.getInt("tds"), currWR.getInt("fumbles"), currWR.getInt("drops"));
+                    WideReceiver w = new WideReceiver(
+                            currWR.getString("name"),
+                            currWR.getInt("recYds"),
+                            currWR.getInt("catches"),
+                            currWR.getInt("tds"),
+                            currWR.getInt("fumbles"),
+                            currWR.getInt("drops")
+                    );
                     w.setTeam(t);
                     wideReceiverRepository.save(w);
                     wideReceivers.add(w);
@@ -85,7 +131,11 @@ public class LoadTables {
                 JSONArray kArray = team.getJSONArray("Kicker");
                 for (int j = 0; j < kArray.length(); j++) {
                     JSONObject currKicker = kArray.getJSONObject(j);
-                    Kicker k = new Kicker(currKicker.getString("name"), currKicker.getInt("fgMade"), currKicker.getInt("fgMissed"));
+                    Kicker k = new Kicker(
+                            currKicker.getString("name"),
+                            currKicker.getInt("fgMade"),
+                            currKicker.getInt("fgMissed")
+                    );
                     k.setTeam(t);
                     kickerRepository.save(k);
                     kickers.add(k);
