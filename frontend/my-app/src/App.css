@@ -3,24 +3,39 @@
 }
 
 .title {
+  color: white;
   margin-top: 3rem;
   text-align: center;
 }
 
 .members {
+  color: white;
   margin-top: 4rem;
   text-align: center;
 }
 
 .button-div {
-  margin: 3rem 0;
+  border: white 2px solid;
+  border-radius: 20px;
+  margin: 3rem 4rem;
   width: 100vw;
   height: 150px;
+  padding-top: 1rem;
 }
 
 .button-div button {
   display: block;
   margin: auto;
+  background-color: none;
+  border: white 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-transition: color 0.9s ease;
+  transition: color 0.9s ease;
+}
+
+.button-div button:hover {
+  color: grey;
 }
 
 .query-div {
@@ -35,5 +50,16 @@
       align-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cc208e), to(#6713d2));
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+}
+
+#johnsmith-qb h2 {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=App.css.map */

@@ -10,17 +10,14 @@ class App extends React.Component {
       number: -1,
       name: '',
       string: '',
+      teams: {},
     };
     this.recYdsTeam = this.recYdsTeam.bind(this);
   }
   recYdsTeam() {
-    fetch(`https://randomuser.me/api`)
+    fetch(`http://localhost:8080/api/getAFCWinner`)
       .then((res) => res.json())
-      .then((data) => {
-        this.setState({
-          string: data.results[0].email,
-        });
-      });
+      .then((data) => console.log(data));
   }
   render() {
     return (
@@ -29,10 +26,7 @@ class App extends React.Component {
         <h2 className='members'>Aman, Rishik, Lauren, Jack</h2>
         <div className='query-div'>
           <div className='button-div' id='recyds-team'>
-            <button onClick={this.recYdsTeam}>
-              Get the teamid and average of values for the "receiving yards"
-              stat for each team in the NFC division
-            </button>
+            <button onClick={this.recYdsTeam}>Who won the AFC</button>
             <h1>{this.state.string}</h1>
           </div>
           <div id='nfc-teams' className='button-div'>
@@ -51,6 +45,7 @@ class App extends React.Component {
           </div>
           <div className='button-div' id='johnsmith-qb'>
             <button>Is there a quarterback named John Smith</button>
+            {/* <h2>No</h2> */}
           </div>
         </div>
       </div>
