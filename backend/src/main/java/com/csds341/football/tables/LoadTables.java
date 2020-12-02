@@ -51,7 +51,7 @@ public class LoadTables {
 
                 List<WideReceiver> wideReceivers = new ArrayList<>();
                 Team t = new Team(
-                        i,
+                        i+1,
                         team.getString("teamName"),
                         team.getString("location"),
                         team.getInt("superbowls"),

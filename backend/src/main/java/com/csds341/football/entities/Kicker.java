@@ -6,8 +6,9 @@ import javax.persistence.*;
 public class Kicker {
     private @Id @GeneratedValue
     Integer kId;
-    @ManyToOne(cascade = CascadeType.ALL)
-    private Team team;
+//    @ManyToOne(cascade = CascadeType.ALL)
+//    private Team team;
+    private Integer teamId;
     private String name;
     private Integer fgMade;
     private Integer fgMissed;
@@ -25,8 +26,8 @@ public class Kicker {
         return kId;
     }
 
-    public Team getTeam() {
-        return team;
+    public Integer getTeam() {
+        return teamId;
     }
 
     public String getName() {
@@ -41,7 +42,7 @@ public class Kicker {
         return fgMissed;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeam(Integer team) {
+        this.teamId = team;
     }
 }

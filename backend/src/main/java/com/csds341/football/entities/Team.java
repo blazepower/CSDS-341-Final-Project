@@ -131,6 +131,12 @@ public class Team {
 
     public void setKickers(List<Kicker> kickers) {
         this.kickers = kickers;
+
+        if (kickers != null) {
+            for (Kicker kicker : kickers) {
+                kicker.setTeam(getTeamId());
+            }
+        }
     }
 
 }

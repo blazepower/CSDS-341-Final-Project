@@ -70,4 +70,11 @@ public class TestController {
         res.add(teamRepository.teamNameWithMostInterceptions().get(0).trim());
         return res;
     }
+
+    @GetMapping("/api/getTeamWithKickerWithMostFGMade")
+    public List<String> getTeamWithKicketWithMostFGs() {
+        List<String> res = new ArrayList<>();
+        res.add(teamRepository.teamWithKickerWithMostFGMade().get(0).trim());
+        return res;
+    }
 }
