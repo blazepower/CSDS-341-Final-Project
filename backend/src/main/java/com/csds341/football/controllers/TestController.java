@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
+import java.util.ArrayList;
 import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
 
@@ -60,7 +61,9 @@ public class TestController {
     }
 
     @GetMapping("/api/getAFCWinner")
-    public String getAFCWinner() {
-        return teamRepository.teamNameOfAFCWinner().get(0);
+    public List<String> getAFCWinner() {
+        List<String> res = new ArrayList<>();
+        res.add(teamRepository.teamNameOfAFCWinner().get(0).trim());
+        return res;
     }
 }

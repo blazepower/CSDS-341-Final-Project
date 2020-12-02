@@ -110,15 +110,10 @@ public class Team {
     }
 
     public void setDefenseST(DefenseST defenseST) {
-//        if(sameAsFormer(defenseST))
-//            return;
         this.defenseST = defenseST;
 
         if (defenseST != null) {
             defenseST.setTeamId(getTeamId());
-//            System.out.println(getTeamId());
-//            System.out.println(this.getTeamId());
-//            System.out.println(defenseST.getTeam());
         }
     }
 
@@ -138,10 +133,4 @@ public class Team {
         this.kickers = kickers;
     }
 
-    private boolean sameAsFormer(DefenseST st) {
-        if (defenseST == null) {
-            return st == null;
-        }
-        return defenseST.equals(st);
-    }
 }
