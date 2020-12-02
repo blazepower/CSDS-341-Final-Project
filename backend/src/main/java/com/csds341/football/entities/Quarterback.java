@@ -7,8 +7,9 @@ public class Quarterback {
     private @Id
     @GeneratedValue
     Integer quId;
-    @ManyToOne(cascade = CascadeType.ALL)
-    private Team team;
+//    @ManyToOne(cascade = CascadeType.ALL)
+//    private Team team;
+    private Integer teamId;
     private String name;
     private Integer passYds;
     private Integer rushYds;
@@ -30,8 +31,8 @@ public class Quarterback {
         return quId;
     }
 
-    public Team getTeam() {
-        return team;
+    public Integer getTeam() {
+        return teamId;
     }
 
     public String getName() {
@@ -54,7 +55,7 @@ public class Quarterback {
         return tds;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeamId(Integer teamId) {
+        this.teamId = teamId;
     }
 }

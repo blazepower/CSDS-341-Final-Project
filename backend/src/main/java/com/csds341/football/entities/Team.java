@@ -6,7 +6,6 @@ import java.util.List;
 @Entity
 public class Team {
     private @Id
-    @GeneratedValue
     Integer teamId;
     private String teamName;
     private String city;
@@ -33,8 +32,9 @@ public class Team {
     }
 
     public Team(
-            String teamName, String city, Integer superBowls,
+            Integer teamId, String teamName, String city, Integer superBowls,
             String division, String headCoach, String generalManager, String owner, String record) {
+        this.teamId = teamId;
         this.teamName = teamName;
         this.city = city;
         this.superBowls = superBowls;
@@ -116,8 +116,8 @@ public class Team {
 
         if (defenseST != null) {
             defenseST.setTeamId(getTeamId());
-            System.out.println(getTeamId());
-            System.out.println(this.getTeamId());
+//            System.out.println(getTeamId());
+//            System.out.println(this.getTeamId());
 //            System.out.println(defenseST.getTeam());
         }
     }
