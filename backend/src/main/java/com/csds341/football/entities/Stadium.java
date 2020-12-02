@@ -1,9 +1,6 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 public class Stadium {
@@ -12,7 +9,7 @@ public class Stadium {
     private String location;
     private Integer capacity;
     private String homeTeam;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Team team;
 
     public Stadium() {

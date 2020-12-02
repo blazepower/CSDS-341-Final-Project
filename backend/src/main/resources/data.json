@@ -1,132 +1,136 @@
 [
+  
   {
     "teamName": " Cardinals",
     "location": "Arizona",
     "stadium": "Arizona  Cardinals Stadium",
-    "superbowls": 0,
-    "stadiumCapacity": 86000,
-    "headCoach": "Caden Larson",
+    "superbowls": 2,
+    "stadiumCapacity": 90000,
+    "headCoach": "Kingston Lang",
+    "manager": "Luke French",
+    "owner": "Bjorn Fisher",
+    "record": "-6",
     "defence": {
-      "Interceptions": 10,
-      "Sacks": 18,
-      "rshYdsAllowed": 1349,
-      "passYdsAllowed": 3979
+      "Interceptions": 1,
+      "Sacks": 2,
+      "rshYdsAllowed": 1429,
+      "passYdsAllowed": 3411
     },
     "wideReceiver": [
       {
-        "name": "Orion Sparks",
-        "recYards": 1259,
-        "catches": 79,
-        "tds": 7,
-        "fumbles": 9,
-        "drops": 35
-      },
-      {
-        "name": "Julien Potts",
-        "recYards": 1095,
-        "catches": 69,
-        "tds": 8,
-        "fumbles": 16,
-        "drops": 16
-      },
-      {
-        "name": "Taylor Welch",
-        "recYards": 1165,
-        "catches": 45,
-        "tds": 3,
-        "fumbles": 19,
-        "drops": 30
-      },
-      {
-        "name": "Gage Cohen",
-        "recYards": 716,
-        "catches": 122,
-        "tds": 19,
-        "fumbles": 0,
-        "drops": 30
-      },
-      {
-        "name": "Fletcher Medrano",
-        "recYards": 831,
-        "catches": 70,
+        "name": "Noe Cervantes",
+        "recYards": 14,
+        "catches": 84,
         "tds": 2,
-        "fumbles": 5,
-        "drops": 15
+        "fumbles": 11,
+        "drops": 4
       },
       {
-        "name": "Dalton Estrada",
-        "recYards": 917,
-        "catches": 77,
-        "tds": 6,
+        "name": "Johnny Kim",
+        "recYards": 630,
+        "catches": 97,
+        "tds": 11,
+        "fumbles": 4,
+        "drops": 47
+      },
+      {
+        "name": "Jamal Marquez",
+        "recYards": 277,
+        "catches": 35,
+        "tds": 20,
         "fumbles": 9,
-        "drops": 22
+        "drops": 45
       },
       {
-        "name": "Bronson Gallagher",
-        "recYards": 1102,
-        "catches": 143,
+        "name": "Noel Singleton",
+        "recYards": 391,
+        "catches": 42,
         "tds": 9,
-        "fumbles": 19,
-        "drops": 31
+        "fumbles": 13,
+        "drops": 3
+      },
+      {
+        "name": "Jeffery Nichols",
+        "recYards": 168,
+        "catches": 96,
+        "tds": 2,
+        "fumbles": 17,
+        "drops": 9
+      },
+      {
+        "name": "Elisha Roberts",
+        "recYards": 355,
+        "catches": 21,
+        "tds": 3,
+        "fumbles": 14,
+        "drops": 20
+      },
+      {
+        "name": "Dakari Hines",
+        "recYards": 204,
+        "catches": 8,
+        "tds": 17,
+        "fumbles": 1,
+        "drops": 22
       }
     ],
     "RunningBack": [
       {
-        "name": "Ronan Spence",
-        "recYds": 47,
-        "rshYds": 1435,
-        "catches": 32,
-        "tds": 11,
-        "fumbles": 15,
-        "drops": 7
+        "name": "Apollo Brock",
+        "recYds": 219,
+        "rshYds": 1086,
+        "catches": 16,
+        "tds": 47,
+        "fumbles": 17,
+        "drops": 19
       },
       {
-        "name": "Alvaro Rowland",
-        "recYds": 175,
-        "rshYds": 610,
-        "catches": 36,
-        "tds": 15,
-        "fumbles": 1,
-        "drops": 13
+        "name": "Donovan Acevedo",
+        "recYds": 364,
+        "rshYds": 342,
+        "catches": 35,
+        "tds": 39,
+        "fumbles": 2,
+        "drops": 11
       },
       {
-        "name": "Frederick Cross",
-        "recYds": 266,
-        "rshYds": 62,
-        "catches": 28,
-        "tds": 4,
-        "fumbles": 9,
-        "drops": 20
+        "name": "Ignacio Roberson",
+        "recYds": 443,
+        "rshYds": 625,
+        "catches": 11,
+        "tds": 21,
+        "fumbles": 19,
+        "drops": 23
       }
     ],
     "QuarterBack": [
       {
-        "name": "Malcolm Garrett",
-        "passingYards": 3393,
-        "rushingYards": 388,
-        "completions": 7,
-        "tds": 16
-      },
-      {
-        "name": "Tru Austin",
-        "passingYards": 2526,
+        "name": "Enoch Conner",
+        "passingYards": 1770,
         "rushingYards": 447,
-        "completions": 283,
-        "tds": 16
+        "completions": 304,
+        "tds": 6
       },
       {
-        "name": "Jett Davila",
-        "passingYards": 2674,
-        "rushingYards": 67,
-        "completions": 81,
-        "tds": 19
+        "name": "Cason Strickland",
+        "passingYards": 1442,
+        "rushingYards": 390,
+        "completions": 436,
+        "tds": 32
+      },
+      {
+        "name": "Amari Bradford",
+        "passingYards": 3303,
+        "rushingYards": 64,
+        "completions": 67,
+        "tds": 23
       }
     ],
     "Kicker": [
       {
-        "name": "Alejandro Donovan",
-        "fgMade": 31,
-        "fgMissed": 22
+        "name": "Kye Nolan",
+        "fgMade": 49,
+        "fgMissed": 17
       }
     ],
     "Division": "AFC"
@@ -135,130 +139,133 @@
     "teamName": "Falcons",
     "location": "Atlanta",
     "stadium": "Atlanta Falcons Stadium",
-    "superbowls": 9,
-    "stadiumCapacity": 99000,
-    "headCoach": "Tadeo Ortega",
+    "superbowls": 10,
+    "stadiumCapacity": 95000,
+    "headCoach": "Chris Park",
+    "manager": "Vicente Molina",
+    "owner": "Zahir Rasmussen",
+    "record": "7",
     "defence": {
-      "Interceptions": 11,
-      "Sacks": 13,
-      "rshYdsAllowed": 1874,
-      "passYdsAllowed": 3617
+      "Interceptions": 1,
+      "Sacks": 23,
+      "rshYdsAllowed": 1747,
+      "passYdsAllowed": 3166
     },
     "wideReceiver": [
       {
-        "name": "Jamari Neal",
-        "recYards": 224,
-        "catches": 150,
-        "tds": 5,
-        "fumbles": 10,
-        "drops": 40
+        "name": "Titus Baldwin",
+        "recYards": 579,
+        "catches": 91,
+        "tds": 7,
+        "fumbles": 20,
+        "drops": 13
       },
       {
-        "name": "Emir Curry",
-        "recYards": 1485,
-        "catches": 13,
-        "tds": 12,
-        "fumbles": 0,
-        "drops": 40
+        "name": "Harvey Cano",
+        "recYards": 92,
+        "catches": 62,
+        "tds": 19,
+        "fumbles": 18,
+        "drops": 18
       },
       {
-        "name": "Abraham Rivas",
-        "recYards": 69,
-        "catches": 143,
-        "tds": 17,
+        "name": "Kyle Huffman",
+        "recYards": 1254,
+        "catches": 33,
+        "tds": 6,
         "fumbles": 12,
         "drops": 14
       },
       {
-        "name": "Ridge Morrison",
-        "recYards": 932,
-        "catches": 27,
-        "tds": 0,
-        "fumbles": 19,
-        "drops": 15
+        "name": "Jair Donovan",
+        "recYards": 811,
+        "catches": 51,
+        "tds": 7,
+        "fumbles": 11,
+        "drops": 5
       },
       {
-        "name": "Gianni Ortega",
-        "recYards": 923,
-        "catches": 0,
-        "tds": 12,
-        "fumbles": 8,
+        "name": "Genesis Marsh",
+        "recYards": 800,
+        "catches": 126,
+        "tds": 8,
+        "fumbles": 10,
+        "drops": 16
+      },
+      {
+        "name": "Zyaire Baxter",
+        "recYards": 1088,
+        "catches": 73,
+        "tds": 2,
+        "fumbles": 5,
         "drops": 26
       },
       {
-        "name": "Myles Mays",
-        "recYards": 1303,
-        "catches": 84,
-        "tds": 7,
-        "fumbles": 13,
-        "drops": 39
-      },
-      {
-        "name": "Crew Burnett",
-        "recYards": 1372,
-        "catches": 14,
-        "tds": 17,
-        "fumbles": 17,
-        "drops": 20
+        "name": "Cash Donaldson",
+        "recYards": 947,
+        "catches": 108,
+        "tds": 1,
+        "fumbles": 9,
+        "drops": 23
       }
     ],
     "RunningBack": [
       {
-        "name": "Bryson Faulkner",
-        "recYds": 532,
-        "rshYds": 1222,
-        "catches": 43,
-        "tds": 20,
-        "fumbles": 19,
-        "drops": 16
+        "name": "Alden Gregory",
+        "recYds": 556,
+        "rshYds": 462,
+        "catches": 5,
+        "tds": 4,
+        "fumbles": 14,
+        "drops": 4
       },
       {
-        "name": "Ronin Abbott",
-        "recYds": 155,
-        "rshYds": 911,
-        "catches": 44,
-        "tds": 33,
-        "fumbles": 10,
-        "drops": 14
+        "name": "Paxton Norton",
+        "recYds": 187,
+        "rshYds": 1286,
+        "catches": 23,
+        "tds": 31,
+        "fumbles": 7,
+        "drops": 19
       },
       {
-        "name": "Jesse Freeman",
-        "recYds": 413,
-        "rshYds": 1381,
-        "catches": 29,
-        "tds": 50,
-        "fumbles": 25,
-        "drops": 10
+        "name": "Jose Freeman",
+        "recYds": 721,
+        "rshYds": 536,
+        "catches": 11,
+        "tds": 46,
+        "fumbles": 22,
+        "drops": 9
       }
     ],
     "QuarterBack": [
       {
-        "name": "Ivan Ray",
-        "passingYards": 1788,
-        "rushingYards": 500,
-        "completions": 332,
-        "tds": 14
+        "name": "Dariel Simpson",
+        "passingYards": 2495,
+        "rushingYards": 2,
+        "completions": 300,
+        "tds": 2
       },
       {
-        "name": "Cyrus Dudley",
-        "passingYards": 1710,
-        "rushingYards": 308,
-        "completions": 22,
-        "tds": 22
+        "name": "Curtis Chapman",
+        "passingYards": 3710,
+        "rushingYards": 112,
+        "completions": 330,
+        "tds": 34
       },
       {
-        "name": "Rayden Harris",
-        "passingYards": 2710,
-        "rushingYards": 31,
-        "completions": 449,
-        "tds": 5
+        "name": "Julian Mendoza",
+        "passingYards": 3494,
+        "rushingYards": 330,
+        "completions": 422,
+        "tds": 19
       }
     ],
     "Kicker": [
       {
-        "name": "Grey Chang",
-        "fgMade": 35,
-        "fgMissed": 5
+        "name": "Beckham Lucas",
+        "fgMade": 46,
+        "fgMissed": 9
       }
     ],
     "Division": "AFC"
@@ -267,130 +274,133 @@
     "teamName": "Ravens",
     "location": "Baltimore",
     "stadium": "Baltimore Ravens Stadium",
-    "superbowls": 1,
-    "stadiumCapacity": 64000,
-    "headCoach": "Erik Drake",
+    "superbowls": 2,
+    "stadiumCapacity": 54000,
+    "headCoach": "Yadiel Wise",
+    "manager": "Brycen Brewer",
+    "owner": "Hudson Armstrong",
+    "record": "-8",
     "defence": {
-      "Interceptions": 18,
-      "Sacks": 0,
-      "rshYdsAllowed": 1947,
-      "passYdsAllowed": 3677
+      "Interceptions": 22,
+      "Sacks": 6,
+      "rshYdsAllowed": 1100,
+      "passYdsAllowed": 3613
     },
     "wideReceiver": [
       {
-        "name": "Landen Kelley",
-        "recYards": 305,
-        "catches": 114,
-        "tds": 10,
-        "fumbles": 9,
-        "drops": 48
+        "name": "Russell Luna",
+        "recYards": 85,
+        "catches": 125,
+        "tds": 19,
+        "fumbles": 14,
+        "drops": 36
       },
       {
-        "name": "Quentin Cordova",
-        "recYards": 137,
-        "catches": 114,
-        "tds": 2,
-        "fumbles": 19,
-        "drops": 7
-      },
-      {
-        "name": "Erick Higgins",
-        "recYards": 989,
-        "catches": 91,
-        "tds": 6,
-        "fumbles": 9,
-        "drops": 49
-      },
-      {
-        "name": "Roman Lambert",
-        "recYards": 489,
-        "catches": 60,
+        "name": "Walker Mu\u00f1oz",
+        "recYards": 1459,
+        "catches": 88,
         "tds": 9,
-        "fumbles": 6,
-        "drops": 45
-      },
-      {
-        "name": "Zayden Cobb",
-        "recYards": 205,
-        "catches": 78,
-        "tds": 11,
-        "fumbles": 13,
-        "drops": 50
-      },
-      {
-        "name": "Jerome Bauer",
-        "recYards": 819,
-        "catches": 1,
-        "tds": 9,
-        "fumbles": 20,
-        "drops": 23
-      },
-      {
-        "name": "Forrest Copeland",
-        "recYards": 992,
-        "catches": 127,
-        "tds": 17,
-        "fumbles": 20,
-        "drops": 48
-      }
-    ],
-    "RunningBack": [
-      {
-        "name": "Kason Ramsey",
-        "recYds": 511,
-        "rshYds": 779,
-        "catches": 11,
-        "tds": 40,
         "fumbles": 2,
         "drops": 7
       },
       {
-        "name": "Dorian Bradshaw",
-        "recYds": 121,
-        "rshYds": 141,
-        "catches": 43,
-        "tds": 46,
-        "fumbles": 19,
-        "drops": 15
+        "name": "Calum Bowers",
+        "recYards": 774,
+        "catches": 125,
+        "tds": 12,
+        "fumbles": 15,
+        "drops": 7
       },
       {
-        "name": "Ariel Alexander",
-        "recYds": 417,
-        "rshYds": 1304,
-        "catches": 32,
-        "tds": 4,
-        "fumbles": 18,
-        "drops": 5
+        "name": "Darwin Cochran",
+        "recYards": 951,
+        "catches": 110,
+        "tds": 8,
+        "fumbles": 10,
+        "drops": 13
+      },
+      {
+        "name": "Jaziel Chapman",
+        "recYards": 272,
+        "catches": 22,
+        "tds": 10,
+        "fumbles": 19,
+        "drops": 7
+      },
+      {
+        "name": "Fox Riley",
+        "recYards": 784,
+        "catches": 5,
+        "tds": 20,
+        "fumbles": 12,
+        "drops": 20
+      },
+      {
+        "name": "Tristian Lewis",
+        "recYards": 1299,
+        "catches": 46,
+        "tds": 12,
+        "fumbles": 3,
+        "drops": 26
+      }
+    ],
+    "RunningBack": [
+      {
+        "name": "Brycen Giles",
+        "recYds": 416,
+        "rshYds": 812,
+        "catches": 12,
+        "tds": 1,
+        "fumbles": 24,
+        "drops": 20
+      },
+      {
+        "name": "Clark Hayden",
+        "recYds": 203,
+        "rshYds": 994,
+        "catches": 17,
+        "tds": 31,
+        "fumbles": 1,
+        "drops": 10
+      },
+      {
+        "name": "Alfonso Castillo",
+        "recYds": 0,
+        "rshYds": 825,
+        "catches": 14,
+        "tds": 44,
+        "fumbles": 15,
+        "drops": 22
       }
     ],
     "QuarterBack": [
       {
-        "name": "Ryland Sandoval",
-        "passingYards": 3643,
-        "rushingYards": 29,
-        "completions": 330,
+        "name": "Ayaan Escobar",
+        "passingYards": 2186,
+        "rushingYards": 358,
+        "completions": 332,
         "tds": 7
       },
       {
-        "name": "Maddox Foley",
-        "passingYards": 1966,
-        "rushingYards": 283,
-        "completions": 15,
-        "tds": 19
+        "name": "Donald Mcdonald",
+        "passingYards": 2724,
+        "rushingYards": 83,
+        "completions": 62,
+        "tds": 8
       },
       {
-        "name": "Fabian Hughes",
-        "passingYards": 1365,
-        "rushingYards": 289,
-        "completions": 184,
+        "name": "Ryker Chandler",
+        "passingYards": 1893,
+        "rushingYards": 323,
+        "completions": 334,
         "tds": 34
       }
     ],
     "Kicker": [
       {
-        "name": "Jensen Frost",
-        "fgMade": 10,
-        "fgMissed": 10
+        "name": "Martin Park",
+        "fgMade": 4,
+        "fgMissed": 8
       }
     ],
     "Division": "AFC"
@@ -400,129 +410,132 @@
     "location": "Buffalo",
     "stadium": "Buffalo Bills Stadium",
     "superbowls": 4,
-    "stadiumCapacity": 68000,
-    "headCoach": "Alan Molina",
+    "stadiumCapacity": 97000,
+    "headCoach": "Jerry Hawkins",
+    "manager": "Kenny Christian",
+    "owner": "Marcus Savage",
+    "record": "-1",
     "defence": {
-      "Interceptions": 5,
-      "Sacks": 10,
-      "rshYdsAllowed": 1482,
-      "passYdsAllowed": 3925
+      "Interceptions": 6,
+      "Sacks": 4,
+      "rshYdsAllowed": 1503,
+      "passYdsAllowed": 3132
     },
     "wideReceiver": [
       {
-        "name": "Raiden Soto",
-        "recYards": 127,
-        "catches": 71,
-        "tds": 0,
-        "fumbles": 14,
-        "drops": 10
-      },
-      {
-        "name": "Maximiliano Rosales",
-        "recYards": 1210,
-        "catches": 113,
-        "tds": 12,
-        "fumbles": 15,
-        "drops": 17
-      },
-      {
-        "name": "Adrien Wise",
-        "recYards": 1080,
-        "catches": 79,
-        "tds": 9,
-        "fumbles": 6,
-        "drops": 26
-      },
-      {
-        "name": "Morgan Graham",
-        "recYards": 1339,
-        "catches": 121,
-        "tds": 15,
-        "fumbles": 12,
-        "drops": 32
-      },
-      {
-        "name": "Clyde Estes",
-        "recYards": 259,
-        "catches": 18,
-        "tds": 16,
-        "fumbles": 13,
-        "drops": 26
-      },
-      {
-        "name": "Ahmad Romero",
-        "recYards": 216,
-        "catches": 87,
-        "tds": 13,
+        "name": "Mayson Correa",
+        "recYards": 385,
+        "catches": 80,
+        "tds": 5,
         "fumbles": 16,
-        "drops": 16
+        "drops": 49
       },
       {
-        "name": "Braydon Phelps",
-        "recYards": 63,
-        "catches": 21,
-        "tds": 18,
-        "fumbles": 17,
-        "drops": 45
+        "name": "Eli Ellis",
+        "recYards": 138,
+        "catches": 17,
+        "tds": 10,
+        "fumbles": 4,
+        "drops": 41
+      },
+      {
+        "name": "Oakley Higgins",
+        "recYards": 1360,
+        "catches": 12,
+        "tds": 3,
+        "fumbles": 7,
+        "drops": 25
+      },
+      {
+        "name": "Bronson Herrera",
+        "recYards": 12,
+        "catches": 133,
+        "tds": 8,
+        "fumbles": 14,
+        "drops": 30
+      },
+      {
+        "name": "Titus Ibarra",
+        "recYards": 85,
+        "catches": 144,
+        "tds": 10,
+        "fumbles": 12,
+        "drops": 50
+      },
+      {
+        "name": "Baker Garza",
+        "recYards": 121,
+        "catches": 130,
+        "tds": 1,
+        "fumbles": 11,
+        "drops": 13
+      },
+      {
+        "name": "Everett Rivas",
+        "recYards": 737,
+        "catches": 115,
+        "tds": 9,
+        "fumbles": 0,
+        "drops": 5
       }
     ],
     "RunningBack": [
       {
-        "name": "Maxim Bridges",
-        "recYds": 302,
-        "rshYds": 374,
-        "catches": 27,
-        "tds": 32,
+        "name": "Alejandro Ramos",
+        "recYds": 453,
+        "rshYds": 1222,
+        "catches": 38,
+        "tds": 34,
+        "fumbles": 0,
+        "drops": 20
+      },
+      {
+        "name": "Jadiel Bond",
+        "recYds": 661,
+        "rshYds": 390,
+        "catches": 33,
+        "tds": 0,
         "fumbles": 24,
-        "drops": 17
+        "drops": 16
       },
       {
-        "name": "Emmanuel Noble",
-        "recYds": 160,
-        "rshYds": 616,
-        "catches": 29,
-        "tds": 14,
-        "fumbles": 2,
-        "drops": 0
-      },
-      {
-        "name": "Archie Cunningham",
-        "recYds": 476,
-        "rshYds": 1297,
-        "catches": 17,
-        "tds": 50,
-        "fumbles": 20,
-        "drops": 7
+        "name": "Rene Hunt",
+        "recYds": 281,
+        "rshYds": 525,
+        "catches": 21,
+        "tds": 42,
+        "fumbles": 17,
+        "drops": 22
       }
     ],
     "QuarterBack": [
       {
-        "name": "Kylian Quintana",
-        "passingYards": 1542,
-        "rushingYards": 125,
-        "completions": 252,
-        "tds": 4
+        "name": "Wayne Espinosa",
+        "passingYards": 2406,
+        "rushingYards": 478,
+        "completions": 429,
+        "tds": 14
       },
       {
-        "name": "Marcus Tate",
-        "passingYards": 2951,
-        "rushingYards": 339,
-        "completions": 46,
-        "tds": 12
+        "name": "Robert Peck",
+        "passingYards": 2524,
+        "rushingYards": 19,
+        "completions": 441,
+        "tds": 18
       },
       {
-        "name": "Crew Larsen",
-        "passingYards": 2507,
-        "rushingYards": 306,
-        "completions": 426,
-        "tds": 4
+        "name": "Armando Valenzuela",
+        "passingYards": 3266,
+        "rushingYards": 360,
+        "completions": 404,
+        "tds": 11
       }
     ],
     "Kicker": [
       {
-        "name": "Blaze Wyatt",
-        "fgMade": 38,
-        "fgMissed": 50
+        "name": "Braydon Dunn",
+        "fgMade": 19,
+        "fgMissed": 6
       }
     ],
     "Division": "AFC"
@@ -531,130 +544,133 @@
     "teamName": "Panthers",
     "location": "Carolina",
     "stadium": "Carolina Panthers Stadium",
-    "superbowls": 5,
-    "stadiumCapacity": 58000,
-    "headCoach": "Corbin Chambers",
+    "superbowls": 3,
+    "stadiumCapacity": 90000,
+    "headCoach": "Lawrence Tyler",
+    "manager": "Romeo Stevens",
+    "owner": "Cory Charles",
+    "record": "-7",
     "defence": {
-      "Interceptions": 16,
-      "Sacks": 4,
-      "rshYdsAllowed": 1474,
-      "passYdsAllowed": 3236
+      "Interceptions": 20,
+      "Sacks": 1,
+      "rshYdsAllowed": 1490,
+      "passYdsAllowed": 3253
     },
     "wideReceiver": [
       {
-        "name": "Drew Scott",
-        "recYards": 1212,
-        "catches": 133,
+        "name": "London Lu",
+        "recYards": 33,
+        "catches": 86,
+        "tds": 1,
+        "fumbles": 10,
+        "drops": 29
+      },
+      {
+        "name": "Weston Powell",
+        "recYards": 1178,
+        "catches": 85,
+        "tds": 9,
+        "fumbles": 6,
+        "drops": 41
+      },
+      {
+        "name": "Sonny Gilmore",
+        "recYards": 397,
+        "catches": 87,
+        "tds": 13,
+        "fumbles": 3,
+        "drops": 25
+      },
+      {
+        "name": "Beckett Robertson",
+        "recYards": 1245,
+        "catches": 105,
+        "tds": 11,
+        "fumbles": 11,
+        "drops": 0
+      },
+      {
+        "name": "Amari Gates",
+        "recYards": 318,
+        "catches": 104,
         "tds": 0,
+        "fumbles": 7,
+        "drops": 4
+      },
+      {
+        "name": "Remi Leblanc",
+        "recYards": 1365,
+        "catches": 57,
+        "tds": 1,
         "fumbles": 2,
-        "drops": 7
-      },
-      {
-        "name": "Kayson Clements",
-        "recYards": 215,
-        "catches": 141,
-        "tds": 11,
-        "fumbles": 11,
-        "drops": 32
-      },
-      {
-        "name": "Zayden Abbott",
-        "recYards": 204,
-        "catches": 55,
-        "tds": 15,
-        "fumbles": 6,
-        "drops": 13
-      },
-      {
-        "name": "Maxton Pi\u00f1eda",
-        "recYards": 1260,
-        "catches": 145,
-        "tds": 19,
-        "fumbles": 2,
-        "drops": 31
-      },
-      {
-        "name": "Marvin Hickman",
-        "recYards": 1073,
-        "catches": 35,
-        "tds": 16,
-        "fumbles": 6,
-        "drops": 13
-      },
-      {
-        "name": "Emmanuel Mccann",
-        "recYards": 176,
-        "catches": 95,
-        "tds": 11,
-        "fumbles": 11,
         "drops": 47
       },
       {
-        "name": "Canaan Palmer",
-        "recYards": 691,
-        "catches": 87,
-        "tds": 11,
-        "fumbles": 14,
-        "drops": 12
+        "name": "Caiden Cantrell",
+        "recYards": 1489,
+        "catches": 104,
+        "tds": 20,
+        "fumbles": 11,
+        "drops": 35
       }
     ],
     "RunningBack": [
       {
-        "name": "Remi Higgins",
-        "recYds": 664,
-        "rshYds": 997,
-        "catches": 23,
-        "tds": 1,
-        "fumbles": 5,
-        "drops": 18
+        "name": "Joe Griffith",
+        "recYds": 121,
+        "rshYds": 747,
+        "catches": 40,
+        "tds": 11,
+        "fumbles": 6,
+        "drops": 9
       },
       {
-        "name": "Sylas Frost",
-        "recYds": 146,
-        "rshYds": 733,
-        "catches": 22,
-        "tds": 48,
-        "fumbles": 0,
-        "drops": 13
+        "name": "Larry Andersen",
+        "recYds": 1,
+        "rshYds": 197,
+        "catches": 44,
+        "tds": 10,
+        "fumbles": 21,
+        "drops": 6
       },
       {
-        "name": "Tomas Sexton",
-        "recYds": 529,
-        "rshYds": 880,
-        "catches": 21,
-        "tds": 29,
-        "fumbles": 9,
-        "drops": 4
+        "name": "Archie Silva",
+        "recYds": 594,
+        "rshYds": 1019,
+        "catches": 25,
+        "tds": 43,
+        "fumbles": 23,
+        "drops": 2
       }
     ],
     "QuarterBack": [
       {
-        "name": "Damien Xiong",
-        "passingYards": 2424,
-        "rushingYards": 160,
-        "completions": 273,
-        "tds": 37
-      },
-      {
-        "name": "Vance Barnes",
-        "passingYards": 1514,
-        "rushingYards": 468,
-        "completions": 155,
-        "tds": 21
-      },
-      {
-        "name": "Stone Short",
-        "passingYards": 3066,
-        "rushingYards": 171,
-        "completions": 48,
+        "name": "Rene Rojas",
+        "passingYards": 1800,
+        "rushingYards": 383,
+        "completions": 185,
         "tds": 1
+      },
+      {
+        "name": "Kylen Mccormick",
+        "passingYards": 3296,
+        "rushingYards": 320,
+        "completions": 401,
+        "tds": 28
+      },
+      {
+        "name": "Stefan Fernandez",
+        "passingYards": 2956,
+        "rushingYards": 303,
+        "completions": 101,
+        "tds": 13
       }
     ],
     "Kicker": [
       {
-        "name": "Ryder Roberson",
-        "fgMade": 1,
-        "fgMissed": 0
+        "name": "Calvin Parra",
+        "fgMade": 4,
+        "fgMissed": 19
       }
     ],
     "Division": "AFC"
@@ -663,130 +679,133 @@
     "teamName": "Bears",
     "location": "Chicago",
     "stadium": "Chicago Bears Stadium",
-    "superbowls": 10,
-    "stadiumCapacity": 51000,
-    "headCoach": "Eduardo Erickson",
+    "superbowls": 7,
+    "stadiumCapacity": 69000,
+    "headCoach": "Greyson Chase",
+    "manager": "Conner Hess",
+    "owner": "Jared O\u2019neal",
+    "record": "-4",
     "defence": {
-      "Interceptions": 24,
-      "Sacks": 11,
-      "rshYdsAllowed": 1853,
-      "passYdsAllowed": 3873
+      "Interceptions": 15,
+      "Sacks": 3,
+      "rshYdsAllowed": 1671,
+      "passYdsAllowed": 3476
     },
     "wideReceiver": [
       {
-        "name": "Matteo Barron",
-        "recYards": 1490,
-        "catches": 48,
-        "tds": 13,
-        "fumbles": 16,
-        "drops": 6
-      },
-      {
-        "name": "Stephen Crawford",
-        "recYards": 1104,
-        "catches": 107,
-        "tds": 6,
-        "fumbles": 14,
-        "drops": 11
-      },
-      {
-        "name": "Trey Burgess",
-        "recYards": 875,
-        "catches": 14,
-        "tds": 15,
-        "fumbles": 5,
-        "drops": 44
-      },
-      {
-        "name": "Cannon Villanueva",
-        "recYards": 1490,
-        "catches": 73,
-        "tds": 4,
-        "fumbles": 19,
-        "drops": 49
-      },
-      {
-        "name": "Blaine Small",
-        "recYards": 721,
-        "catches": 66,
-        "tds": 16,
-        "fumbles": 17,
-        "drops": 30
-      },
-      {
-        "name": "Trevor Ross",
-        "recYards": 1192,
+        "name": "Bridger Boone",
+        "recYards": 937,
         "catches": 84,
-        "tds": 3,
+        "tds": 16,
         "fumbles": 19,
-        "drops": 37
+        "drops": 17
       },
       {
-        "name": "Harlan Abbott",
-        "recYards": 599,
-        "catches": 146,
-        "tds": 2,
-        "fumbles": 5,
+        "name": "Mohammed Byrd",
+        "recYards": 1101,
+        "catches": 97,
+        "tds": 15,
+        "fumbles": 17,
+        "drops": 0
+      },
+      {
+        "name": "Denver Henry",
+        "recYards": 302,
+        "catches": 64,
+        "tds": 3,
+        "fumbles": 4,
         "drops": 39
+      },
+      {
+        "name": "Noe Noble",
+        "recYards": 286,
+        "catches": 84,
+        "tds": 1,
+        "fumbles": 18,
+        "drops": 22
+      },
+      {
+        "name": "Nicolas Ward",
+        "recYards": 1393,
+        "catches": 148,
+        "tds": 18,
+        "fumbles": 17,
+        "drops": 23
+      },
+      {
+        "name": "Maximilian Zamora",
+        "recYards": 116,
+        "catches": 111,
+        "tds": 7,
+        "fumbles": 8,
+        "drops": 8
+      },
+      {
+        "name": "Rafael Holland",
+        "recYards": 1094,
+        "catches": 21,
+        "tds": 12,
+        "fumbles": 14,
+        "drops": 29
       }
     ],
     "RunningBack": [
       {
-        "name": "Bradley Mcfarland",
-        "recYds": 72,
-        "rshYds": 923,
-        "catches": 46,
-        "tds": 4,
+        "name": "Bode Kennedy",
+        "recYds": 173,
+        "rshYds": 739,
+        "catches": 26,
+        "tds": 44,
+        "fumbles": 18,
+        "drops": 0
+      },
+      {
+        "name": "Kareem Boone",
+        "recYds": 703,
+        "rshYds": 1080,
+        "catches": 30,
+        "tds": 50,
         "fumbles": 5,
-        "drops": 15
+        "drops": 18
       },
       {
-        "name": "Hudson Mcfarland",
-        "recYds": 458,
-        "rshYds": 295,
-        "catches": 16,
-        "tds": 8,
-        "fumbles": 25,
-        "drops": 3
-      },
-      {
-        "name": "Dominik Guevara",
-        "recYds": 355,
-        "rshYds": 105,
-        "catches": 42,
-        "tds": 10,
-        "fumbles": 8,
-        "drops": 16
+        "name": "Keith Bradshaw",
+        "recYds": 474,
+        "rshYds": 669,
+        "catches": 3,
+        "tds": 25,
+        "fumbles": 11,
+        "drops": 17
       }
     ],
     "QuarterBack": [
       {
-        "name": "Clay Owens",
-        "passingYards": 2075,
-        "rushingYards": 325,
-        "completions": 31,
-        "tds": 32
+        "name": "Landyn Meadows",
+        "passingYards": 1153,
+        "rushingYards": 57,
+        "completions": 327,
+        "tds": 39
       },
       {
-        "name": "Javier Good",
-        "passingYards": 2627,
-        "rushingYards": 205,
-        "completions": 326,
-        "tds": 4
+        "name": "Landen Mcfarland",
+        "passingYards": 2126,
+        "rushingYards": 187,
+        "completions": 82,
+        "tds": 36
       },
       {
-        "name": "Kason Smith",
-        "passingYards": 3175,
-        "rushingYards": 378,
-        "completions": 443,
-        "tds": 6
+        "name": "Khari Ramsey",
+        "passingYards": 1129,
+        "rushingYards": 122,
+        "completions": 175,
+        "tds": 15
       }
     ],
     "Kicker": [
       {
-        "name": "Ezequiel Padilla",
-        "fgMade": 32,
-        "fgMissed": 44
+        "name": "Felipe Whitehead",
+        "fgMade": 30,
+        "fgMissed": 4
       }
     ],
     "Division": "AFC"
@@ -795,130 +814,133 @@
     "teamName": "Bengals",
     "location": "Cincinnati",
     "stadium": "Cincinnati Bengals Stadium",
-    "superbowls": 0,
-    "stadiumCapacity": 72000,
-    "headCoach": "Aden Kirby",
+    "superbowls": 9,
+    "stadiumCapacity": 74000,
+    "headCoach": "Camilo Austin",
+    "manager": "Atticus Mcdowell",
+    "owner": "Jamal Landry",
+    "record": "0",
     "defence": {
-      "Interceptions": 10,
-      "Sacks": 15,
-      "rshYdsAllowed": 1438,
-      "passYdsAllowed": 3195
+      "Interceptions": 18,
+      "Sacks": 24,
+      "rshYdsAllowed": 1420,
+      "passYdsAllowed": 3254
     },
     "wideReceiver": [
       {
-        "name": "Oakley Wilkerson",
-        "recYards": 1396,
-        "catches": 34,
-        "tds": 1,
-        "fumbles": 6,
-        "drops": 6
+        "name": "Bronson Prince",
+        "recYards": 1377,
+        "catches": 103,
+        "tds": 7,
+        "fumbles": 13,
+        "drops": 35
       },
       {
-        "name": "Jamie Malone",
-        "recYards": 834,
-        "catches": 147,
-        "tds": 15,
-        "fumbles": 17,
+        "name": "Kaiser Lugo",
+        "recYards": 1098,
+        "catches": 128,
+        "tds": 18,
+        "fumbles": 2,
         "drops": 37
       },
       {
-        "name": "Andre Molina",
-        "recYards": 87,
-        "catches": 124,
-        "tds": 13,
-        "fumbles": 13,
+        "name": "Joel Simpson",
+        "recYards": 564,
+        "catches": 52,
+        "tds": 20,
+        "fumbles": 12,
+        "drops": 40
+      },
+      {
+        "name": "Kade Soto",
+        "recYards": 321,
+        "catches": 40,
+        "tds": 0,
+        "fumbles": 7,
+        "drops": 34
+      },
+      {
+        "name": "Mohammad Palmer",
+        "recYards": 759,
+        "catches": 59,
+        "tds": 12,
+        "fumbles": 20,
+        "drops": 48
+      },
+      {
+        "name": "Kareem Michael",
+        "recYards": 207,
+        "catches": 122,
+        "tds": 16,
+        "fumbles": 9,
         "drops": 39
       },
       {
-        "name": "Derek Duffy",
-        "recYards": 1172,
-        "catches": 47,
-        "tds": 5,
-        "fumbles": 7,
-        "drops": 36
-      },
-      {
-        "name": "Braydon Erickson",
+        "name": "Alonso Ochoa",
         "recYards": 478,
-        "catches": 101,
-        "tds": 6,
-        "fumbles": 17,
-        "drops": 8
-      },
-      {
-        "name": "Simeon Proctor",
-        "recYards": 573,
-        "catches": 21,
-        "tds": 16,
-        "fumbles": 9,
-        "drops": 2
-      },
-      {
-        "name": "Jake Griffin",
-        "recYards": 177,
-        "catches": 12,
-        "tds": 4,
-        "fumbles": 17,
-        "drops": 48
+        "catches": 125,
+        "tds": 2,
+        "fumbles": 15,
+        "drops": 47
       }
     ],
     "RunningBack": [
       {
-        "name": "Pablo Chung",
-        "recYds": 324,
-        "rshYds": 2,
-        "catches": 2,
-        "tds": 5,
-        "fumbles": 23,
-        "drops": 19
+        "name": "Damian Chavez",
+        "recYds": 186,
+        "rshYds": 1166,
+        "catches": 12,
+        "tds": 19,
+        "fumbles": 13,
+        "drops": 18
       },
       {
-        "name": "Lee Bridges",
-        "recYds": 266,
-        "rshYds": 993,
-        "catches": 10,
-        "tds": 50,
-        "fumbles": 3,
-        "drops": 3
+        "name": "Jerry Ferguson",
+        "recYds": 315,
+        "rshYds": 218,
+        "catches": 34,
+        "tds": 24,
+        "fumbles": 15,
+        "drops": 25
       },
       {
-        "name": "Esteban Costa",
-        "recYds": 465,
-        "rshYds": 1020,
-        "catches": 15,
-        "tds": 36,
-        "fumbles": 22,
-        "drops": 7
+        "name": "Emmett Lawson",
+        "recYds": 533,
+        "rshYds": 365,
+        "catches": 30,
+        "tds": 8,
+        "fumbles": 11,
+        "drops": 21
       }
     ],
     "QuarterBack": [
       {
-        "name": "Paul Neal",
-        "passingYards": 3910,
-        "rushingYards": 304,
-        "completions": 319,
-        "tds": 6
+        "name": "Keith Keller",
+        "passingYards": 2455,
+        "rushingYards": 386,
+        "completions": 192,
+        "tds": 11
       },
       {
-        "name": "Grant Hawkins",
-        "passingYards": 3381,
-        "rushingYards": 416,
-        "completions": 100,
-        "tds": 28
+        "name": "Emir Lee",
+        "passingYards": 1815,
+        "rushingYards": 462,
+        "completions": 148,
+        "tds": 15
       },
       {
-        "name": "Kendrick Crawford",
-        "passingYards": 3093,
-        "rushingYards": 244,
-        "completions": 195,
-        "tds": 37
+        "name": "Onyx Carroll",
+        "passingYards": 1569,
+        "rushingYards": 65,
+        "completions": 359,
+        "tds": 9
       }
     ],
     "Kicker": [
       {
-        "name": "August Gould",
-        "fgMade": 7,
-        "fgMissed": 16
+        "name": "Carl Mcdaniel",
+        "fgMade": 26,
+        "fgMissed": 43
       }
     ],
     "Division": "AFC"
@@ -927,130 +949,133 @@
     "teamName": "Browns",
     "location": "Cleveland",
     "stadium": "Cleveland Browns Stadium",
-    "superbowls": 9,
-    "stadiumCapacity": 98000,
-    "headCoach": "Devon Chavez",
+    "superbowls": 5,
+    "stadiumCapacity": 66000,
+    "headCoach": "Devon Harrington",
+    "manager": "Layne Henson",
+    "owner": "Jonathan Meza",
+    "record": "9",
     "defence": {
-      "Interceptions": 7,
-      "Sacks": 25,
-      "rshYdsAllowed": 1415,
-      "passYdsAllowed": 3403
+      "Interceptions": 6,
+      "Sacks": 1,
+      "rshYdsAllowed": 1197,
+      "passYdsAllowed": 3708
     },
     "wideReceiver": [
       {
-        "name": "Landyn Reese",
-        "recYards": 997,
-        "catches": 15,
-        "tds": 6,
-        "fumbles": 6,
-        "drops": 28
+        "name": "Stanley Love",
+        "recYards": 1118,
+        "catches": 54,
+        "tds": 15,
+        "fumbles": 19,
+        "drops": 38
       },
       {
-        "name": "Royal Espinoza",
-        "recYards": 1115,
-        "catches": 110,
-        "tds": 12,
-        "fumbles": 20,
+        "name": "Adrien Beil",
+        "recYards": 397,
+        "catches": 43,
+        "tds": 11,
+        "fumbles": 2,
+        "drops": 26
+      },
+      {
+        "name": "Kye Macias",
+        "recYards": 564,
+        "catches": 131,
+        "tds": 0,
+        "fumbles": 10,
+        "drops": 16
+      },
+      {
+        "name": "Boston Person",
+        "recYards": 1050,
+        "catches": 79,
+        "tds": 13,
+        "fumbles": 15,
         "drops": 21
       },
       {
-        "name": "Cairo Stanton",
-        "recYards": 1145,
-        "catches": 38,
-        "tds": 16,
-        "fumbles": 14,
-        "drops": 48
-      },
-      {
-        "name": "Kyle Bauer",
-        "recYards": 189,
-        "catches": 13,
-        "tds": 9,
-        "fumbles": 8,
-        "drops": 6
-      },
-      {
-        "name": "Bear Esquivel",
-        "recYards": 1268,
-        "catches": 83,
+        "name": "Jayden Soto",
+        "recYards": 105,
+        "catches": 49,
         "tds": 17,
-        "fumbles": 12,
-        "drops": 39
+        "fumbles": 17,
+        "drops": 50
       },
       {
-        "name": "Karson Mu\u00f1oz",
-        "recYards": 1100,
-        "catches": 17,
-        "tds": 15,
+        "name": "Bodie Adams",
+        "recYards": 614,
+        "catches": 82,
+        "tds": 14,
+        "fumbles": 5,
+        "drops": 14
+      },
+      {
+        "name": "Jaylen Randolph",
+        "recYards": 1368,
+        "catches": 86,
+        "tds": 11,
         "fumbles": 16,
-        "drops": 24
-      },
-      {
-        "name": "Danny Owens",
-        "recYards": 743,
-        "catches": 59,
-        "tds": 8,
-        "fumbles": 7,
-        "drops": 42
+        "drops": 5
       }
     ],
     "RunningBack": [
       {
-        "name": "Martin Christensen",
-        "recYds": 550,
-        "rshYds": 1385,
-        "catches": 8,
-        "tds": 43,
-        "fumbles": 17,
-        "drops": 3
+        "name": "Warren Thompson",
+        "recYds": 123,
+        "rshYds": 665,
+        "catches": 29,
+        "tds": 13,
+        "fumbles": 23,
+        "drops": 23
       },
       {
-        "name": "Francisco Byrd",
-        "recYds": 212,
-        "rshYds": 951,
-        "catches": 46,
-        "tds": 40,
-        "fumbles": 8,
-        "drops": 4
+        "name": "Forrest Murillo",
+        "recYds": 12,
+        "rshYds": 1125,
+        "catches": 32,
+        "tds": 47,
+        "fumbles": 13,
+        "drops": 25
       },
       {
-        "name": "Derek Beard",
-        "recYds": 361,
-        "rshYds": 444,
-        "catches": 39,
-        "tds": 42,
-        "fumbles": 11,
-        "drops": 6
+        "name": "Lewis Sanchez",
+        "recYds": 489,
+        "rshYds": 477,
+        "catches": 20,
+        "tds": 49,
+        "fumbles": 5,
+        "drops": 2
       }
     ],
     "QuarterBack": [
       {
-        "name": "Caden Hull",
-        "passingYards": 1855,
-        "rushingYards": 266,
-        "completions": 43,
-        "tds": 25
+        "name": "Felix Graves",
+        "passingYards": 3264,
+        "rushingYards": 236,
+        "completions": 321,
+        "tds": 34
       },
       {
-        "name": "Finn Guevara",
-        "passingYards": 2932,
-        "rushingYards": 318,
-        "completions": 230,
-        "tds": 31
+        "name": "Raylan Quinn",
+        "passingYards": 2230,
+        "rushingYards": 181,
+        "completions": 323,
+        "tds": 20
       },
       {
-        "name": "Johnathan Fuentes",
-        "passingYards": 2662,
-        "rushingYards": 495,
-        "completions": 290,
-        "tds": 3
+        "name": "Melvin Delacruz",
+        "passingYards": 1019,
+        "rushingYards": 423,
+        "completions": 184,
+        "tds": 14
       }
     ],
     "Kicker": [
       {
-        "name": "Merrick Benitez",
-        "fgMade": 12,
-        "fgMissed": 40
+        "name": "Moshe Sampson",
+        "fgMade": 29,
+        "fgMissed": 0
       }
     ],
     "Division": "AFC"
@@ -1059,130 +1084,133 @@
     "teamName": "Cowboys",
     "location": "Dallas",
     "stadium": "Dallas Cowboys Stadium",
-    "superbowls": 6,
-    "stadiumCapacity": 51000,
-    "headCoach": "Morgan Mcdonald",
+    "superbowls": 1,
+    "stadiumCapacity": 79000,
+    "headCoach": "Nathanael Tate",
+    "manager": "Terrance Mendez",
+    "owner": "Jakob Richards",
+    "record": "-3",
     "defence": {
-      "Interceptions": 20,
-      "Sacks": 18,
-      "rshYdsAllowed": 1106,
-      "passYdsAllowed": 3100
+      "Interceptions": 17,
+      "Sacks": 20,
+      "rshYdsAllowed": 1814,
+      "passYdsAllowed": 3462
     },
     "wideReceiver": [
       {
-        "name": "Zaire Bond",
-        "recYards": 90,
-        "catches": 138,
+        "name": "Xzavier Eaton",
+        "recYards": 176,
+        "catches": 109,
         "tds": 8,
-        "fumbles": 5,
-        "drops": 41
+        "fumbles": 18,
+        "drops": 30
       },
       {
-        "name": "Alex Hahn",
-        "recYards": 1223,
-        "catches": 132,
-        "tds": 16,
-        "fumbles": 13,
-        "drops": 43
-      },
-      {
-        "name": "Kody Fleming",
-        "recYards": 1326,
-        "catches": 18,
-        "tds": 2,
-        "fumbles": 13,
+        "name": "Zion Castro",
+        "recYards": 648,
+        "catches": 20,
+        "tds": 0,
+        "fumbles": 18,
         "drops": 25
       },
       {
-        "name": "Baylor Frederick",
-        "recYards": 967,
-        "catches": 48,
-        "tds": 15,
-        "fumbles": 5,
-        "drops": 27
+        "name": "Joshua Velasquez",
+        "recYards": 1275,
+        "catches": 131,
+        "tds": 1,
+        "fumbles": 7,
+        "drops": 22
       },
       {
-        "name": "Winston Mora",
-        "recYards": 1414,
-        "catches": 5,
-        "tds": 10,
-        "fumbles": 6,
+        "name": "Mylo Morgan",
+        "recYards": 955,
+        "catches": 64,
+        "tds": 19,
+        "fumbles": 1,
+        "drops": 18
+      },
+      {
+        "name": "Camilo Dudley",
+        "recYards": 1367,
+        "catches": 147,
+        "tds": 20,
+        "fumbles": 10,
         "drops": 36
       },
       {
-        "name": "Grady Mccall",
-        "recYards": 1174,
-        "catches": 118,
-        "tds": 5,
-        "fumbles": 0,
-        "drops": 13
+        "name": "Marquis Wagner",
+        "recYards": 1406,
+        "catches": 53,
+        "tds": 15,
+        "fumbles": 8,
+        "drops": 34
       },
       {
-        "name": "Messiah Acevedo",
-        "recYards": 1043,
-        "catches": 147,
-        "tds": 13,
-        "fumbles": 8,
-        "drops": 24
+        "name": "Sawyer Costa",
+        "recYards": 1334,
+        "catches": 118,
+        "tds": 0,
+        "fumbles": 7,
+        "drops": 28
       }
     ],
     "RunningBack": [
       {
-        "name": "Kellen Huber",
-        "recYds": 365,
-        "rshYds": 1450,
-        "catches": 8,
-        "tds": 49,
-        "fumbles": 12,
-        "drops": 20
+        "name": "Desmond Palmer",
+        "recYds": 683,
+        "rshYds": 141,
+        "catches": 49,
+        "tds": 27,
+        "fumbles": 23,
+        "drops": 9
       },
       {
-        "name": "Scott Hensley",
-        "recYds": 45,
-        "rshYds": 942,
-        "catches": 35,
-        "tds": 34,
-        "fumbles": 12,
-        "drops": 18
-      },
-      {
-        "name": "Knox Griffin",
+        "name": "Weston Palmer",
         "recYds": 43,
-        "rshYds": 676,
-        "catches": 26,
-        "tds": 4,
-        "fumbles": 12,
-        "drops": 3
+        "rshYds": 1071,
+        "catches": 38,
+        "tds": 42,
+        "fumbles": 21,
+        "drops": 25
+      },
+      {
+        "name": "Alfredo Blackburn",
+        "recYds": 281,
+        "rshYds": 922,
+        "catches": 10,
+        "tds": 27,
+        "fumbles": 19,
+        "drops": 4
       }
     ],
     "QuarterBack": [
       {
-        "name": "Darian Preston",
-        "passingYards": 3387,
-        "rushingYards": 66,
-        "completions": 434,
-        "tds": 8
+        "name": "Brayan Vazquez",
+        "passingYards": 2336,
+        "rushingYards": 19,
+        "completions": 355,
+        "tds": 26
       },
       {
-        "name": "Jaziel Santos",
-        "passingYards": 1092,
-        "rushingYards": 483,
-        "completions": 115,
-        "tds": 38
+        "name": "Koa Quintana",
+        "passingYards": 3586,
+        "rushingYards": 143,
+        "completions": 441,
+        "tds": 11
       },
       {
-        "name": "Augustine Fowler",
-        "passingYards": 2144,
-        "rushingYards": 81,
-        "completions": 353,
-        "tds": 6
+        "name": "Manuel Calhoun",
+        "passingYards": 1016,
+        "rushingYards": 404,
+        "completions": 187,
+        "tds": 30
       }
     ],
     "Kicker": [
       {
-        "name": "Gunnar Fischer",
-        "fgMade": 10,
-        "fgMissed": 11
+        "name": "Aden Barrera",
+        "fgMade": 31,
+        "fgMissed": 18
       }
     ],
     "Division": "AFC"
@@ -1191,130 +1219,133 @@
     "teamName": "Broncos",
     "location": "Denver",
     "stadium": "Denver Broncos Stadium",
-    "superbowls": 2,
-    "stadiumCapacity": 82000,
-    "headCoach": "Foster Hurley",
+    "superbowls": 3,
+    "stadiumCapacity": 87000,
+    "headCoach": "Kayson Burgess",
+    "manager": "Collin Dodson",
+    "owner": "Rohan Caldwell",
+    "record": "7",
     "defence": {
-      "Interceptions": 23,
-      "Sacks": 4,
-      "rshYdsAllowed": 1581,
-      "passYdsAllowed": 3361
+      "Interceptions": 15,
+      "Sacks": 3,
+      "rshYdsAllowed": 1767,
+      "passYdsAllowed": 3373
     },
     "wideReceiver": [
       {
-        "name": "Terrance Howe",
-        "recYards": 549,
-        "catches": 88,
-        "tds": 16,
-        "fumbles": 19,
-        "drops": 16
+        "name": "Pedro Combs",
+        "recYards": 1440,
+        "catches": 93,
+        "tds": 6,
+        "fumbles": 14,
+        "drops": 30
       },
       {
-        "name": "Jedidiah Frazier",
-        "recYards": 601,
-        "catches": 66,
-        "tds": 17,
+        "name": "Chris Mahoney",
+        "recYards": 1066,
+        "catches": 0,
+        "tds": 9,
+        "fumbles": 18,
+        "drops": 0
+      },
+      {
+        "name": "Arlo Salinas",
+        "recYards": 874,
+        "catches": 124,
+        "tds": 15,
         "fumbles": 3,
-        "drops": 5
+        "drops": 41
       },
       {
-        "name": "Alberto Beltran",
-        "recYards": 927,
-        "catches": 126,
+        "name": "Maverick Golden",
+        "recYards": 132,
+        "catches": 139,
         "tds": 16,
-        "fumbles": 4,
-        "drops": 10
+        "fumbles": 20,
+        "drops": 0
       },
       {
-        "name": "Jeremias Patrick",
-        "recYards": 661,
-        "catches": 12,
-        "tds": 4,
-        "fumbles": 19,
-        "drops": 40
-      },
-      {
-        "name": "Gatlin Evans",
-        "recYards": 1201,
-        "catches": 17,
-        "tds": 19,
-        "fumbles": 19,
+        "name": "Neil Kemp",
+        "recYards": 1078,
+        "catches": 74,
+        "tds": 3,
+        "fumbles": 16,
         "drops": 9
       },
       {
-        "name": "Kolten Trejo",
-        "recYards": 1359,
-        "catches": 24,
-        "tds": 17,
-        "fumbles": 0,
-        "drops": 36
+        "name": "Dustin Hester",
+        "recYards": 1482,
+        "catches": 21,
+        "tds": 8,
+        "fumbles": 7,
+        "drops": 2
       },
       {
-        "name": "Jamie Galindo",
-        "recYards": 567,
-        "catches": 67,
-        "tds": 5,
-        "fumbles": 1,
-        "drops": 46
+        "name": "Peyton Whitney",
+        "recYards": 47,
+        "catches": 14,
+        "tds": 12,
+        "fumbles": 8,
+        "drops": 32
       }
     ],
     "RunningBack": [
       {
-        "name": "Max Ryan",
-        "recYds": 683,
-        "rshYds": 984,
-        "catches": 16,
-        "tds": 40,
-        "fumbles": 9,
-        "drops": 7
-      },
-      {
-        "name": "Joaquin Quintero",
-        "recYds": 622,
-        "rshYds": 293,
-        "catches": 34,
-        "tds": 18,
-        "fumbles": 11,
-        "drops": 16
-      },
-      {
-        "name": "Wesley Smith",
-        "recYds": 195,
-        "rshYds": 918,
-        "catches": 12,
+        "name": "Mohammed Potter",
+        "recYds": 593,
+        "rshYds": 300,
+        "catches": 37,
         "tds": 48,
-        "fumbles": 17,
+        "fumbles": 16,
+        "drops": 11
+      },
+      {
+        "name": "Tomas Allen",
+        "recYds": 134,
+        "rshYds": 1359,
+        "catches": 19,
+        "tds": 28,
+        "fumbles": 22,
+        "drops": 12
+      },
+      {
+        "name": "Johan Gill",
+        "recYds": 529,
+        "rshYds": 1250,
+        "catches": 33,
+        "tds": 41,
+        "fumbles": 14,
         "drops": 4
       }
     ],
     "QuarterBack": [
       {
-        "name": "Gustavo Nichols",
-        "passingYards": 2643,
-        "rushingYards": 251,
-        "completions": 261,
-        "tds": 31
+        "name": "Rodney Mcfarland",
+        "passingYards": 3638,
+        "rushingYards": 22,
+        "completions": 413,
+        "tds": 35
       },
       {
-        "name": "Gordon Cervantes",
-        "passingYards": 1619,
-        "rushingYards": 32,
-        "completions": 103,
-        "tds": 38
+        "name": "Marshall Atkinson",
+        "passingYards": 2971,
+        "rushingYards": 407,
+        "completions": 33,
+        "tds": 24
       },
       {
-        "name": "Kylian Escobar",
-        "passingYards": 2114,
-        "rushingYards": 462,
-        "completions": 86,
-        "tds": 10
+        "name": "Maxton Ford",
+        "passingYards": 3265,
+        "rushingYards": 487,
+        "completions": 396,
+        "tds": 18
       }
     ],
     "Kicker": [
       {
-        "name": "Yusuf Pitts",
-        "fgMade": 30,
-        "fgMissed": 13
+        "name": "Elian Villegas",
+        "fgMade": 25,
+        "fgMissed": 21
       }
     ],
     "Division": "AFC"
@@ -1323,130 +1354,133 @@
     "teamName": "Lions",
     "location": "Detroit",
     "stadium": "Detroit Lions Stadium",
-    "superbowls": 2,
-    "stadiumCapacity": 72000,
-    "headCoach": "Jaxon Montoya",
+    "superbowls": 0,
+    "stadiumCapacity": 83000,
+    "headCoach": "Myles Mcdowell",
+    "manager": "Dax Lucas",
+    "owner": "Hank Ashley",
+    "record": "-5",
     "defence": {
       "Interceptions": 23,
-      "Sacks": 15,
-      "rshYdsAllowed": 1383,
-      "passYdsAllowed": 3098
+      "Sacks": 5,
+      "rshYdsAllowed": 1243,
+      "passYdsAllowed": 3757
     },
     "wideReceiver": [
       {
-        "name": "Tristian Herman",
-        "recYards": 77,
-        "catches": 83,
-        "tds": 7,
+        "name": "Remi Aguilar",
+        "recYards": 348,
+        "catches": 144,
+        "tds": 5,
+        "fumbles": 14,
+        "drops": 3
+      },
+      {
+        "name": "Jeffrey Melendez",
+        "recYards": 1491,
+        "catches": 76,
+        "tds": 17,
+        "fumbles": 10,
+        "drops": 1
+      },
+      {
+        "name": "Evan Mckenzie",
+        "recYards": 1277,
+        "catches": 132,
+        "tds": 18,
         "fumbles": 16,
-        "drops": 45
+        "drops": 39
       },
       {
-        "name": "Josue Berger",
-        "recYards": 1264,
-        "catches": 124,
-        "tds": 10,
-        "fumbles": 18,
-        "drops": 6
-      },
-      {
-        "name": "Pablo Lewis",
-        "recYards": 1336,
-        "catches": 27,
-        "tds": 8,
+        "name": "Garrett Sanford",
+        "recYards": 656,
+        "catches": 69,
+        "tds": 16,
         "fumbles": 0,
-        "drops": 24
+        "drops": 47
       },
       {
-        "name": "Emmanuel Kirby",
-        "recYards": 1456,
+        "name": "Pablo Kirk",
+        "recYards": 914,
         "catches": 127,
-        "tds": 19,
-        "fumbles": 9,
-        "drops": 11
+        "tds": 1,
+        "fumbles": 15,
+        "drops": 46
       },
       {
-        "name": "Kamryn Mckay",
-        "recYards": 512,
-        "catches": 85,
-        "tds": 8,
-        "fumbles": 16,
-        "drops": 36
+        "name": "Alaric Travis",
+        "recYards": 1186,
+        "catches": 144,
+        "tds": 11,
+        "fumbles": 11,
+        "drops": 48
       },
       {
-        "name": "Julio Barron",
-        "recYards": 386,
-        "catches": 55,
-        "tds": 2,
-        "fumbles": 13,
-        "drops": 43
-      },
-      {
-        "name": "Travis Bond",
-        "recYards": 1080,
-        "catches": 90,
-        "tds": 3,
+        "name": "Emmitt Hubbard",
+        "recYards": 220,
+        "catches": 105,
+        "tds": 9,
         "fumbles": 19,
-        "drops": 23
+        "drops": 11
       }
     ],
     "RunningBack": [
       {
-        "name": "Jaiden Trejo",
-        "recYds": 163,
-        "rshYds": 908,
-        "catches": 40,
-        "tds": 23,
-        "fumbles": 1,
+        "name": "Ameer Moreno",
+        "recYds": 720,
+        "rshYds": 518,
+        "catches": 1,
+        "tds": 33,
+        "fumbles": 8,
+        "drops": 22
+      },
+      {
+        "name": "Juan Porter",
+        "recYds": 739,
+        "rshYds": 1448,
+        "catches": 15,
+        "tds": 18,
+        "fumbles": 24,
+        "drops": 7
+      },
+      {
+        "name": "Calvin Carrillo",
+        "recYds": 510,
+        "rshYds": 676,
+        "catches": 29,
+        "tds": 46,
+        "fumbles": 9,
         "drops": 8
-      },
-      {
-        "name": "Terrance Lester",
-        "recYds": 219,
-        "rshYds": 477,
-        "catches": 36,
-        "tds": 19,
-        "fumbles": 5,
-        "drops": 20
-      },
-      {
-        "name": "Marquis Avalos",
-        "recYds": 123,
-        "rshYds": 1185,
-        "catches": 24,
-        "tds": 3,
-        "fumbles": 18,
-        "drops": 21
       }
     ],
     "QuarterBack": [
       {
-        "name": "Philip Dunn",
-        "passingYards": 3302,
-        "rushingYards": 74,
-        "completions": 264,
-        "tds": 36
+        "name": "Rodney Dillon",
+        "passingYards": 3638,
+        "rushingYards": 368,
+        "completions": 198,
+        "tds": 10
       },
       {
-        "name": "Sergio Logan",
-        "passingYards": 3572,
-        "rushingYards": 118,
-        "completions": 316,
-        "tds": 12
+        "name": "Chris Alexander",
+        "passingYards": 2146,
+        "rushingYards": 383,
+        "completions": 92,
+        "tds": 20
       },
       {
-        "name": "Josiah Campos",
-        "passingYards": 2220,
-        "rushingYards": 369,
-        "completions": 74,
-        "tds": 39
+        "name": "Emilio Schmidt",
+        "passingYards": 3584,
+        "rushingYards": 87,
+        "completions": 412,
+        "tds": 0
       }
     ],
     "Kicker": [
       {
-        "name": "Kristian Harris",
-        "fgMade": 15,
-        "fgMissed": 31
+        "name": "Matthias Shaffer",
+        "fgMade": 20,
+        "fgMissed": 23
       }
     ],
     "Division": "AFC"
@@ -1456,129 +1490,132 @@
     "location": "Green Bay",
     "stadium": "Green Bay Packers Stadium",
     "superbowls": 3,
-    "stadiumCapacity": 65000,
-    "headCoach": "Giovanni Lucero",
+    "stadiumCapacity": 90000,
+    "headCoach": "Jon Calderon",
+    "manager": "Jameson Clayton",
+    "owner": "Alonso Haley",
+    "record": "3",
     "defence": {
-      "Interceptions": 8,
-      "Sacks": 1,
-      "rshYdsAllowed": 1279,
-      "passYdsAllowed": 3002
+      "Interceptions": 12,
+      "Sacks": 7,
+      "rshYdsAllowed": 1285,
+      "passYdsAllowed": 3025
     },
     "wideReceiver": [
       {
-        "name": "Khari Harmon",
-        "recYards": 6,
-        "catches": 61,
-        "tds": 2,
-        "fumbles": 8,
-        "drops": 8
-      },
-      {
-        "name": "Valentino Maynard",
-        "recYards": 1248,
-        "catches": 90,
-        "tds": 18,
-        "fumbles": 15,
-        "drops": 44
-      },
-      {
-        "name": "Mordechai Schultz",
-        "recYards": 497,
-        "catches": 60,
-        "tds": 3,
-        "fumbles": 10,
-        "drops": 34
-      },
-      {
-        "name": "Jose Pacheco",
-        "recYards": 413,
-        "catches": 82,
-        "tds": 11,
-        "fumbles": 10,
-        "drops": 27
-      },
-      {
-        "name": "Lee Ward",
-        "recYards": 434,
-        "catches": 73,
-        "tds": 0,
+        "name": "Jamie Wilcox",
+        "recYards": 846,
+        "catches": 16,
+        "tds": 15,
         "fumbles": 14,
-        "drops": 33
+        "drops": 20
       },
       {
-        "name": "Amos Kline",
-        "recYards": 1013,
-        "catches": 77,
-        "tds": 6,
-        "fumbles": 15,
-        "drops": 33
+        "name": "Westin Schmidt",
+        "recYards": 383,
+        "catches": 9,
+        "tds": 7,
+        "fumbles": 19,
+        "drops": 10
       },
       {
-        "name": "Jeremias Mcdaniel",
-        "recYards": 180,
-        "catches": 17,
-        "tds": 10,
+        "name": "Arlo Le",
+        "recYards": 1486,
+        "catches": 108,
+        "tds": 13,
+        "fumbles": 0,
+        "drops": 23
+      },
+      {
+        "name": "Maison Owens",
+        "recYards": 1280,
+        "catches": 79,
+        "tds": 9,
+        "fumbles": 0,
+        "drops": 3
+      },
+      {
+        "name": "Rowen Wood",
+        "recYards": 991,
+        "catches": 109,
+        "tds": 15,
         "fumbles": 8,
-        "drops": 18
+        "drops": 43
+      },
+      {
+        "name": "Kannon Wang",
+        "recYards": 179,
+        "catches": 95,
+        "tds": 13,
+        "fumbles": 2,
+        "drops": 26
+      },
+      {
+        "name": "Nehemiah Randall",
+        "recYards": 297,
+        "catches": 26,
+        "tds": 18,
+        "fumbles": 16,
+        "drops": 33
       }
     ],
     "RunningBack": [
       {
-        "name": "Jabari Stuart",
-        "recYds": 143,
-        "rshYds": 866,
-        "catches": 50,
-        "tds": 34,
-        "fumbles": 0,
+        "name": "Andrew Arias",
+        "recYds": 608,
+        "rshYds": 457,
+        "catches": 34,
+        "tds": 24,
+        "fumbles": 11,
         "drops": 24
       },
       {
-        "name": "Soren Franco",
-        "recYds": 438,
-        "rshYds": 99,
-        "catches": 30,
-        "tds": 1,
-        "fumbles": 17,
-        "drops": 16
+        "name": "Jon Mccormick",
+        "recYds": 47,
+        "rshYds": 1420,
+        "catches": 18,
+        "tds": 48,
+        "fumbles": 11,
+        "drops": 18
       },
       {
-        "name": "Elliott Preston",
-        "recYds": 682,
-        "rshYds": 1276,
+        "name": "Dexter Hickman",
+        "recYds": 90,
+        "rshYds": 1034,
         "catches": 23,
-        "tds": 30,
-        "fumbles": 6,
-        "drops": 20
+        "tds": 3,
+        "fumbles": 22,
+        "drops": 8
       }
     ],
     "QuarterBack": [
       {
-        "name": "Raul Enriquez",
-        "passingYards": 3128,
-        "rushingYards": 418,
-        "completions": 247,
-        "tds": 24
+        "name": "Kaison Robertson",
+        "passingYards": 2069,
+        "rushingYards": 486,
+        "completions": 47,
+        "tds": 13
       },
       {
-        "name": "Simeon Villanueva",
-        "passingYards": 2011,
-        "rushingYards": 259,
-        "completions": 14,
-        "tds": 2
+        "name": "Kamden Mcbride",
+        "passingYards": 1300,
+        "rushingYards": 437,
+        "completions": 197,
+        "tds": 31
       },
       {
-        "name": "Blake Maldonado",
-        "passingYards": 1034,
-        "rushingYards": 314,
-        "completions": 378,
-        "tds": 18
+        "name": "Judah Houston",
+        "passingYards": 2813,
+        "rushingYards": 332,
+        "completions": 398,
+        "tds": 10
       }
     ],
     "Kicker": [
       {
-        "name": "Sam Simon",
-        "fgMade": 21,
-        "fgMissed": 4
+        "name": "Bodhi Baker",
+        "fgMade": 47,
+        "fgMissed": 5
       }
     ],
     "Division": "AFC"
@@ -1587,130 +1624,133 @@
     "teamName": "Texans",
     "location": "Houston",
     "stadium": "Houston Texans Stadium",
-    "superbowls": 5,
-    "stadiumCapacity": 85000,
-    "headCoach": "Colt Owen",
+    "superbowls": 4,
+    "stadiumCapacity": 95000,
+    "headCoach": "Gideon Ray",
+    "manager": "Gustavo Sierra",
+    "owner": "Jaylen Scott",
+    "record": "10",
     "defence": {
-      "Interceptions": 19,
-      "Sacks": 25,
-      "rshYdsAllowed": 1551,
-      "passYdsAllowed": 3846
+      "Interceptions": 13,
+      "Sacks": 21,
+      "rshYdsAllowed": 1880,
+      "passYdsAllowed": 3499
     },
     "wideReceiver": [
       {
-        "name": "Kristopher Holloway",
-        "recYards": 141,
-        "catches": 52,
-        "tds": 12,
-        "fumbles": 14,
+        "name": "Emerson Copeland",
+        "recYards": 828,
+        "catches": 59,
+        "tds": 0,
+        "fumbles": 4,
         "drops": 38
       },
       {
-        "name": "Easton Mckenzie",
-        "recYards": 175,
-        "catches": 46,
-        "tds": 12,
-        "fumbles": 6,
-        "drops": 36
+        "name": "Tripp Thomas",
+        "recYards": 1306,
+        "catches": 31,
+        "tds": 0,
+        "fumbles": 13,
+        "drops": 22
       },
       {
-        "name": "Jose Kirby",
-        "recYards": 1496,
-        "catches": 12,
-        "tds": 1,
-        "fumbles": 16,
-        "drops": 45
+        "name": "Jaxton Sanford",
+        "recYards": 857,
+        "catches": 119,
+        "tds": 17,
+        "fumbles": 14,
+        "drops": 10
       },
       {
-        "name": "Boone Doyle",
-        "recYards": 259,
-        "catches": 43,
-        "tds": 4,
-        "fumbles": 1,
-        "drops": 35
-      },
-      {
-        "name": "Jon Dougherty",
-        "recYards": 472,
-        "catches": 114,
+        "name": "Zachary Moran",
+        "recYards": 887,
+        "catches": 24,
         "tds": 5,
-        "fumbles": 9,
-        "drops": 0
+        "fumbles": 6,
+        "drops": 29
       },
       {
-        "name": "Andre Kirby",
-        "recYards": 725,
-        "catches": 120,
-        "tds": 14,
-        "fumbles": 19,
-        "drops": 47
+        "name": "Lionel Travis",
+        "recYards": 612,
+        "catches": 98,
+        "tds": 17,
+        "fumbles": 7,
+        "drops": 28
       },
       {
-        "name": "Nolan Kemp",
-        "recYards": 466,
-        "catches": 129,
-        "tds": 1,
-        "fumbles": 20,
-        "drops": 44
+        "name": "Kole Espinosa",
+        "recYards": 1201,
+        "catches": 75,
+        "tds": 19,
+        "fumbles": 1,
+        "drops": 9
+      },
+      {
+        "name": "Terrance Gill",
+        "recYards": 375,
+        "catches": 99,
+        "tds": 7,
+        "fumbles": 17,
+        "drops": 28
       }
     ],
     "RunningBack": [
       {
-        "name": "Bryan Santana",
-        "recYds": 581,
-        "rshYds": 1354,
-        "catches": 12,
-        "tds": 48,
-        "fumbles": 0,
+        "name": "Zane Phelps",
+        "recYds": 677,
+        "rshYds": 1119,
+        "catches": 6,
+        "tds": 10,
+        "fumbles": 9,
+        "drops": 14
+      },
+      {
+        "name": "Camilo Miles",
+        "recYds": 280,
+        "rshYds": 1473,
+        "catches": 2,
+        "tds": 17,
+        "fumbles": 6,
+        "drops": 7
+      },
+      {
+        "name": "Uriah Decker",
+        "recYds": 444,
+        "rshYds": 622,
+        "catches": 13,
+        "tds": 47,
+        "fumbles": 21,
         "drops": 13
-      },
-      {
-        "name": "Alec Wise",
-        "recYds": 410,
-        "rshYds": 1375,
-        "catches": 27,
-        "tds": 46,
-        "fumbles": 16,
-        "drops": 23
-      },
-      {
-        "name": "Ali Cisneros",
-        "recYds": 284,
-        "rshYds": 1288,
-        "catches": 3,
-        "tds": 29,
-        "fumbles": 7,
-        "drops": 9
       }
     ],
     "QuarterBack": [
       {
-        "name": "Dawson Bauer",
-        "passingYards": 3721,
-        "rushingYards": 421,
-        "completions": 265,
-        "tds": 18
+        "name": "Santino Davila",
+        "passingYards": 1536,
+        "rushingYards": 469,
+        "completions": 405,
+        "tds": 39
       },
       {
-        "name": "Leighton Lin",
-        "passingYards": 3976,
-        "rushingYards": 473,
-        "completions": 115,
-        "tds": 0
+        "name": "Enoch Church",
+        "passingYards": 3747,
+        "rushingYards": 93,
+        "completions": 191,
+        "tds": 9
       },
       {
-        "name": "Keanu Shannon",
-        "passingYards": 3510,
-        "rushingYards": 36,
-        "completions": 22,
-        "tds": 22
+        "name": "Mylo Collins",
+        "passingYards": 2141,
+        "rushingYards": 350,
+        "completions": 387,
+        "tds": 1
       }
     ],
     "Kicker": [
       {
-        "name": "Ryker Charles",
-        "fgMade": 34,
-        "fgMissed": 45
+        "name": "Nicholas Friedman",
+        "fgMade": 12,
+        "fgMissed": 42
       }
     ],
     "Division": "AFC"
@@ -1720,129 +1760,132 @@
     "location": "Indianapolis",
     "stadium": "Indianapolis Colts Stadium",
     "superbowls": 8,
-    "stadiumCapacity": 80000,
-    "headCoach": "Amias Bradford",
+    "stadiumCapacity": 99000,
+    "headCoach": "Axton Peralta",
+    "manager": "Alaric Gross",
+    "owner": "Stanley Carlson",
+    "record": "-7",
     "defence": {
-      "Interceptions": 22,
-      "Sacks": 13,
-      "rshYdsAllowed": 1857,
-      "passYdsAllowed": 3114
+      "Interceptions": 18,
+      "Sacks": 11,
+      "rshYdsAllowed": 1736,
+      "passYdsAllowed": 3654
     },
     "wideReceiver": [
       {
-        "name": "Legend Adkins",
-        "recYards": 78,
-        "catches": 49,
-        "tds": 14,
-        "fumbles": 9,
-        "drops": 9
+        "name": "Trenton White",
+        "recYards": 866,
+        "catches": 102,
+        "tds": 13,
+        "fumbles": 19,
+        "drops": 34
       },
       {
-        "name": "Otto Shelton",
-        "recYards": 305,
-        "catches": 36,
-        "tds": 3,
-        "fumbles": 0,
-        "drops": 12
-      },
-      {
-        "name": "Emerson Hines",
-        "recYards": 710,
-        "catches": 138,
-        "tds": 17,
-        "fumbles": 3,
-        "drops": 12
-      },
-      {
-        "name": "Alonso Sweeney",
-        "recYards": 755,
-        "catches": 2,
-        "tds": 0,
-        "fumbles": 9,
-        "drops": 17
-      },
-      {
-        "name": "Major Stevens",
-        "recYards": 516,
-        "catches": 106,
-        "tds": 18,
-        "fumbles": 17,
-        "drops": 12
-      },
-      {
-        "name": "Jovanni Trejo",
-        "recYards": 1197,
+        "name": "Roman Willis",
+        "recYards": 1226,
         "catches": 41,
-        "tds": 20,
-        "fumbles": 13,
-        "drops": 1
+        "tds": 11,
+        "fumbles": 12,
+        "drops": 32
       },
       {
-        "name": "Dean Stokes",
-        "recYards": 1233,
-        "catches": 62,
+        "name": "Reginald Mathis",
+        "recYards": 1007,
+        "catches": 110,
+        "tds": 20,
+        "fumbles": 2,
+        "drops": 23
+      },
+      {
+        "name": "Kevin Owens",
+        "recYards": 308,
+        "catches": 45,
+        "tds": 3,
+        "fumbles": 10,
+        "drops": 4
+      },
+      {
+        "name": "Moises Gonzalez",
+        "recYards": 20,
+        "catches": 128,
         "tds": 7,
         "fumbles": 13,
-        "drops": 37
+        "drops": 25
+      },
+      {
+        "name": "Finnley Hensley",
+        "recYards": 1255,
+        "catches": 135,
+        "tds": 0,
+        "fumbles": 6,
+        "drops": 49
+      },
+      {
+        "name": "Bentlee Hicks",
+        "recYards": 625,
+        "catches": 82,
+        "tds": 7,
+        "fumbles": 1,
+        "drops": 16
       }
     ],
     "RunningBack": [
       {
-        "name": "Cyrus Singh",
-        "recYds": 345,
-        "rshYds": 1024,
-        "catches": 4,
-        "tds": 35,
+        "name": "Elliot Jacobs",
+        "recYds": 230,
+        "rshYds": 876,
+        "catches": 22,
+        "tds": 45,
         "fumbles": 17,
-        "drops": 9
+        "drops": 15
       },
       {
-        "name": "Damien Ibarra",
-        "recYds": 654,
-        "rshYds": 731,
-        "catches": 29,
-        "tds": 32,
-        "fumbles": 6,
-        "drops": 24
+        "name": "Cayden Tang",
+        "recYds": 480,
+        "rshYds": 607,
+        "catches": 22,
+        "tds": 23,
+        "fumbles": 13,
+        "drops": 6
       },
       {
-        "name": "Wes Oliver",
-        "recYds": 191,
-        "rshYds": 310,
-        "catches": 48,
-        "tds": 30,
-        "fumbles": 21,
-        "drops": 21
+        "name": "Cooper Bowman",
+        "recYds": 699,
+        "rshYds": 871,
+        "catches": 13,
+        "tds": 47,
+        "fumbles": 9,
+        "drops": 19
       }
     ],
     "QuarterBack": [
       {
-        "name": "Bobby Michael",
-        "passingYards": 1820,
-        "rushingYards": 474,
-        "completions": 106,
-        "tds": 2
+        "name": "Ernesto Roberson",
+        "passingYards": 2296,
+        "rushingYards": 135,
+        "completions": 416,
+        "tds": 34
       },
       {
-        "name": "Zayn Greer",
-        "passingYards": 1383,
-        "rushingYards": 188,
-        "completions": 75,
-        "tds": 9
+        "name": "Kylen Good",
+        "passingYards": 2578,
+        "rushingYards": 361,
+        "completions": 190,
+        "tds": 14
       },
       {
-        "name": "Adam Curtis",
-        "passingYards": 3289,
-        "rushingYards": 393,
-        "completions": 278,
-        "tds": 23
+        "name": "Dilan Parks",
+        "passingYards": 1428,
+        "rushingYards": 204,
+        "completions": 38,
+        "tds": 18
       }
     ],
     "Kicker": [
       {
-        "name": "Tadeo James",
-        "fgMade": 16,
-        "fgMissed": 26
+        "name": "Blaine Snow",
+        "fgMade": 30,
+        "fgMissed": 0
       }
     ],
     "Division": "AFC"
@@ -1851,130 +1894,133 @@
     "teamName": "Jaguars",
     "location": "Jacksonville",
     "stadium": "Jacksonville Jaguars Stadium",
-    "superbowls": 6,
-    "stadiumCapacity": 60000,
-    "headCoach": "Milan Maldonado",
+    "superbowls": 7,
+    "stadiumCapacity": 81000,
+    "headCoach": "Harvey Reilly",
+    "manager": "Allen Bentley",
+    "owner": "Abraham Washington",
+    "record": "4",
     "defence": {
-      "Interceptions": 2,
-      "Sacks": 4,
-      "rshYdsAllowed": 1248,
-      "passYdsAllowed": 3300
+      "Interceptions": 18,
+      "Sacks": 17,
+      "rshYdsAllowed": 1833,
+      "passYdsAllowed": 3108
     },
     "wideReceiver": [
       {
-        "name": "Cory Mack",
-        "recYards": 576,
-        "catches": 147,
-        "tds": 14,
-        "fumbles": 14,
-        "drops": 2
-      },
-      {
-        "name": "Merrick Stewart",
-        "recYards": 1184,
-        "catches": 70,
-        "tds": 3,
-        "fumbles": 3,
-        "drops": 50
-      },
-      {
-        "name": "Kamryn Carr",
-        "recYards": 1299,
-        "catches": 41,
-        "tds": 9,
-        "fumbles": 7,
-        "drops": 12
-      },
-      {
-        "name": "Ryan Shah",
-        "recYards": 1451,
-        "catches": 59,
-        "tds": 9,
-        "fumbles": 10,
-        "drops": 28
-      },
-      {
-        "name": "Lawrence Galindo",
-        "recYards": 928,
-        "catches": 145,
+        "name": "Colin Lloyd",
+        "recYards": 407,
+        "catches": 127,
         "tds": 11,
-        "fumbles": 9,
+        "fumbles": 17,
+        "drops": 39
+      },
+      {
+        "name": "Iker Guerra",
+        "recYards": 770,
+        "catches": 116,
+        "tds": 17,
+        "fumbles": 1,
+        "drops": 43
+      },
+      {
+        "name": "Crew Briggs",
+        "recYards": 678,
+        "catches": 92,
+        "tds": 5,
+        "fumbles": 10,
+        "drops": 13
+      },
+      {
+        "name": "Kristian Cherry",
+        "recYards": 578,
+        "catches": 121,
+        "tds": 7,
+        "fumbles": 6,
         "drops": 41
       },
       {
-        "name": "Damari Kelley",
-        "recYards": 886,
-        "catches": 33,
-        "tds": 6,
-        "fumbles": 14,
-        "drops": 30
+        "name": "Rome Salazar",
+        "recYards": 998,
+        "catches": 28,
+        "tds": 3,
+        "fumbles": 19,
+        "drops": 18
       },
       {
-        "name": "Dakota Estrada",
-        "recYards": 1497,
-        "catches": 84,
-        "tds": 4,
-        "fumbles": 15,
+        "name": "Malik Bender",
+        "recYards": 513,
+        "catches": 138,
+        "tds": 15,
+        "fumbles": 20,
+        "drops": 24
+      },
+      {
+        "name": "Jay Cardenas",
+        "recYards": 665,
+        "catches": 97,
+        "tds": 2,
+        "fumbles": 12,
         "drops": 28
       }
     ],
     "RunningBack": [
       {
-        "name": "Jaxton Spears",
-        "recYds": 354,
-        "rshYds": 938,
-        "catches": 2,
-        "tds": 33,
-        "fumbles": 24,
-        "drops": 2
-      },
-      {
-        "name": "Mark Brady",
-        "recYds": 253,
-        "rshYds": 536,
-        "catches": 5,
-        "tds": 33,
-        "fumbles": 24,
-        "drops": 7
-      },
-      {
-        "name": "Tristian White",
-        "recYds": 486,
-        "rshYds": 1413,
-        "catches": 0,
-        "tds": 20,
-        "fumbles": 1,
+        "name": "Ishaan Trujillo",
+        "recYds": 133,
+        "rshYds": 445,
+        "catches": 22,
+        "tds": 22,
+        "fumbles": 6,
         "drops": 11
+      },
+      {
+        "name": "Rudy Livingston",
+        "recYds": 5,
+        "rshYds": 1398,
+        "catches": 39,
+        "tds": 49,
+        "fumbles": 11,
+        "drops": 3
+      },
+      {
+        "name": "Prince Lamb",
+        "recYds": 596,
+        "rshYds": 1199,
+        "catches": 12,
+        "tds": 31,
+        "fumbles": 4,
+        "drops": 20
       }
     ],
     "QuarterBack": [
       {
-        "name": "Omari Meadows",
-        "passingYards": 2011,
-        "rushingYards": 290,
-        "completions": 448,
-        "tds": 36
+        "name": "Avery O\u2019connor",
+        "passingYards": 2487,
+        "rushingYards": 153,
+        "completions": 228,
+        "tds": 16
       },
       {
-        "name": "Kenzo York",
-        "passingYards": 2119,
-        "rushingYards": 43,
-        "completions": 408,
-        "tds": 38
+        "name": "Charles Ross",
+        "passingYards": 3304,
+        "rushingYards": 321,
+        "completions": 387,
+        "tds": 1
       },
       {
-        "name": "London Delacruz",
-        "passingYards": 3995,
-        "rushingYards": 54,
-        "completions": 378,
-        "tds": 11
+        "name": "Raylan Livingston",
+        "passingYards": 3568,
+        "rushingYards": 435,
+        "completions": 296,
+        "tds": 21
       }
     ],
     "Kicker": [
       {
-        "name": "Armani Hayden",
-        "fgMade": 0,
-        "fgMissed": 31
+        "name": "Heath Watkins",
+        "fgMade": 10,
+        "fgMissed": 28
       }
     ],
     "Division": "AFC"
@@ -1983,130 +2029,133 @@
     "teamName": "Chiefs",
     "location": "Kansas City",
     "stadium": "Kansas City Chiefs Stadium",
-    "superbowls": 5,
-    "stadiumCapacity": 86000,
-    "headCoach": "Rene Hebert",
+    "superbowls": 0,
+    "stadiumCapacity": 58000,
+    "headCoach": "Bowen Leblanc",
+    "manager": "Stefan Alfaro",
+    "owner": "Emmett York",
+    "record": "4",
     "defence": {
-      "Interceptions": 8,
-      "Sacks": 17,
-      "rshYdsAllowed": 1196,
-      "passYdsAllowed": 3017
+      "Interceptions": 3,
+      "Sacks": 15,
+      "rshYdsAllowed": 1933,
+      "passYdsAllowed": 3553
     },
     "wideReceiver": [
       {
-        "name": "Yael Hammond",
-        "recYards": 156,
-        "catches": 65,
+        "name": "Amos Rodriguez",
+        "recYards": 872,
+        "catches": 92,
+        "tds": 7,
+        "fumbles": 17,
+        "drops": 47
+      },
+      {
+        "name": "Josiah Costa",
+        "recYards": 1137,
+        "catches": 30,
+        "tds": 10,
+        "fumbles": 14,
+        "drops": 18
+      },
+      {
+        "name": "Kai Stout",
+        "recYards": 233,
+        "catches": 48,
+        "tds": 18,
+        "fumbles": 0,
+        "drops": 14
+      },
+      {
+        "name": "Ruben Rowland",
+        "recYards": 271,
+        "catches": 21,
         "tds": 15,
-        "fumbles": 12,
-        "drops": 9
+        "fumbles": 4,
+        "drops": 14
       },
       {
-        "name": "Genesis Moon",
-        "recYards": 1121,
-        "catches": 89,
-        "tds": 16,
-        "fumbles": 13,
-        "drops": 3
+        "name": "Finnley Lowery",
+        "recYards": 492,
+        "catches": 11,
+        "tds": 14,
+        "fumbles": 0,
+        "drops": 31
       },
       {
-        "name": "Tripp Booth",
-        "recYards": 1399,
-        "catches": 33,
-        "tds": 5,
-        "fumbles": 6,
-        "drops": 48
+        "name": "Louie Kent",
+        "recYards": 767,
+        "catches": 25,
+        "tds": 15,
+        "fumbles": 4,
+        "drops": 13
       },
       {
-        "name": "Gordon Green",
-        "recYards": 584,
-        "catches": 118,
-        "tds": 17,
-        "fumbles": 8,
-        "drops": 36
-      },
-      {
-        "name": "Kashton Torres",
-        "recYards": 135,
-        "catches": 42,
-        "tds": 2,
-        "fumbles": 10,
-        "drops": 44
-      },
-      {
-        "name": "Lian Everett",
-        "recYards": 353,
-        "catches": 116,
-        "tds": 3,
-        "fumbles": 10,
-        "drops": 8
-      },
-      {
-        "name": "Noe Mayer",
-        "recYards": 70,
-        "catches": 61,
-        "tds": 0,
-        "fumbles": 10,
-        "drops": 20
+        "name": "Derek Griffin",
+        "recYards": 1194,
+        "catches": 131,
+        "tds": 12,
+        "fumbles": 5,
+        "drops": 34
       }
     ],
     "RunningBack": [
       {
-        "name": "Jayson Berry",
-        "recYds": 188,
-        "rshYds": 513,
-        "catches": 18,
-        "tds": 28,
-        "fumbles": 10,
-        "drops": 11
-      },
-      {
-        "name": "Santiago Hogan",
-        "recYds": 387,
-        "rshYds": 1477,
-        "catches": 19,
-        "tds": 37,
-        "fumbles": 11,
-        "drops": 4
-      },
-      {
-        "name": "Miguel Hernandez",
-        "recYds": 223,
-        "rshYds": 1409,
-        "catches": 6,
-        "tds": 47,
-        "fumbles": 6,
+        "name": "Gary Yu",
+        "recYds": 683,
+        "rshYds": 767,
+        "catches": 5,
+        "tds": 21,
+        "fumbles": 2,
         "drops": 12
+      },
+      {
+        "name": "Crew Wells",
+        "recYds": 740,
+        "rshYds": 1265,
+        "catches": 50,
+        "tds": 39,
+        "fumbles": 2,
+        "drops": 8
+      },
+      {
+        "name": "Jorge Gentry",
+        "recYds": 532,
+        "rshYds": 1091,
+        "catches": 13,
+        "tds": 26,
+        "fumbles": 23,
+        "drops": 22
       }
     ],
     "QuarterBack": [
       {
-        "name": "Silas Stewart",
-        "passingYards": 3446,
-        "rushingYards": 466,
-        "completions": 103,
-        "tds": 5
+        "name": "Finnegan Sherman",
+        "passingYards": 2303,
+        "rushingYards": 225,
+        "completions": 321,
+        "tds": 6
       },
       {
-        "name": "Edwin Howe",
-        "passingYards": 2110,
-        "rushingYards": 112,
-        "completions": 92,
-        "tds": 27
+        "name": "Armando Miranda",
+        "passingYards": 3748,
+        "rushingYards": 38,
+        "completions": 283,
+        "tds": 20
       },
       {
-        "name": "Dangelo Terry",
-        "passingYards": 2411,
-        "rushingYards": 209,
-        "completions": 378,
-        "tds": 12
+        "name": "Brennan Meyer",
+        "passingYards": 3325,
+        "rushingYards": 264,
+        "completions": 26,
+        "tds": 23
       }
     ],
     "Kicker": [
       {
-        "name": "Santana Quintero",
-        "fgMade": 10,
-        "fgMissed": 33
+        "name": "Miller Hensley",
+        "fgMade": 8,
+        "fgMissed": 20
       }
     ],
     "Division": "AFC"
@@ -2115,130 +2164,133 @@
     "teamName": "Raiders",
     "location": "Las Vegas",
     "stadium": "Las Vegas Raiders Stadium",
-    "superbowls": 2,
-    "stadiumCapacity": 80000,
-    "headCoach": "Bear Lowery",
+    "superbowls": 4,
+    "stadiumCapacity": 83000,
+    "headCoach": "Alejandro Mcclain",
+    "manager": "Aldo Nielsen",
+    "owner": "Watson Cruz",
+    "record": "4",
     "defence": {
-      "Interceptions": 19,
-      "Sacks": 8,
-      "rshYdsAllowed": 1165,
-      "passYdsAllowed": 3546
+      "Interceptions": 14,
+      "Sacks": 22,
+      "rshYdsAllowed": 1402,
+      "passYdsAllowed": 3363
     },
     "wideReceiver": [
       {
-        "name": "Dayton Mckinney",
-        "recYards": 1446,
-        "catches": 73,
-        "tds": 7,
-        "fumbles": 12,
-        "drops": 23
-      },
-      {
-        "name": "Damon Johnston",
-        "recYards": 263,
-        "catches": 146,
+        "name": "Legacy Aguilar",
+        "recYards": 1181,
+        "catches": 11,
         "tds": 6,
-        "fumbles": 15,
-        "drops": 25
+        "fumbles": 16,
+        "drops": 17
       },
       {
-        "name": "Grady Escobar",
-        "recYards": 932,
+        "name": "Mohammed Chen",
+        "recYards": 1316,
         "catches": 81,
-        "tds": 3,
-        "fumbles": 14,
+        "tds": 12,
+        "fumbles": 10,
+        "drops": 2
+      },
+      {
+        "name": "Zane Gibson",
+        "recYards": 1139,
+        "catches": 131,
+        "tds": 1,
+        "fumbles": 9,
+        "drops": 39
+      },
+      {
+        "name": "Watson Barron",
+        "recYards": 1483,
+        "catches": 102,
+        "tds": 9,
+        "fumbles": 10,
         "drops": 16
       },
       {
-        "name": "Moshe Wu",
-        "recYards": 32,
-        "catches": 77,
-        "tds": 12,
-        "fumbles": 18,
-        "drops": 49
+        "name": "Layne Flowers",
+        "recYards": 634,
+        "catches": 116,
+        "tds": 2,
+        "fumbles": 4,
+        "drops": 17
       },
       {
-        "name": "Colson Guevara",
-        "recYards": 1439,
-        "catches": 110,
-        "tds": 16,
-        "fumbles": 18,
-        "drops": 13
+        "name": "Finnegan Woods",
+        "recYards": 716,
+        "catches": 36,
+        "tds": 11,
+        "fumbles": 2,
+        "drops": 16
       },
       {
-        "name": "Edward Powers",
-        "recYards": 1106,
-        "catches": 23,
-        "tds": 3,
-        "fumbles": 20,
-        "drops": 20
-      },
-      {
-        "name": "Enrique Guerra",
-        "recYards": 189,
-        "catches": 90,
-        "tds": 3,
-        "fumbles": 18,
-        "drops": 26
+        "name": "Zakai Drake",
+        "recYards": 879,
+        "catches": 79,
+        "tds": 7,
+        "fumbles": 10,
+        "drops": 28
       }
     ],
     "RunningBack": [
       {
-        "name": "Cody Burns",
-        "recYds": 614,
-        "rshYds": 994,
-        "catches": 22,
-        "tds": 9,
-        "fumbles": 17,
-        "drops": 25
-      },
-      {
-        "name": "Maxim Reyna",
-        "recYds": 587,
-        "rshYds": 1192,
-        "catches": 25,
-        "tds": 25,
+        "name": "Rene Neal",
+        "recYds": 299,
+        "rshYds": 157,
+        "catches": 49,
+        "tds": 47,
         "fumbles": 13,
-        "drops": 11
+        "drops": 24
       },
       {
-        "name": "Brixton Cervantes",
-        "recYds": 160,
-        "rshYds": 283,
-        "catches": 41,
-        "tds": 42,
-        "fumbles": 8,
-        "drops": 3
+        "name": "Edison Lowe",
+        "recYds": 369,
+        "rshYds": 1374,
+        "catches": 26,
+        "tds": 3,
+        "fumbles": 16,
+        "drops": 5
+      },
+      {
+        "name": "Elliott Jacobson",
+        "recYds": 67,
+        "rshYds": 451,
+        "catches": 3,
+        "tds": 19,
+        "fumbles": 0,
+        "drops": 13
       }
     ],
     "QuarterBack": [
       {
-        "name": "Tyson Ramsey",
-        "passingYards": 2780,
-        "rushingYards": 253,
-        "completions": 175,
+        "name": "Nathan Lee",
+        "passingYards": 2288,
+        "rushingYards": 252,
+        "completions": 132,
+        "tds": 23
+      },
+      {
+        "name": "Trenton Hurst",
+        "passingYards": 3840,
+        "rushingYards": 403,
+        "completions": 313,
+        "tds": 32
+      },
+      {
+        "name": "Cyrus Hardin",
+        "passingYards": 1047,
+        "rushingYards": 140,
+        "completions": 13,
         "tds": 20
-      },
-      {
-        "name": "Jair Brown",
-        "passingYards": 3622,
-        "rushingYards": 327,
-        "completions": 27,
-        "tds": 40
-      },
-      {
-        "name": "Hayes Salazar",
-        "passingYards": 1798,
-        "rushingYards": 25,
-        "completions": 264,
-        "tds": 39
       }
     ],
     "Kicker": [
       {
-        "name": "Alessandro Maddox",
-        "fgMade": 13,
-        "fgMissed": 45
+        "name": "Kairo Benitez",
+        "fgMade": 17,
+        "fgMissed": 37
       }
     ],
     "Division": "NFC"
@@ -2247,130 +2299,133 @@
     "teamName": "Chargers",
     "location": "Los Angeles",
     "stadium": "Los Angeles Chargers Stadium",
-    "superbowls": 10,
-    "stadiumCapacity": 96000,
-    "headCoach": "Edgar Raymond",
+    "superbowls": 4,
+    "stadiumCapacity": 97000,
+    "headCoach": "Jude Watts",
+    "manager": "Kashton Correa",
+    "owner": "Vivaan Buck",
+    "record": "5",
     "defence": {
-      "Interceptions": 17,
-      "Sacks": 25,
-      "rshYdsAllowed": 1810,
-      "passYdsAllowed": 3646
+      "Interceptions": 2,
+      "Sacks": 2,
+      "rshYdsAllowed": 1270,
+      "passYdsAllowed": 3183
     },
     "wideReceiver": [
       {
-        "name": "Adonis Best",
-        "recYards": 576,
-        "catches": 125,
-        "tds": 17,
-        "fumbles": 6,
-        "drops": 34
+        "name": "Lucca Gross",
+        "recYards": 1343,
+        "catches": 77,
+        "tds": 3,
+        "fumbles": 13,
+        "drops": 29
       },
       {
-        "name": "Ray Nichols",
-        "recYards": 1344,
-        "catches": 45,
-        "tds": 0,
-        "fumbles": 15,
-        "drops": 42
+        "name": "Nasir Meadows",
+        "recYards": 321,
+        "catches": 4,
+        "tds": 7,
+        "fumbles": 7,
+        "drops": 22
       },
       {
-        "name": "Andre Morrow",
-        "recYards": 1108,
-        "catches": 79,
-        "tds": 6,
-        "fumbles": 15,
-        "drops": 33
-      },
-      {
-        "name": "Kyng Moon",
-        "recYards": 1049,
-        "catches": 5,
-        "tds": 13,
-        "fumbles": 10,
-        "drops": 36
-      },
-      {
-        "name": "Koda Branch",
-        "recYards": 772,
-        "catches": 19,
-        "tds": 4,
-        "fumbles": 20,
-        "drops": 38
-      },
-      {
-        "name": "Drake Powers",
-        "recYards": 1489,
-        "catches": 63,
-        "tds": 6,
-        "fumbles": 0,
-        "drops": 0
-      },
-      {
-        "name": "Clay Ponce",
-        "recYards": 1173,
-        "catches": 138,
+        "name": "Adam Leach",
+        "recYards": 1051,
+        "catches": 14,
         "tds": 12,
-        "fumbles": 16,
-        "drops": 45
+        "fumbles": 17,
+        "drops": 43
+      },
+      {
+        "name": "Noe Serrano",
+        "recYards": 567,
+        "catches": 68,
+        "tds": 15,
+        "fumbles": 14,
+        "drops": 30
+      },
+      {
+        "name": "Colton Richardson",
+        "recYards": 580,
+        "catches": 132,
+        "tds": 20,
+        "fumbles": 1,
+        "drops": 43
+      },
+      {
+        "name": "Anderson Berger",
+        "recYards": 1098,
+        "catches": 141,
+        "tds": 3,
+        "fumbles": 19,
+        "drops": 7
+      },
+      {
+        "name": "Niklaus Massey",
+        "recYards": 663,
+        "catches": 74,
+        "tds": 6,
+        "fumbles": 9,
+        "drops": 31
       }
     ],
     "RunningBack": [
       {
-        "name": "Bear Wheeler",
-        "recYds": 675,
-        "rshYds": 1367,
-        "catches": 42,
-        "tds": 25,
-        "fumbles": 24,
-        "drops": 6
+        "name": "Luis George",
+        "recYds": 333,
+        "rshYds": 950,
+        "catches": 43,
+        "tds": 5,
+        "fumbles": 5,
+        "drops": 1
       },
       {
-        "name": "Carl Santos",
-        "recYds": 649,
-        "rshYds": 909,
-        "catches": 24,
-        "tds": 15,
-        "fumbles": 1,
-        "drops": 12
+        "name": "Jamari House",
+        "recYds": 640,
+        "rshYds": 260,
+        "catches": 40,
+        "tds": 42,
+        "fumbles": 4,
+        "drops": 17
       },
       {
-        "name": "Wes Trujillo",
-        "recYds": 160,
-        "rshYds": 817,
-        "catches": 23,
-        "tds": 23,
-        "fumbles": 22,
-        "drops": 24
+        "name": "Rayden Meza",
+        "recYds": 554,
+        "rshYds": 1387,
+        "catches": 35,
+        "tds": 30,
+        "fumbles": 20,
+        "drops": 3
       }
     ],
     "QuarterBack": [
       {
-        "name": "Silas Mercado",
-        "passingYards": 3169,
-        "rushingYards": 157,
-        "completions": 314,
-        "tds": 12
+        "name": "Phillip Love",
+        "passingYards": 3802,
+        "rushingYards": 374,
+        "completions": 158,
+        "tds": 8
       },
       {
-        "name": "Anthony Lindsey",
-        "passingYards": 3683,
-        "rushingYards": 112,
-        "completions": 71,
-        "tds": 32
+        "name": "Zahir Nguyen",
+        "passingYards": 3593,
+        "rushingYards": 70,
+        "completions": 198,
+        "tds": 22
       },
       {
-        "name": "Yousef Horne",
-        "passingYards": 2007,
-        "rushingYards": 79,
-        "completions": 280,
-        "tds": 11
+        "name": "Zaid Yates",
+        "passingYards": 1892,
+        "rushingYards": 366,
+        "completions": 205,
+        "tds": 34
       }
     ],
     "Kicker": [
       {
-        "name": "Jamir Lowe",
-        "fgMade": 39,
-        "fgMissed": 7
+        "name": "Raiden Magana",
+        "fgMade": 4,
+        "fgMissed": 37
       }
     ],
     "Division": "NFC"
@@ -2379,130 +2434,133 @@
     "teamName": "Rams",
     "location": "Los Angeles",
     "stadium": "Los Angeles Rams Stadium",
-    "superbowls": 2,
-    "stadiumCapacity": 84000,
-    "headCoach": "Adrian Holmes",
+    "superbowls": 5,
+    "stadiumCapacity": 92000,
+    "headCoach": "Alfonso Pe\u00f1a",
+    "manager": "Daxton Guevara",
+    "owner": "Raymond Ho",
+    "record": "4",
     "defence": {
-      "Interceptions": 8,
-      "Sacks": 15,
-      "rshYdsAllowed": 1050,
-      "passYdsAllowed": 3697
+      "Interceptions": 2,
+      "Sacks": 14,
+      "rshYdsAllowed": 1431,
+      "passYdsAllowed": 3433
     },
     "wideReceiver": [
       {
-        "name": "Conner Vaughan",
-        "recYards": 1385,
-        "catches": 34,
-        "tds": 14,
-        "fumbles": 14,
-        "drops": 1
+        "name": "Keanu Mccann",
+        "recYards": 1468,
+        "catches": 31,
+        "tds": 15,
+        "fumbles": 17,
+        "drops": 20
       },
       {
-        "name": "Azrael Montgomery",
-        "recYards": 1469,
-        "catches": 38,
-        "tds": 12,
+        "name": "Archie Stark",
+        "recYards": 1280,
+        "catches": 148,
+        "tds": 7,
         "fumbles": 12,
-        "drops": 33
+        "drops": 9
       },
       {
-        "name": "Yisroel Wilson",
-        "recYards": 525,
-        "catches": 58,
-        "tds": 20,
-        "fumbles": 1,
-        "drops": 24
+        "name": "Terrance Conner",
+        "recYards": 804,
+        "catches": 83,
+        "tds": 6,
+        "fumbles": 8,
+        "drops": 21
       },
       {
-        "name": "Brixton Wyatt",
-        "recYards": 819,
-        "catches": 138,
+        "name": "Kendrick Hensley",
+        "recYards": 1137,
+        "catches": 28,
+        "tds": 15,
+        "fumbles": 14,
+        "drops": 27
+      },
+      {
+        "name": "Conner Peterson",
+        "recYards": 1092,
+        "catches": 40,
+        "tds": 5,
+        "fumbles": 5,
+        "drops": 26
+      },
+      {
+        "name": "Jefferson Harrison",
+        "recYards": 632,
+        "catches": 149,
         "tds": 14,
-        "fumbles": 19,
-        "drops": 14
+        "fumbles": 10,
+        "drops": 9
       },
       {
-        "name": "Brodie Franklin",
-        "recYards": 496,
-        "catches": 7,
-        "tds": 18,
-        "fumbles": 1,
-        "drops": 41
-      },
-      {
-        "name": "Troy Rush",
-        "recYards": 392,
-        "catches": 3,
-        "tds": 10,
+        "name": "Frederick Donaldson",
+        "recYards": 401,
+        "catches": 92,
+        "tds": 5,
         "fumbles": 7,
-        "drops": 0
-      },
-      {
-        "name": "Layton Washington",
-        "recYards": 1150,
-        "catches": 98,
-        "tds": 14,
-        "fumbles": 16,
-        "drops": 35
+        "drops": 38
       }
     ],
     "RunningBack": [
       {
-        "name": "Romeo Sutton",
-        "recYds": 514,
-        "rshYds": 1370,
-        "catches": 36,
-        "tds": 33,
-        "fumbles": 1,
-        "drops": 20
+        "name": "Calum Long",
+        "recYds": 165,
+        "rshYds": 1109,
+        "catches": 48,
+        "tds": 12,
+        "fumbles": 10,
+        "drops": 11
       },
       {
-        "name": "Gideon Peterson",
-        "recYds": 639,
-        "rshYds": 1486,
-        "catches": 4,
-        "tds": 34,
-        "fumbles": 9,
-        "drops": 3
+        "name": "Stetson Cordova",
+        "recYds": 51,
+        "rshYds": 841,
+        "catches": 23,
+        "tds": 30,
+        "fumbles": 22,
+        "drops": 11
       },
       {
-        "name": "Randy Dixon",
-        "recYds": 97,
-        "rshYds": 1364,
-        "catches": 32,
-        "tds": 40,
-        "fumbles": 21,
-        "drops": 4
+        "name": "Stanley Peck",
+        "recYds": 732,
+        "rshYds": 1266,
+        "catches": 8,
+        "tds": 45,
+        "fumbles": 10,
+        "drops": 18
       }
     ],
     "QuarterBack": [
       {
-        "name": "Langston Gomez",
-        "passingYards": 1061,
-        "rushingYards": 183,
-        "completions": 309,
-        "tds": 20
+        "name": "Apollo Houston",
+        "passingYards": 2251,
+        "rushingYards": 338,
+        "completions": 79,
+        "tds": 17
       },
       {
-        "name": "Colby Morris",
-        "passingYards": 2207,
-        "rushingYards": 120,
-        "completions": 422,
-        "tds": 2
+        "name": "Leonidas Mayo",
+        "passingYards": 3086,
+        "rushingYards": 361,
+        "completions": 5,
+        "tds": 30
       },
       {
-        "name": "Cooper Blanchard",
-        "passingYards": 2597,
-        "rushingYards": 204,
-        "completions": 139,
-        "tds": 14
+        "name": "Rodney Webb",
+        "passingYards": 1553,
+        "rushingYards": 126,
+        "completions": 243,
+        "tds": 27
       }
     ],
     "Kicker": [
       {
-        "name": "Zahir Berg",
-        "fgMade": 41,
-        "fgMissed": 30
+        "name": "Javier Andrade",
+        "fgMade": 10,
+        "fgMissed": 28
       }
     ],
     "Division": "NFC"
@@ -2511,130 +2569,133 @@
     "teamName": "Dolphins",
     "location": "Miami",
     "stadium": "Miami Dolphins Stadium",
-    "superbowls": 10,
-    "stadiumCapacity": 58000,
-    "headCoach": "Jakob Bass",
+    "superbowls": 5,
+    "stadiumCapacity": 51000,
+    "headCoach": "Harry Bruce",
+    "manager": "Sawyer Benjamin",
+    "owner": "Charles Blankenship",
+    "record": "7",
     "defence": {
-      "Interceptions": 6,
-      "Sacks": 14,
-      "rshYdsAllowed": 1774,
-      "passYdsAllowed": 3241
+      "Interceptions": 17,
+      "Sacks": 2,
+      "rshYdsAllowed": 1893,
+      "passYdsAllowed": 3185
     },
     "wideReceiver": [
       {
-        "name": "Karson Reese",
-        "recYards": 1090,
-        "catches": 35,
-        "tds": 14,
-        "fumbles": 4,
-        "drops": 30
-      },
-      {
-        "name": "Silas Li",
-        "recYards": 164,
-        "catches": 20,
-        "tds": 0,
-        "fumbles": 7,
-        "drops": 36
-      },
-      {
-        "name": "Nathanael Lucero",
-        "recYards": 704,
-        "catches": 31,
-        "tds": 10,
+        "name": "Tripp Shepherd",
+        "recYards": 266,
+        "catches": 18,
+        "tds": 2,
         "fumbles": 14,
-        "drops": 44
+        "drops": 9
       },
       {
-        "name": "Kyng Ashley",
-        "recYards": 988,
-        "catches": 113,
-        "tds": 5,
-        "fumbles": 3,
-        "drops": 23
-      },
-      {
-        "name": "Edwin Roman",
-        "recYards": 824,
-        "catches": 135,
-        "tds": 20,
+        "name": "Rayan Glover",
+        "recYards": 68,
+        "catches": 38,
+        "tds": 18,
         "fumbles": 9,
-        "drops": 40
+        "drops": 24
       },
       {
-        "name": "Sincere York",
-        "recYards": 247,
-        "catches": 127,
-        "tds": 4,
-        "fumbles": 17,
-        "drops": 41
+        "name": "Bryan Holt",
+        "recYards": 567,
+        "catches": 150,
+        "tds": 11,
+        "fumbles": 16,
+        "drops": 19
       },
       {
-        "name": "Harlem Glass",
-        "recYards": 615,
-        "catches": 26,
-        "tds": 7,
-        "fumbles": 14,
+        "name": "Edison Callahan",
+        "recYards": 1263,
+        "catches": 78,
+        "tds": 1,
+        "fumbles": 11,
+        "drops": 6
+      },
+      {
+        "name": "Damon Middleton",
+        "recYards": 1167,
+        "catches": 101,
+        "tds": 14,
+        "fumbles": 20,
+        "drops": 5
+      },
+      {
+        "name": "Kamden Bond",
+        "recYards": 1294,
+        "catches": 82,
+        "tds": 18,
+        "fumbles": 8,
         "drops": 2
+      },
+      {
+        "name": "Dariel Russell",
+        "recYards": 1179,
+        "catches": 125,
+        "tds": 7,
+        "fumbles": 19,
+        "drops": 7
       }
     ],
     "RunningBack": [
       {
-        "name": "Banks Simpson",
-        "recYds": 574,
-        "rshYds": 2,
-        "catches": 30,
-        "tds": 48,
-        "fumbles": 1,
-        "drops": 2
+        "name": "Wesson Murray",
+        "recYds": 480,
+        "rshYds": 80,
+        "catches": 40,
+        "tds": 49,
+        "fumbles": 3,
+        "drops": 19
       },
       {
-        "name": "Ford Alfaro",
-        "recYds": 519,
-        "rshYds": 571,
-        "catches": 0,
+        "name": "Braylen Lowery",
+        "recYds": 641,
+        "rshYds": 305,
+        "catches": 47,
         "tds": 30,
-        "fumbles": 5,
-        "drops": 22
+        "fumbles": 19,
+        "drops": 4
       },
       {
-        "name": "Mateo Hughes",
-        "recYds": 100,
-        "rshYds": 795,
-        "catches": 15,
-        "tds": 43,
-        "fumbles": 24,
-        "drops": 21
+        "name": "Abraham Waller",
+        "recYds": 383,
+        "rshYds": 701,
+        "catches": 50,
+        "tds": 20,
+        "fumbles": 25,
+        "drops": 5
       }
     ],
     "QuarterBack": [
       {
-        "name": "Nixon Mccarthy",
-        "passingYards": 3956,
-        "rushingYards": 373,
-        "completions": 161,
-        "tds": 34
+        "name": "August Roth",
+        "passingYards": 1192,
+        "rushingYards": 201,
+        "completions": 147,
+        "tds": 29
       },
       {
-        "name": "Lawrence Moses",
-        "passingYards": 3524,
-        "rushingYards": 324,
-        "completions": 266,
-        "tds": 30
+        "name": "Dane Fitzpatrick",
+        "passingYards": 2005,
+        "rushingYards": 456,
+        "completions": 217,
+        "tds": 35
       },
       {
-        "name": "Philip Harmon",
-        "passingYards": 2374,
-        "rushingYards": 362,
-        "completions": 54,
-        "tds": 34
+        "name": "Nolan Shepherd",
+        "passingYards": 2850,
+        "rushingYards": 381,
+        "completions": 265,
+        "tds": 7
       }
     ],
     "Kicker": [
       {
-        "name": "Memphis Garner",
-        "fgMade": 41,
-        "fgMissed": 50
+        "name": "Azariah Shepherd",
+        "fgMade": 36,
+        "fgMissed": 45
       }
     ],
     "Division": "NFC"
@@ -2644,129 +2705,132 @@
     "location": "Minnesota",
     "stadium": "Minnesota Vikings Stadium",
     "superbowls": 9,
-    "stadiumCapacity": 71000,
-    "headCoach": "Leonidas Hicks",
+    "stadiumCapacity": 83000,
+    "headCoach": "Darian Nash",
+    "manager": "Louie Davidson",
+    "owner": "Jorge Ball",
+    "record": "8",
     "defence": {
-      "Interceptions": 11,
-      "Sacks": 3,
-      "rshYdsAllowed": 1866,
-      "passYdsAllowed": 3021
+      "Interceptions": 20,
+      "Sacks": 16,
+      "rshYdsAllowed": 1756,
+      "passYdsAllowed": 3467
     },
     "wideReceiver": [
       {
-        "name": "Isaiah Huber",
-        "recYards": 552,
-        "catches": 126,
-        "tds": 18,
-        "fumbles": 10,
-        "drops": 33
+        "name": "Johan Robbins",
+        "recYards": 311,
+        "catches": 76,
+        "tds": 4,
+        "fumbles": 8,
+        "drops": 8
       },
       {
-        "name": "Crew Bartlett",
-        "recYards": 1381,
-        "catches": 98,
-        "tds": 0,
-        "fumbles": 13,
-        "drops": 44
-      },
-      {
-        "name": "Ares Humphrey",
-        "recYards": 230,
-        "catches": 125,
-        "tds": 11,
-        "fumbles": 0,
-        "drops": 30
-      },
-      {
-        "name": "Landyn Patton",
-        "recYards": 1266,
-        "catches": 81,
-        "tds": 8,
+        "name": "Jagger Morse",
+        "recYards": 991,
+        "catches": 15,
+        "tds": 14,
         "fumbles": 20,
+        "drops": 16
+      },
+      {
+        "name": "Bentlee Hughes",
+        "recYards": 1198,
+        "catches": 138,
+        "tds": 17,
+        "fumbles": 5,
+        "drops": 24
+      },
+      {
+        "name": "Mario Duarte",
+        "recYards": 1456,
+        "catches": 27,
+        "tds": 19,
+        "fumbles": 2,
+        "drops": 32
+      },
+      {
+        "name": "Edison Cox",
+        "recYards": 829,
+        "catches": 126,
+        "tds": 2,
+        "fumbles": 17,
         "drops": 6
       },
       {
-        "name": "Jeffrey Corona",
-        "recYards": 1263,
-        "catches": 65,
-        "tds": 19,
-        "fumbles": 1,
-        "drops": 11
+        "name": "Zaire Stephenson",
+        "recYards": 274,
+        "catches": 149,
+        "tds": 3,
+        "fumbles": 15,
+        "drops": 13
       },
       {
-        "name": "Conor Morrow",
-        "recYards": 489,
-        "catches": 94,
-        "tds": 5,
-        "fumbles": 2,
-        "drops": 37
-      },
-      {
-        "name": "Conor Bradford",
-        "recYards": 425,
-        "catches": 88,
-        "tds": 13,
-        "fumbles": 12,
-        "drops": 44
+        "name": "Francis Hanna",
+        "recYards": 111,
+        "catches": 122,
+        "tds": 16,
+        "fumbles": 15,
+        "drops": 33
       }
     ],
     "RunningBack": [
       {
-        "name": "Tucker Wheeler",
-        "recYds": 746,
-        "rshYds": 1397,
-        "catches": 41,
-        "tds": 30,
-        "fumbles": 16,
-        "drops": 14
+        "name": "Allan Nixon",
+        "recYds": 589,
+        "rshYds": 1279,
+        "catches": 38,
+        "tds": 4,
+        "fumbles": 20,
+        "drops": 23
       },
       {
-        "name": "Zyaire Vincent",
-        "recYds": 364,
-        "rshYds": 936,
-        "catches": 44,
-        "tds": 10,
+        "name": "Darian Stanton",
+        "recYds": 316,
+        "rshYds": 62,
+        "catches": 29,
+        "tds": 13,
         "fumbles": 13,
-        "drops": 19
+        "drops": 20
       },
       {
-        "name": "Kash Hensley",
-        "recYds": 37,
-        "rshYds": 1487,
-        "catches": 43,
-        "tds": 14,
-        "fumbles": 6,
-        "drops": 1
+        "name": "Callen Klein",
+        "recYds": 648,
+        "rshYds": 41,
+        "catches": 28,
+        "tds": 33,
+        "fumbles": 3,
+        "drops": 17
       }
     ],
     "QuarterBack": [
       {
-        "name": "Tomas Zavala",
-        "passingYards": 2946,
-        "rushingYards": 311,
-        "completions": 401,
-        "tds": 2
-      },
-      {
-        "name": "Maximilian Love",
-        "passingYards": 3613,
-        "rushingYards": 154,
-        "completions": 277,
-        "tds": 39
-      },
-      {
-        "name": "Nixon Esparza",
-        "passingYards": 1845,
-        "rushingYards": 150,
-        "completions": 439,
+        "name": "Rey Mann",
+        "passingYards": 3685,
+        "rushingYards": 181,
+        "completions": 359,
         "tds": 10
+      },
+      {
+        "name": "Case Herring",
+        "passingYards": 2290,
+        "rushingYards": 269,
+        "completions": 349,
+        "tds": 32
+      },
+      {
+        "name": "Ace Sierra",
+        "passingYards": 3247,
+        "rushingYards": 354,
+        "completions": 277,
+        "tds": 12
       }
     ],
     "Kicker": [
       {
-        "name": "Kylo Tucker",
-        "fgMade": 0,
-        "fgMissed": 40
+        "name": "Salem Fry",
+        "fgMade": 9,
+        "fgMissed": 42
       }
     ],
     "Division": "NFC"
@@ -2775,130 +2839,133 @@
     "teamName": "Patriots",
     "location": "New England",
     "stadium": "New England Patriots Stadium",
-    "superbowls": 0,
-    "stadiumCapacity": 88000,
-    "headCoach": "Moses Mason",
+    "superbowls": 4,
+    "stadiumCapacity": 78000,
+    "headCoach": "Tripp Caldwell",
+    "manager": "Wesson Austin",
+    "owner": "Cain Flowers",
+    "record": "8",
     "defence": {
-      "Interceptions": 1,
-      "Sacks": 15,
-      "rshYdsAllowed": 1487,
-      "passYdsAllowed": 3581
+      "Interceptions": 8,
+      "Sacks": 24,
+      "rshYdsAllowed": 1797,
+      "passYdsAllowed": 3400
     },
     "wideReceiver": [
       {
-        "name": "Aries Pham",
-        "recYards": 1333,
-        "catches": 83,
-        "tds": 6,
-        "fumbles": 5,
-        "drops": 42
+        "name": "Remi Johns",
+        "recYards": 1278,
+        "catches": 103,
+        "tds": 2,
+        "fumbles": 2,
+        "drops": 10
       },
       {
-        "name": "Kade Villegas",
-        "recYards": 1323,
-        "catches": 20,
-        "tds": 19,
-        "fumbles": 8,
-        "drops": 1
-      },
-      {
-        "name": "Marcel Weeks",
-        "recYards": 920,
-        "catches": 30,
-        "tds": 16,
-        "fumbles": 4,
+        "name": "Amos Hinton",
+        "recYards": 1121,
+        "catches": 25,
+        "tds": 17,
+        "fumbles": 14,
         "drops": 45
       },
       {
-        "name": "Leonidas Clay",
-        "recYards": 419,
-        "catches": 0,
-        "tds": 18,
-        "fumbles": 7,
+        "name": "Jett Dennis",
+        "recYards": 1296,
+        "catches": 3,
+        "tds": 17,
+        "fumbles": 16,
+        "drops": 28
+      },
+      {
+        "name": "Travis Bradley",
+        "recYards": 13,
+        "catches": 25,
+        "tds": 0,
+        "fumbles": 5,
+        "drops": 1
+      },
+      {
+        "name": "Dante Harvey",
+        "recYards": 1464,
+        "catches": 4,
+        "tds": 17,
+        "fumbles": 3,
         "drops": 4
       },
       {
-        "name": "Rylan Payne",
-        "recYards": 1051,
-        "catches": 143,
-        "tds": 14,
-        "fumbles": 12,
-        "drops": 15
+        "name": "Lucca Newton",
+        "recYards": 120,
+        "catches": 98,
+        "tds": 15,
+        "fumbles": 14,
+        "drops": 3
       },
       {
-        "name": "Kellen Lugo",
-        "recYards": 1179,
-        "catches": 119,
-        "tds": 16,
-        "fumbles": 12,
-        "drops": 29
-      },
-      {
-        "name": "Dario Moreno",
-        "recYards": 641,
-        "catches": 112,
-        "tds": 18,
-        "fumbles": 5,
-        "drops": 5
+        "name": "Johnny Bowman",
+        "recYards": 489,
+        "catches": 137,
+        "tds": 13,
+        "fumbles": 13,
+        "drops": 1
       }
     ],
     "RunningBack": [
       {
-        "name": "Hayes Moran",
-        "recYds": 378,
-        "rshYds": 813,
-        "catches": 45,
-        "tds": 12,
-        "fumbles": 7,
-        "drops": 17
-      },
-      {
-        "name": "Ronan Duffy",
-        "recYds": 170,
-        "rshYds": 681,
-        "catches": 35,
-        "tds": 1,
-        "fumbles": 23,
-        "drops": 9
-      },
-      {
-        "name": "Sincere Choi",
-        "recYds": 490,
-        "rshYds": 663,
-        "catches": 27,
-        "tds": 10,
+        "name": "Jasiah Roach",
+        "recYds": 220,
+        "rshYds": 735,
+        "catches": 39,
+        "tds": 14,
         "fumbles": 11,
-        "drops": 2
+        "drops": 24
+      },
+      {
+        "name": "Easton Simon",
+        "recYds": 35,
+        "rshYds": 1137,
+        "catches": 13,
+        "tds": 21,
+        "fumbles": 20,
+        "drops": 1
+      },
+      {
+        "name": "Braylon Lawrence",
+        "recYds": 547,
+        "rshYds": 755,
+        "catches": 4,
+        "tds": 30,
+        "fumbles": 12,
+        "drops": 23
       }
     ],
     "QuarterBack": [
       {
-        "name": "Vihaan Parker",
-        "passingYards": 2671,
-        "rushingYards": 183,
-        "completions": 42,
-        "tds": 28
+        "name": "Santino Holt",
+        "passingYards": 3148,
+        "rushingYards": 342,
+        "completions": 226,
+        "tds": 29
       },
       {
-        "name": "Rocco Wiggins",
-        "passingYards": 1679,
-        "rushingYards": 302,
-        "completions": 205,
-        "tds": 17
+        "name": "Franco Clay",
+        "passingYards": 2557,
+        "rushingYards": 353,
+        "completions": 91,
+        "tds": 24
       },
       {
-        "name": "Davis Hensley",
-        "passingYards": 1138,
-        "rushingYards": 215,
-        "completions": 204,
-        "tds": 18
+        "name": "Jair Bender",
+        "passingYards": 1814,
+        "rushingYards": 24,
+        "completions": 245,
+        "tds": 37
       }
     ],
     "Kicker": [
       {
-        "name": "Kendrick Turner",
-        "fgMade": 49,
-        "fgMissed": 39
+        "name": "Carson Bernard",
+        "fgMade": 20,
+        "fgMissed": 14
       }
     ],
     "Division": "NFC"
@@ -2908,129 +2975,132 @@
     "location": "New Orleans",
     "stadium": "New Orleans Saints Stadium",
     "superbowls": 9,
-    "stadiumCapacity": 63000,
-    "headCoach": "Austin Steele",
+    "stadiumCapacity": 96000,
+    "headCoach": "Finley Long",
+    "manager": "Zavier Cabrera",
+    "owner": "Ari Gardner",
+    "record": "3",
     "defence": {
-      "Interceptions": 18,
-      "Sacks": 10,
-      "rshYdsAllowed": 1718,
-      "passYdsAllowed": 3585
+      "Interceptions": 11,
+      "Sacks": 0,
+      "rshYdsAllowed": 1685,
+      "passYdsAllowed": 3574
     },
     "wideReceiver": [
       {
-        "name": "Gunner Cline",
-        "recYards": 1020,
-        "catches": 51,
-        "tds": 4,
-        "fumbles": 18,
-        "drops": 39
+        "name": "Beckett Vu",
+        "recYards": 81,
+        "catches": 35,
+        "tds": 1,
+        "fumbles": 7,
+        "drops": 37
       },
       {
-        "name": "Cohen Callahan",
-        "recYards": 567,
-        "catches": 136,
-        "tds": 17,
-        "fumbles": 18,
-        "drops": 3
-      },
-      {
-        "name": "Holden Craig",
-        "recYards": 1005,
-        "catches": 127,
-        "tds": 7,
-        "fumbles": 11,
-        "drops": 30
-      },
-      {
-        "name": "Andy Fisher",
-        "recYards": 339,
-        "catches": 15,
-        "tds": 19,
-        "fumbles": 0,
-        "drops": 2
-      },
-      {
-        "name": "Ramon Bass",
-        "recYards": 1276,
-        "catches": 128,
+        "name": "Bjorn Floyd",
+        "recYards": 246,
+        "catches": 48,
         "tds": 16,
-        "fumbles": 11,
-        "drops": 10
+        "fumbles": 15,
+        "drops": 48
       },
       {
-        "name": "George Knox",
-        "recYards": 859,
-        "catches": 87,
-        "tds": 19,
-        "fumbles": 14,
-        "drops": 2
+        "name": "Zakai Nava",
+        "recYards": 29,
+        "catches": 149,
+        "tds": 7,
+        "fumbles": 0,
+        "drops": 47
       },
       {
-        "name": "Theo Townsend",
-        "recYards": 668,
-        "catches": 26,
-        "tds": 20,
-        "fumbles": 17,
-        "drops": 31
+        "name": "Keegan Velazquez",
+        "recYards": 190,
+        "catches": 71,
+        "tds": 7,
+        "fumbles": 19,
+        "drops": 32
+      },
+      {
+        "name": "Royal Mccarty",
+        "recYards": 1170,
+        "catches": 66,
+        "tds": 12,
+        "fumbles": 16,
+        "drops": 44
+      },
+      {
+        "name": "Kingsley Pollard",
+        "recYards": 181,
+        "catches": 69,
+        "tds": 12,
+        "fumbles": 9,
+        "drops": 24
+      },
+      {
+        "name": "Musa Gilbert",
+        "recYards": 838,
+        "catches": 106,
+        "tds": 14,
+        "fumbles": 9,
+        "drops": 33
       }
     ],
     "RunningBack": [
       {
-        "name": "Ramon Velasquez",
-        "recYds": 289,
-        "rshYds": 720,
-        "catches": 17,
-        "tds": 25,
-        "fumbles": 15,
-        "drops": 7
+        "name": "Soren Jones",
+        "recYds": 717,
+        "rshYds": 769,
+        "catches": 18,
+        "tds": 40,
+        "fumbles": 0,
+        "drops": 24
       },
       {
-        "name": "Maison Powers",
-        "recYds": 557,
-        "rshYds": 1395,
-        "catches": 0,
-        "tds": 16,
-        "fumbles": 22,
-        "drops": 14
+        "name": "Randy Lamb",
+        "recYds": 457,
+        "rshYds": 889,
+        "catches": 42,
+        "tds": 14,
+        "fumbles": 1,
+        "drops": 5
       },
       {
-        "name": "Trey Medina",
-        "recYds": 739,
-        "rshYds": 1293,
-        "catches": 33,
-        "tds": 9,
-        "fumbles": 9,
-        "drops": 22
+        "name": "Ayaan Reyes",
+        "recYds": 306,
+        "rshYds": 1060,
+        "catches": 45,
+        "tds": 28,
+        "fumbles": 21,
+        "drops": 6
       }
     ],
     "QuarterBack": [
       {
-        "name": "Karter Bernal",
-        "passingYards": 2597,
-        "rushingYards": 365,
-        "completions": 427,
-        "tds": 5
+        "name": "Brayden Parrish",
+        "passingYards": 1370,
+        "rushingYards": 475,
+        "completions": 53,
+        "tds": 8
       },
       {
-        "name": "Keegan Huffman",
-        "passingYards": 2174,
-        "rushingYards": 139,
-        "completions": 240,
-        "tds": 28
+        "name": "Frank Morgan",
+        "passingYards": 2453,
+        "rushingYards": 437,
+        "completions": 42,
+        "tds": 18
       },
       {
-        "name": "Rhett Trujillo",
-        "passingYards": 3314,
-        "rushingYards": 442,
-        "completions": 185,
-        "tds": 16
+        "name": "Landyn Zavala",
+        "passingYards": 2713,
+        "rushingYards": 397,
+        "completions": 103,
+        "tds": 37
       }
     ],
     "Kicker": [
       {
-        "name": "Joaquin Mcdonald",
-        "fgMade": 13,
-        "fgMissed": 5
+        "name": "Mateo Velez",
+        "fgMade": 43,
+        "fgMissed": 44
       }
     ],
     "Division": "NFC"
@@ -3039,130 +3109,133 @@
     "teamName": "Giants",
     "location": "New York",
     "stadium": "New York Giants Stadium",
-    "superbowls": 0,
-    "stadiumCapacity": 63000,
-    "headCoach": "Brendan Ho",
+    "superbowls": 7,
+    "stadiumCapacity": 79000,
+    "headCoach": "Bodhi Barnett",
+    "manager": "Roman Lugo",
+    "owner": "Sutton Hayes",
+    "record": "4",
     "defence": {
-      "Interceptions": 3,
-      "Sacks": 7,
-      "rshYdsAllowed": 1049,
-      "passYdsAllowed": 3871
+      "Interceptions": 19,
+      "Sacks": 24,
+      "rshYdsAllowed": 1470,
+      "passYdsAllowed": 3786
     },
     "wideReceiver": [
       {
-        "name": "Abdullah Hendrix",
-        "recYards": 729,
-        "catches": 77,
+        "name": "Chance Moore",
+        "recYards": 115,
+        "catches": 93,
+        "tds": 7,
+        "fumbles": 0,
+        "drops": 36
+      },
+      {
+        "name": "Franco Nolan",
+        "recYards": 321,
+        "catches": 13,
         "tds": 5,
-        "fumbles": 5,
-        "drops": 17
-      },
-      {
-        "name": "Solomon Sandoval",
-        "recYards": 368,
-        "catches": 118,
-        "tds": 6,
-        "fumbles": 19,
-        "drops": 42
-      },
-      {
-        "name": "Rey Bonilla",
-        "recYards": 378,
-        "catches": 135,
-        "tds": 3,
-        "fumbles": 10,
-        "drops": 32
-      },
-      {
-        "name": "Rene Mccarthy",
-        "recYards": 1368,
-        "catches": 70,
-        "tds": 12,
-        "fumbles": 18,
-        "drops": 1
-      },
-      {
-        "name": "Lincoln Powers",
-        "recYards": 397,
-        "catches": 35,
-        "tds": 9,
-        "fumbles": 3,
+        "fumbles": 15,
         "drops": 26
       },
       {
-        "name": "Rory Bridges",
-        "recYards": 772,
-        "catches": 67,
-        "tds": 18,
-        "fumbles": 19,
-        "drops": 8
+        "name": "Kenzo Weber",
+        "recYards": 107,
+        "catches": 29,
+        "tds": 10,
+        "fumbles": 2,
+        "drops": 40
       },
       {
-        "name": "Javion Orr",
-        "recYards": 78,
-        "catches": 60,
-        "tds": 2,
-        "fumbles": 3,
-        "drops": 48
+        "name": "Kyler Chung",
+        "recYards": 1456,
+        "catches": 20,
+        "tds": 3,
+        "fumbles": 20,
+        "drops": 18
+      },
+      {
+        "name": "Justin Gonzales",
+        "recYards": 935,
+        "catches": 143,
+        "tds": 19,
+        "fumbles": 11,
+        "drops": 30
+      },
+      {
+        "name": "Angel Wilkins",
+        "recYards": 345,
+        "catches": 106,
+        "tds": 8,
+        "fumbles": 6,
+        "drops": 20
+      },
+      {
+        "name": "Xander Beltran",
+        "recYards": 1092,
+        "catches": 4,
+        "tds": 5,
+        "fumbles": 11,
+        "drops": 45
       }
     ],
     "RunningBack": [
       {
-        "name": "Chance Alfaro",
-        "recYds": 217,
-        "rshYds": 993,
+        "name": "Davis Simon",
+        "recYds": 497,
+        "rshYds": 42,
         "catches": 18,
-        "tds": 25,
-        "fumbles": 14,
-        "drops": 6
+        "tds": 47,
+        "fumbles": 16,
+        "drops": 16
       },
       {
-        "name": "Juan Tran",
-        "recYds": 134,
-        "rshYds": 1229,
-        "catches": 20,
-        "tds": 27,
-        "fumbles": 0,
-        "drops": 24
+        "name": "Chance Woodard",
+        "recYds": 714,
+        "rshYds": 1089,
+        "catches": 0,
+        "tds": 49,
+        "fumbles": 10,
+        "drops": 17
       },
       {
-        "name": "Castiel Gonzalez",
-        "recYds": 418,
-        "rshYds": 1062,
-        "catches": 44,
-        "tds": 44,
-        "fumbles": 9,
-        "drops": 3
+        "name": "Titan French",
+        "recYds": 248,
+        "rshYds": 718,
+        "catches": 36,
+        "tds": 18,
+        "fumbles": 13,
+        "drops": 25
       }
     ],
     "QuarterBack": [
       {
-        "name": "Roy Giles",
-        "passingYards": 1609,
-        "rushingYards": 17,
-        "completions": 396,
-        "tds": 21
+        "name": "Braxton Guzman",
+        "passingYards": 2150,
+        "rushingYards": 53,
+        "completions": 312,
+        "tds": 2
       },
       {
-        "name": "Layne Hamilton",
-        "passingYards": 2223,
-        "rushingYards": 18,
-        "completions": 223,
+        "name": "Emiliano Mayer",
+        "passingYards": 3683,
+        "rushingYards": 70,
+        "completions": 444,
+        "tds": 40
+      },
+      {
+        "name": "Hector Ellis",
+        "passingYards": 2176,
+        "rushingYards": 374,
+        "completions": 350,
         "tds": 35
-      },
-      {
-        "name": "Jay Camacho",
-        "passingYards": 2945,
-        "rushingYards": 281,
-        "completions": 264,
-        "tds": 21
       }
     ],
     "Kicker": [
       {
-        "name": "Kieran Beard",
-        "fgMade": 44,
-        "fgMissed": 7
+        "name": "Marquis Ayers",
+        "fgMade": 19,
+        "fgMissed": 35
       }
     ],
     "Division": "NFC"
@@ -3171,130 +3244,133 @@
     "teamName": "Jets",
     "location": "New York",
     "stadium": "New York Jets Stadium",
-    "superbowls": 3,
-    "stadiumCapacity": 83000,
-    "headCoach": "Eli Knox",
+    "superbowls": 2,
+    "stadiumCapacity": 66000,
+    "headCoach": "Jagger Pitts",
+    "manager": "Dillon Massey",
+    "owner": "Sergio Walls",
+    "record": "-10",
     "defence": {
-      "Interceptions": 0,
-      "Sacks": 20,
-      "rshYdsAllowed": 1994,
-      "passYdsAllowed": 4000
+      "Interceptions": 7,
+      "Sacks": 2,
+      "rshYdsAllowed": 1383,
+      "passYdsAllowed": 3126
     },
     "wideReceiver": [
       {
-        "name": "Apollo Jimenez",
-        "recYards": 422,
-        "catches": 105,
-        "tds": 2,
-        "fumbles": 15,
-        "drops": 29
-      },
-      {
-        "name": "Braden Cook",
-        "recYards": 1477,
-        "catches": 137,
-        "tds": 20,
-        "fumbles": 12,
-        "drops": 24
-      },
-      {
-        "name": "Edward Lara",
-        "recYards": 260,
-        "catches": 117,
-        "tds": 15,
-        "fumbles": 3,
-        "drops": 12
-      },
-      {
-        "name": "Julio Stafford",
-        "recYards": 926,
-        "catches": 122,
+        "name": "Adam Swanson",
+        "recYards": 1290,
+        "catches": 128,
         "tds": 16,
-        "fumbles": 0,
-        "drops": 11
+        "fumbles": 16,
+        "drops": 39
       },
       {
-        "name": "Adam Turner",
-        "recYards": 624,
-        "catches": 145,
-        "tds": 16,
-        "fumbles": 12,
-        "drops": 49
-      },
-      {
-        "name": "Landon Hanna",
-        "recYards": 724,
-        "catches": 127,
-        "tds": 6,
-        "fumbles": 7,
-        "drops": 47
-      },
-      {
-        "name": "Nolan Hayden",
-        "recYards": 1249,
+        "name": "Huxley Kane",
+        "recYards": 1366,
         "catches": 22,
+        "tds": 12,
+        "fumbles": 13,
+        "drops": 48
+      },
+      {
+        "name": "Kolton Hardin",
+        "recYards": 412,
+        "catches": 80,
+        "tds": 19,
+        "fumbles": 14,
+        "drops": 9
+      },
+      {
+        "name": "Lochlan Guerrero",
+        "recYards": 1235,
+        "catches": 25,
         "tds": 14,
         "fumbles": 6,
-        "drops": 12
+        "drops": 30
+      },
+      {
+        "name": "Kyng Melton",
+        "recYards": 67,
+        "catches": 38,
+        "tds": 17,
+        "fumbles": 8,
+        "drops": 42
+      },
+      {
+        "name": "Theo Doyle",
+        "recYards": 582,
+        "catches": 112,
+        "tds": 19,
+        "fumbles": 4,
+        "drops": 3
+      },
+      {
+        "name": "Elias Conley",
+        "recYards": 254,
+        "catches": 41,
+        "tds": 4,
+        "fumbles": 16,
+        "drops": 4
       }
     ],
     "RunningBack": [
       {
-        "name": "Braden Benton",
-        "recYds": 511,
-        "rshYds": 1193,
-        "catches": 16,
-        "tds": 8,
-        "fumbles": 15,
-        "drops": 1
+        "name": "Emory Joseph",
+        "recYds": 421,
+        "rshYds": 1131,
+        "catches": 25,
+        "tds": 17,
+        "fumbles": 22,
+        "drops": 6
       },
       {
-        "name": "Jovanni Frank",
-        "recYds": 265,
-        "rshYds": 941,
-        "catches": 39,
-        "tds": 23,
+        "name": "Moshe Espinoza",
+        "recYds": 8,
+        "rshYds": 85,
+        "catches": 48,
+        "tds": 32,
         "fumbles": 12,
-        "drops": 17
+        "drops": 4
       },
       {
-        "name": "Riley Moody",
-        "recYds": 547,
-        "rshYds": 1077,
-        "catches": 49,
-        "tds": 10,
-        "fumbles": 21,
-        "drops": 22
+        "name": "Jamari Horne",
+        "recYds": 565,
+        "rshYds": 1179,
+        "catches": 7,
+        "tds": 45,
+        "fumbles": 0,
+        "drops": 0
       }
     ],
     "QuarterBack": [
       {
-        "name": "Briggs Larson",
-        "passingYards": 3818,
-        "rushingYards": 464,
-        "completions": 351,
-        "tds": 17
+        "name": "Shawn Rhodes",
+        "passingYards": 1987,
+        "rushingYards": 223,
+        "completions": 292,
+        "tds": 16
       },
       {
-        "name": "Mylo Fitzgerald",
-        "passingYards": 3896,
-        "rushingYards": 488,
-        "completions": 347,
-        "tds": 2
+        "name": "Ben Sheppard",
+        "passingYards": 3076,
+        "rushingYards": 444,
+        "completions": 78,
+        "tds": 5
       },
       {
-        "name": "Ezekiel Koch",
-        "passingYards": 1201,
-        "rushingYards": 386,
-        "completions": 134,
-        "tds": 0
+        "name": "Kenny Harris",
+        "passingYards": 2465,
+        "rushingYards": 392,
+        "completions": 183,
+        "tds": 35
       }
     ],
     "Kicker": [
       {
-        "name": "Charles Blevins",
-        "fgMade": 38,
-        "fgMissed": 1
+        "name": "Quinn Guzman",
+        "fgMade": 12,
+        "fgMissed": 26
       }
     ],
     "Division": "NFC"
@@ -3303,130 +3379,133 @@
     "teamName": "Eagles",
     "location": "Philadelphia",
     "stadium": "Philadelphia Eagles Stadium",
-    "superbowls": 4,
-    "stadiumCapacity": 85000,
-    "headCoach": "Rudy Krueger",
+    "superbowls": 6,
+    "stadiumCapacity": 86000,
+    "headCoach": "Rocco Weeks",
+    "manager": "Maximo Armstrong",
+    "owner": "Malik Tanner",
+    "record": "0",
     "defence": {
-      "Interceptions": 16,
-      "Sacks": 22,
-      "rshYdsAllowed": 1446,
-      "passYdsAllowed": 3848
+      "Interceptions": 17,
+      "Sacks": 5,
+      "rshYdsAllowed": 1254,
+      "passYdsAllowed": 3427
     },
     "wideReceiver": [
       {
-        "name": "Joel Donaldson",
-        "recYards": 1247,
-        "catches": 71,
-        "tds": 9,
-        "fumbles": 4,
-        "drops": 40
+        "name": "Collin Jacobson",
+        "recYards": 594,
+        "catches": 29,
+        "tds": 16,
+        "fumbles": 14,
+        "drops": 24
       },
       {
-        "name": "Titan Brandt",
-        "recYards": 1327,
-        "catches": 48,
-        "tds": 8,
-        "fumbles": 16,
-        "drops": 26
+        "name": "Marco Salinas",
+        "recYards": 812,
+        "catches": 47,
+        "tds": 14,
+        "fumbles": 6,
+        "drops": 37
       },
       {
-        "name": "Justice Donaldson",
-        "recYards": 85,
-        "catches": 33,
-        "tds": 0,
-        "fumbles": 15,
-        "drops": 18
+        "name": "Harry Long",
+        "recYards": 31,
+        "catches": 87,
+        "tds": 16,
+        "fumbles": 8,
+        "drops": 15
       },
       {
-        "name": "Kaiden Thomas",
-        "recYards": 724,
-        "catches": 49,
-        "tds": 5,
-        "fumbles": 11,
-        "drops": 41
+        "name": "Barrett Ventura",
+        "recYards": 599,
+        "catches": 86,
+        "tds": 6,
+        "fumbles": 6,
+        "drops": 14
       },
       {
-        "name": "Jax Adkins",
-        "recYards": 647,
-        "catches": 137,
-        "tds": 9,
-        "fumbles": 18,
-        "drops": 29
-      },
-      {
-        "name": "Jesus Christensen",
-        "recYards": 864,
-        "catches": 128,
+        "name": "Mohamed West",
+        "recYards": 271,
+        "catches": 106,
         "tds": 19,
-        "fumbles": 19,
-        "drops": 8
+        "fumbles": 5,
+        "drops": 28
       },
       {
-        "name": "Layton Owens",
-        "recYards": 64,
-        "catches": 136,
-        "tds": 18,
-        "fumbles": 5,
-        "drops": 32
+        "name": "Niklaus Stark",
+        "recYards": 25,
+        "catches": 120,
+        "tds": 19,
+        "fumbles": 6,
+        "drops": 16
+      },
+      {
+        "name": "Wallace Parra",
+        "recYards": 1187,
+        "catches": 141,
+        "tds": 12,
+        "fumbles": 10,
+        "drops": 1
       }
     ],
     "RunningBack": [
       {
-        "name": "Roman Montes",
-        "recYds": 300,
-        "rshYds": 1500,
-        "catches": 13,
-        "tds": 5,
-        "fumbles": 9,
-        "drops": 13
-      },
-      {
-        "name": "Ty Acevedo",
-        "recYds": 36,
-        "rshYds": 1319,
-        "catches": 32,
-        "tds": 30,
-        "fumbles": 6,
+        "name": "Tyson Benton",
+        "recYds": 162,
+        "rshYds": 1215,
+        "catches": 40,
+        "tds": 4,
+        "fumbles": 2,
         "drops": 12
       },
       {
-        "name": "Kamryn Boyer",
-        "recYds": 727,
-        "rshYds": 1310,
-        "catches": 13,
-        "tds": 25,
-        "fumbles": 24,
-        "drops": 0
+        "name": "Kamari Park",
+        "recYds": 728,
+        "rshYds": 104,
+        "catches": 25,
+        "tds": 46,
+        "fumbles": 0,
+        "drops": 12
+      },
+      {
+        "name": "Ryan Simmons",
+        "recYds": 479,
+        "rshYds": 1463,
+        "catches": 49,
+        "tds": 21,
+        "fumbles": 7,
+        "drops": 12
       }
     ],
     "QuarterBack": [
       {
-        "name": "Amos Estrada",
-        "passingYards": 1255,
-        "rushingYards": 264,
-        "completions": 99,
-        "tds": 9
+        "name": "Amari Wise",
+        "passingYards": 1969,
+        "rushingYards": 219,
+        "completions": 392,
+        "tds": 8
       },
       {
-        "name": "Tucker Leblanc",
-        "passingYards": 1747,
-        "rushingYards": 420,
-        "completions": 374,
-        "tds": 7
+        "name": "Yael Kirby",
+        "passingYards": 3341,
+        "rushingYards": 105,
+        "completions": 190,
+        "tds": 3
       },
       {
-        "name": "Cyrus York",
-        "passingYards": 2361,
-        "rushingYards": 150,
-        "completions": 203,
-        "tds": 5
+        "name": "Kolten Boyer",
+        "passingYards": 1965,
+        "rushingYards": 169,
+        "completions": 272,
+        "tds": 31
       }
     ],
     "Kicker": [
       {
-        "name": "Jermaine Marshall",
-        "fgMade": 4,
-        "fgMissed": 31
+        "name": "Bryce Richards",
+        "fgMade": 25,
+        "fgMissed": 18
       }
     ],
     "Division": "NFC"
@@ -3435,130 +3514,133 @@
     "teamName": "Steelers",
     "location": "Pittsburgh",
     "stadium": "Pittsburgh Steelers Stadium",
-    "superbowls": 6,
-    "stadiumCapacity": 50000,
-    "headCoach": "Xander Love",
+    "superbowls": 4,
+    "stadiumCapacity": 94000,
+    "headCoach": "Allen Mccormick",
+    "manager": "Zayne Clayton",
+    "owner": "Jimmy Gill",
+    "record": "-2",
     "defence": {
-      "Interceptions": 1,
-      "Sacks": 7,
-      "rshYdsAllowed": 1933,
-      "passYdsAllowed": 3587
+      "Interceptions": 7,
+      "Sacks": 19,
+      "rshYdsAllowed": 1574,
+      "passYdsAllowed": 3567
     },
     "wideReceiver": [
       {
-        "name": "Marshall Russo",
-        "recYards": 1234,
-        "catches": 10,
-        "tds": 4,
-        "fumbles": 19,
-        "drops": 48
+        "name": "Lennon Burke",
+        "recYards": 291,
+        "catches": 114,
+        "tds": 19,
+        "fumbles": 20,
+        "drops": 27
       },
       {
-        "name": "Dylan Harrell",
-        "recYards": 536,
-        "catches": 55,
-        "tds": 13,
-        "fumbles": 5,
-        "drops": 31
+        "name": "Mekhi Frank",
+        "recYards": 444,
+        "catches": 6,
+        "tds": 2,
+        "fumbles": 12,
+        "drops": 23
       },
       {
-        "name": "Tanner Maddox",
-        "recYards": 917,
-        "catches": 109,
+        "name": "Lian Harrington",
+        "recYards": 63,
+        "catches": 134,
         "tds": 9,
-        "fumbles": 3,
-        "drops": 32
+        "fumbles": 5,
+        "drops": 34
       },
       {
-        "name": "Aaron Hicks",
-        "recYards": 54,
-        "catches": 15,
-        "tds": 16,
-        "fumbles": 18,
-        "drops": 33
+        "name": "Aldo Singh",
+        "recYards": 701,
+        "catches": 11,
+        "tds": 6,
+        "fumbles": 13,
+        "drops": 27
       },
       {
-        "name": "Johnny Kent",
-        "recYards": 728,
-        "catches": 130,
-        "tds": 10,
-        "fumbles": 10,
-        "drops": 42
+        "name": "Tru Patton",
+        "recYards": 2,
+        "catches": 54,
+        "tds": 0,
+        "fumbles": 5,
+        "drops": 5
       },
       {
-        "name": "Kian Vincent",
-        "recYards": 713,
-        "catches": 32,
-        "tds": 3,
-        "fumbles": 15,
-        "drops": 29
+        "name": "Zakai Phan",
+        "recYards": 970,
+        "catches": 111,
+        "tds": 6,
+        "fumbles": 6,
+        "drops": 27
       },
       {
-        "name": "Abraham Garner",
-        "recYards": 792,
-        "catches": 70,
-        "tds": 7,
-        "fumbles": 18,
-        "drops": 32
+        "name": "Mekhi Mullen",
+        "recYards": 1462,
+        "catches": 135,
+        "tds": 13,
+        "fumbles": 2,
+        "drops": 4
       }
     ],
     "RunningBack": [
       {
-        "name": "Reece Nguyen",
-        "recYds": 658,
-        "rshYds": 1258,
-        "catches": 11,
-        "tds": 17,
-        "fumbles": 22,
-        "drops": 6
+        "name": "Sean Costa",
+        "recYds": 621,
+        "rshYds": 587,
+        "catches": 21,
+        "tds": 11,
+        "fumbles": 25,
+        "drops": 15
       },
       {
-        "name": "Madden Welch",
-        "recYds": 252,
-        "rshYds": 1169,
-        "catches": 41,
-        "tds": 47,
-        "fumbles": 11,
-        "drops": 0
+        "name": "Gatlin Snyder",
+        "recYds": 388,
+        "rshYds": 593,
+        "catches": 33,
+        "tds": 18,
+        "fumbles": 9,
+        "drops": 5
       },
       {
-        "name": "Kyng Barrett",
-        "recYds": 178,
-        "rshYds": 261,
-        "catches": 25,
-        "tds": 41,
-        "fumbles": 1,
-        "drops": 22
+        "name": "Korbin Galvan",
+        "recYds": 387,
+        "rshYds": 768,
+        "catches": 13,
+        "tds": 24,
+        "fumbles": 18,
+        "drops": 15
       }
     ],
     "QuarterBack": [
       {
-        "name": "Abram Patterson",
-        "passingYards": 1718,
-        "rushingYards": 432,
-        "completions": 109,
-        "tds": 14
+        "name": "Jaxxon Beltran",
+        "passingYards": 3411,
+        "rushingYards": 448,
+        "completions": 169,
+        "tds": 22
       },
       {
-        "name": "Zahir Walton",
-        "passingYards": 2547,
-        "rushingYards": 432,
-        "completions": 44,
-        "tds": 31
+        "name": "Boone Richardson",
+        "passingYards": 3764,
+        "rushingYards": 4,
+        "completions": 364,
+        "tds": 10
       },
       {
-        "name": "Kaison Jimenez",
-        "passingYards": 1084,
-        "rushingYards": 49,
-        "completions": 385,
-        "tds": 20
+        "name": "Connor Burnett",
+        "passingYards": 2138,
+        "rushingYards": 254,
+        "completions": 89,
+        "tds": 33
       }
     ],
     "Kicker": [
       {
-        "name": "Kareem Webster",
-        "fgMade": 18,
-        "fgMissed": 36
+        "name": "Otis Guerra",
+        "fgMade": 1,
+        "fgMissed": 49
       }
     ],
     "Division": "NFC"
@@ -3567,130 +3649,133 @@
     "teamName": "49ers",
     "location": "San Francisco",
     "stadium": "San Francisco 49ers Stadium",
-    "superbowls": 6,
-    "stadiumCapacity": 78000,
-    "headCoach": "Johnny Benitez",
+    "superbowls": 10,
+    "stadiumCapacity": 87000,
+    "headCoach": "Felipe Morrison",
+    "manager": "Leland Norman",
+    "owner": "Cristian Roth",
+    "record": "-3",
     "defence": {
-      "Interceptions": 23,
-      "Sacks": 6,
-      "rshYdsAllowed": 1011,
-      "passYdsAllowed": 3053
+      "Interceptions": 16,
+      "Sacks": 16,
+      "rshYdsAllowed": 1480,
+      "passYdsAllowed": 3556
     },
     "wideReceiver": [
       {
-        "name": "Taylor Mendoza",
-        "recYards": 197,
-        "catches": 2,
-        "tds": 4,
-        "fumbles": 14,
-        "drops": 16
-      },
-      {
-        "name": "Jaxon Martin",
-        "recYards": 552,
-        "catches": 108,
-        "tds": 17,
-        "fumbles": 9,
-        "drops": 25
-      },
-      {
-        "name": "Nathaniel Gallegos",
-        "recYards": 1451,
-        "catches": 71,
-        "tds": 2,
-        "fumbles": 6,
-        "drops": 50
-      },
-      {
-        "name": "Sonny Mullins",
-        "recYards": 428,
-        "catches": 91,
-        "tds": 20,
-        "fumbles": 13,
-        "drops": 28
-      },
-      {
-        "name": "Lyle Love",
-        "recYards": 1187,
-        "catches": 95,
-        "tds": 11,
-        "fumbles": 9,
-        "drops": 34
-      },
-      {
-        "name": "Banks Cantu",
-        "recYards": 199,
-        "catches": 51,
-        "tds": 4,
-        "fumbles": 12,
-        "drops": 28
-      },
-      {
-        "name": "Kenzo Rollins",
-        "recYards": 170,
-        "catches": 104,
-        "tds": 20,
+        "name": "Caleb Conley",
+        "recYards": 483,
+        "catches": 39,
+        "tds": 7,
         "fumbles": 0,
+        "drops": 0
+      },
+      {
+        "name": "Forest Castaneda",
+        "recYards": 957,
+        "catches": 76,
+        "tds": 1,
+        "fumbles": 8,
+        "drops": 20
+      },
+      {
+        "name": "Bentlee Patrick",
+        "recYards": 303,
+        "catches": 69,
+        "tds": 8,
+        "fumbles": 20,
+        "drops": 46
+      },
+      {
+        "name": "Reid Frank",
+        "recYards": 1441,
+        "catches": 123,
+        "tds": 17,
+        "fumbles": 20,
+        "drops": 44
+      },
+      {
+        "name": "Mustafa Novak",
+        "recYards": 931,
+        "catches": 5,
+        "tds": 7,
+        "fumbles": 20,
+        "drops": 42
+      },
+      {
+        "name": "Iker Vo",
+        "recYards": 1256,
+        "catches": 110,
+        "tds": 8,
+        "fumbles": 12,
         "drops": 5
+      },
+      {
+        "name": "Scott Callahan",
+        "recYards": 644,
+        "catches": 54,
+        "tds": 13,
+        "fumbles": 2,
+        "drops": 29
       }
     ],
     "RunningBack": [
       {
-        "name": "Roberto Horn",
-        "recYds": 115,
-        "rshYds": 1304,
-        "catches": 15,
-        "tds": 47,
-        "fumbles": 23,
-        "drops": 10
+        "name": "Ulises Walters",
+        "recYds": 498,
+        "rshYds": 505,
+        "catches": 10,
+        "tds": 22,
+        "fumbles": 8,
+        "drops": 15
       },
       {
-        "name": "Caspian Burns",
-        "recYds": 25,
-        "rshYds": 296,
-        "catches": 20,
-        "tds": 10,
-        "fumbles": 5,
-        "drops": 2
+        "name": "Kevin Brooks",
+        "recYds": 548,
+        "rshYds": 734,
+        "catches": 36,
+        "tds": 18,
+        "fumbles": 14,
+        "drops": 7
       },
       {
-        "name": "Jermaine Gross",
-        "recYds": 484,
-        "rshYds": 972,
+        "name": "Archie Hurst",
+        "recYds": 615,
+        "rshYds": 1279,
         "catches": 6,
-        "tds": 34,
-        "fumbles": 6,
-        "drops": 0
+        "tds": 16,
+        "fumbles": 2,
+        "drops": 8
       }
     ],
     "QuarterBack": [
       {
-        "name": "Zahir Benson",
-        "passingYards": 2034,
-        "rushingYards": 52,
-        "completions": 249,
-        "tds": 29
+        "name": "Anthony Pittman",
+        "passingYards": 2107,
+        "rushingYards": 244,
+        "completions": 357,
+        "tds": 31
       },
       {
-        "name": "Ahmed Jacobs",
-        "passingYards": 3864,
-        "rushingYards": 435,
-        "completions": 303,
-        "tds": 6
+        "name": "Judson Goodwin",
+        "passingYards": 1668,
+        "rushingYards": 328,
+        "completions": 255,
+        "tds": 13
       },
       {
-        "name": "Dakota Simon",
-        "passingYards": 2154,
-        "rushingYards": 21,
-        "completions": 345,
-        "tds": 26
+        "name": "Kayden Carpenter",
+        "passingYards": 2671,
+        "rushingYards": 217,
+        "completions": 258,
+        "tds": 17
       }
     ],
     "Kicker": [
       {
-        "name": "Vicente Waller",
-        "fgMade": 14,
-        "fgMissed": 17
+        "name": "Muhammad Singleton",
+        "fgMade": 9,
+        "fgMissed": 45
       }
     ],
     "Division": "NFC"
@@ -3699,130 +3784,133 @@
     "teamName": "Seahawks",
     "location": "Seattle",
     "stadium": "Seattle Seahawks Stadium",
-    "superbowls": 4,
-    "stadiumCapacity": 79000,
-    "headCoach": "Phoenix Serrano",
+    "superbowls": 10,
+    "stadiumCapacity": 58000,
+    "headCoach": "Jaime Gonzalez",
+    "manager": "Camden Enriquez",
+    "owner": "Conner Cline",
+    "record": "-4",
     "defence": {
-      "Interceptions": 0,
-      "Sacks": 9,
-      "rshYdsAllowed": 1659,
-      "passYdsAllowed": 3272
+      "Interceptions": 21,
+      "Sacks": 17,
+      "rshYdsAllowed": 1593,
+      "passYdsAllowed": 3497
     },
     "wideReceiver": [
       {
-        "name": "Roberto Herman",
-        "recYards": 684,
-        "catches": 42,
-        "tds": 17,
-        "fumbles": 9,
-        "drops": 6
-      },
-      {
-        "name": "Anders Lambert",
-        "recYards": 98,
-        "catches": 117,
-        "tds": 8,
-        "fumbles": 5,
-        "drops": 28
-      },
-      {
-        "name": "Brycen Wilkinson",
-        "recYards": 1128,
-        "catches": 84,
-        "tds": 1,
-        "fumbles": 4,
-        "drops": 48
-      },
-      {
-        "name": "Rayden Hampton",
-        "recYards": 1498,
-        "catches": 59,
+        "name": "Eugene Gentry",
+        "recYards": 363,
+        "catches": 136,
         "tds": 18,
-        "fumbles": 11,
-        "drops": 12
+        "fumbles": 13,
+        "drops": 19
       },
       {
-        "name": "Emanuel Sexton",
-        "recYards": 303,
-        "catches": 28,
-        "tds": 4,
-        "fumbles": 4,
-        "drops": 7
-      },
-      {
-        "name": "Jesus Whitehead",
-        "recYards": 245,
-        "catches": 46,
-        "tds": 19,
-        "fumbles": 18,
-        "drops": 9
-      },
-      {
-        "name": "Eden Macdonald",
-        "recYards": 544,
-        "catches": 7,
-        "tds": 8,
+        "name": "Elliot Villarreal",
+        "recYards": 1067,
+        "catches": 13,
+        "tds": 6,
         "fumbles": 17,
-        "drops": 3
+        "drops": 25
+      },
+      {
+        "name": "Enoch Guerrero",
+        "recYards": 920,
+        "catches": 48,
+        "tds": 10,
+        "fumbles": 3,
+        "drops": 0
+      },
+      {
+        "name": "Eli Collins",
+        "recYards": 1099,
+        "catches": 142,
+        "tds": 1,
+        "fumbles": 20,
+        "drops": 34
+      },
+      {
+        "name": "Emilio Callahan",
+        "recYards": 450,
+        "catches": 126,
+        "tds": 1,
+        "fumbles": 20,
+        "drops": 34
+      },
+      {
+        "name": "Alec Livingston",
+        "recYards": 1327,
+        "catches": 63,
+        "tds": 6,
+        "fumbles": 1,
+        "drops": 41
+      },
+      {
+        "name": "Cole Reyes",
+        "recYards": 316,
+        "catches": 30,
+        "tds": 12,
+        "fumbles": 20,
+        "drops": 41
       }
     ],
     "RunningBack": [
       {
-        "name": "Banks Dillon",
-        "recYds": 597,
-        "rshYds": 166,
-        "catches": 43,
-        "tds": 21,
-        "fumbles": 24,
-        "drops": 18
+        "name": "Hamza Snow",
+        "recYds": 8,
+        "rshYds": 1276,
+        "catches": 45,
+        "tds": 25,
+        "fumbles": 18,
+        "drops": 5
       },
       {
-        "name": "Ryder Park",
-        "recYds": 155,
-        "rshYds": 1407,
-        "catches": 13,
-        "tds": 29,
-        "fumbles": 11,
-        "drops": 2
+        "name": "Malakhi Gilbert",
+        "recYds": 517,
+        "rshYds": 1171,
+        "catches": 20,
+        "tds": 13,
+        "fumbles": 13,
+        "drops": 17
       },
       {
-        "name": "Alonso Sampson",
-        "recYds": 472,
-        "rshYds": 1137,
-        "catches": 32,
-        "tds": 4,
-        "fumbles": 12,
-        "drops": 19
+        "name": "Reyansh Beasley",
+        "recYds": 63,
+        "rshYds": 664,
+        "catches": 9,
+        "tds": 40,
+        "fumbles": 19,
+        "drops": 1
       }
     ],
     "QuarterBack": [
       {
-        "name": "Romeo Hale",
-        "passingYards": 3370,
-        "rushingYards": 417,
-        "completions": 127,
+        "name": "Caspian Holt",
+        "passingYards": 1204,
+        "rushingYards": 385,
+        "completions": 362,
+        "tds": 8
+      },
+      {
+        "name": "Layne Palmer",
+        "passingYards": 2257,
+        "rushingYards": 156,
+        "completions": 227,
         "tds": 35
       },
       {
-        "name": "Kai Marshall",
-        "passingYards": 1157,
-        "rushingYards": 198,
-        "completions": 442,
-        "tds": 16
-      },
-      {
-        "name": "Stefan Lindsey",
-        "passingYards": 1919,
-        "rushingYards": 284,
-        "completions": 138,
-        "tds": 14
+        "name": "Kairo O\u2019connor",
+        "passingYards": 1615,
+        "rushingYards": 123,
+        "completions": 170,
+        "tds": 13
       }
     ],
     "Kicker": [
       {
-        "name": "Judah Lopez",
-        "fgMade": 40,
-        "fgMissed": 8
+        "name": "Gustavo Ford",
+        "fgMade": 6,
+        "fgMissed": 29
       }
     ],
     "Division": "NFC"
@@ -3831,130 +3919,133 @@
     "teamName": "Buccaneers",
     "location": "Tampa Bay",
     "stadium": "Tampa Bay Buccaneers Stadium",
-    "superbowls": 8,
-    "stadiumCapacity": 94000,
-    "headCoach": "Emerson Nelson",
+    "superbowls": 6,
+    "stadiumCapacity": 68000,
+    "headCoach": "Seph Bentley",
+    "manager": "Omar Harvey",
+    "owner": "Alaric Hardy",
+    "record": "-4",
     "defence": {
-      "Interceptions": 1,
-      "Sacks": 18,
-      "rshYdsAllowed": 1489,
-      "passYdsAllowed": 3461
+      "Interceptions": 23,
+      "Sacks": 10,
+      "rshYdsAllowed": 1230,
+      "passYdsAllowed": 3708
     },
     "wideReceiver": [
       {
-        "name": "Royce Williamson",
-        "recYards": 139,
-        "catches": 55,
-        "tds": 7,
-        "fumbles": 0,
-        "drops": 18
-      },
-      {
-        "name": "Prince Patrick",
-        "recYards": 627,
-        "catches": 119,
-        "tds": 11,
-        "fumbles": 3,
-        "drops": 5
-      },
-      {
-        "name": "Gary Guerra",
-        "recYards": 412,
-        "catches": 6,
-        "tds": 1,
-        "fumbles": 5,
-        "drops": 30
-      },
-      {
-        "name": "Damari Walker",
-        "recYards": 1346,
-        "catches": 95,
+        "name": "Odin Anthony",
+        "recYards": 744,
+        "catches": 8,
         "tds": 16,
-        "fumbles": 0,
-        "drops": 4
+        "fumbles": 2,
+        "drops": 29
       },
       {
-        "name": "Corbin Quinn",
-        "recYards": 724,
-        "catches": 109,
-        "tds": 0,
-        "fumbles": 0,
+        "name": "Theodore Lambert",
+        "recYards": 1256,
+        "catches": 36,
+        "tds": 2,
+        "fumbles": 14,
         "drops": 22
       },
       {
-        "name": "Malachi Reeves",
-        "recYards": 96,
-        "catches": 20,
-        "tds": 10,
-        "fumbles": 1,
-        "drops": 14
+        "name": "Benson Poole",
+        "recYards": 1420,
+        "catches": 86,
+        "tds": 19,
+        "fumbles": 19,
+        "drops": 5
       },
       {
-        "name": "Dominic Hodges",
-        "recYards": 391,
-        "catches": 106,
-        "tds": 12,
-        "fumbles": 4,
-        "drops": 23
+        "name": "Kylan Morrow",
+        "recYards": 184,
+        "catches": 47,
+        "tds": 11,
+        "fumbles": 2,
+        "drops": 48
+      },
+      {
+        "name": "Apollo Rowland",
+        "recYards": 945,
+        "catches": 38,
+        "tds": 9,
+        "fumbles": 8,
+        "drops": 21
+      },
+      {
+        "name": "Jameson Walls",
+        "recYards": 178,
+        "catches": 56,
+        "tds": 18,
+        "fumbles": 16,
+        "drops": 48
+      },
+      {
+        "name": "Evan Everett",
+        "recYards": 1434,
+        "catches": 62,
+        "tds": 17,
+        "fumbles": 0,
+        "drops": 40
       }
     ],
     "RunningBack": [
       {
-        "name": "Maison Mejia",
-        "recYds": 370,
-        "rshYds": 1157,
-        "catches": 17,
-        "tds": 43,
-        "fumbles": 11,
-        "drops": 23
+        "name": "Luka Harrell",
+        "recYds": 316,
+        "rshYds": 709,
+        "catches": 0,
+        "tds": 24,
+        "fumbles": 25,
+        "drops": 10
       },
       {
-        "name": "Lee Woods",
-        "recYds": 3,
-        "rshYds": 97,
-        "catches": 17,
-        "tds": 13,
-        "fumbles": 22,
-        "drops": 13
+        "name": "Camden Bernard",
+        "recYds": 90,
+        "rshYds": 1170,
+        "catches": 33,
+        "tds": 35,
+        "fumbles": 3,
+        "drops": 4
       },
       {
-        "name": "Jayce Bryant",
-        "recYds": 121,
-        "rshYds": 1418,
-        "catches": 39,
+        "name": "Dario O\u2019neill",
+        "recYds": 510,
+        "rshYds": 983,
+        "catches": 12,
         "tds": 5,
-        "fumbles": 24,
-        "drops": 21
+        "fumbles": 23,
+        "drops": 15
       }
     ],
     "QuarterBack": [
       {
-        "name": "Royal Herrera",
-        "passingYards": 3898,
-        "rushingYards": 421,
-        "completions": 117,
-        "tds": 3
+        "name": "Amari Thomas",
+        "passingYards": 3522,
+        "rushingYards": 333,
+        "completions": 332,
+        "tds": 0
       },
       {
-        "name": "Jorge Bates",
-        "passingYards": 1524,
-        "rushingYards": 305,
-        "completions": 53,
-        "tds": 20
+        "name": "Izaiah Palmer",
+        "passingYards": 1609,
+        "rushingYards": 131,
+        "completions": 124,
+        "tds": 36
       },
       {
-        "name": "Andy Ray",
-        "passingYards": 2392,
-        "rushingYards": 119,
-        "completions": 322,
-        "tds": 40
+        "name": "Wes Chase",
+        "passingYards": 1159,
+        "rushingYards": 320,
+        "completions": 420,
+        "tds": 5
       }
     ],
     "Kicker": [
       {
-        "name": "Austin Clay",
-        "fgMade": 2,
-        "fgMissed": 50
+        "name": "Oakley Rhodes",
+        "fgMade": 17,
+        "fgMissed": 24
       }
     ],
     "Division": "NFC"
@@ -3963,130 +4054,133 @@
     "teamName": "Titans",
     "location": "Tennessee",
     "stadium": "Tennessee Titans Stadium",
-    "superbowls": 5,
-    "stadiumCapacity": 88000,
-    "headCoach": "August Santos",
+    "superbowls": 0,
+    "stadiumCapacity": 69000,
+    "headCoach": "Madden Clarke",
+    "manager": "Jake Townsend",
+    "owner": "Kaiden Underwood",
+    "record": "9",
     "defence": {
-      "Interceptions": 25,
-      "Sacks": 0,
-      "rshYdsAllowed": 1911,
-      "passYdsAllowed": 3612
+      "Interceptions": 16,
+      "Sacks": 6,
+      "rshYdsAllowed": 1783,
+      "passYdsAllowed": 3697
     },
     "wideReceiver": [
       {
-        "name": "Collin Richmond",
-        "recYards": 1473,
-        "catches": 140,
-        "tds": 9,
-        "fumbles": 14,
-        "drops": 44
-      },
-      {
-        "name": "Tomas Barr",
-        "recYards": 354,
-        "catches": 105,
-        "tds": 5,
-        "fumbles": 8,
-        "drops": 36
-      },
-      {
-        "name": "Marcus Moss",
-        "recYards": 1076,
-        "catches": 26,
-        "tds": 2,
+        "name": "Gary Mitchell",
+        "recYards": 89,
+        "catches": 81,
+        "tds": 1,
         "fumbles": 7,
-        "drops": 30
+        "drops": 38
       },
       {
-        "name": "Ryker Stuart",
-        "recYards": 1045,
-        "catches": 149,
-        "tds": 16,
-        "fumbles": 18,
-        "drops": 19
+        "name": "Cesar Harmon",
+        "recYards": 221,
+        "catches": 39,
+        "tds": 4,
+        "fumbles": 8,
+        "drops": 9
       },
       {
-        "name": "Alfredo Summers",
-        "recYards": 720,
-        "catches": 75,
-        "tds": 5,
-        "fumbles": 10,
-        "drops": 22
+        "name": "Maximus Padilla",
+        "recYards": 1062,
+        "catches": 120,
+        "tds": 9,
+        "fumbles": 19,
+        "drops": 18
       },
       {
-        "name": "Christian Copeland",
-        "recYards": 325,
-        "catches": 126,
-        "tds": 19,
-        "fumbles": 9,
-        "drops": 3
-      },
-      {
-        "name": "Milan Bartlett",
-        "recYards": 429,
-        "catches": 71,
+        "name": "Elliott Bennett",
+        "recYards": 375,
+        "catches": 61,
         "tds": 2,
         "fumbles": 6,
-        "drops": 16
+        "drops": 1
+      },
+      {
+        "name": "Paul Chang",
+        "recYards": 540,
+        "catches": 80,
+        "tds": 12,
+        "fumbles": 13,
+        "drops": 24
+      },
+      {
+        "name": "Shawn Bean",
+        "recYards": 335,
+        "catches": 112,
+        "tds": 11,
+        "fumbles": 13,
+        "drops": 29
+      },
+      {
+        "name": "Jose Barnes",
+        "recYards": 474,
+        "catches": 106,
+        "tds": 11,
+        "fumbles": 14,
+        "drops": 49
       }
     ],
     "RunningBack": [
       {
-        "name": "Ismael Allison",
-        "recYds": 573,
-        "rshYds": 396,
-        "catches": 26,
-        "tds": 24,
-        "fumbles": 2,
-        "drops": 17
+        "name": "Adrien Reid",
+        "recYds": 200,
+        "rshYds": 1188,
+        "catches": 17,
+        "tds": 20,
+        "fumbles": 9,
+        "drops": 16
       },
       {
-        "name": "Sean Robles",
-        "recYds": 656,
-        "rshYds": 1162,
-        "catches": 18,
-        "tds": 25,
+        "name": "Miller Mccann",
+        "recYds": 344,
+        "rshYds": 649,
+        "catches": 6,
+        "tds": 43,
         "fumbles": 16,
-        "drops": 8
+        "drops": 18
       },
       {
-        "name": "Nash Estes",
-        "recYds": 643,
-        "rshYds": 300,
-        "catches": 38,
-        "tds": 40,
-        "fumbles": 1,
-        "drops": 12
+        "name": "Roberto Andrews",
+        "recYds": 62,
+        "rshYds": 793,
+        "catches": 11,
+        "tds": 19,
+        "fumbles": 10,
+        "drops": 2
       }
     ],
     "QuarterBack": [
       {
-        "name": "Dayton Walker",
-        "passingYards": 1005,
-        "rushingYards": 183,
-        "completions": 377,
+        "name": "Chandler Warner",
+        "passingYards": 2644,
+        "rushingYards": 343,
+        "completions": 171,
         "tds": 23
       },
       {
-        "name": "Mathew Nicholson",
-        "passingYards": 1080,
-        "rushingYards": 337,
-        "completions": 177,
-        "tds": 24
+        "name": "Porter Paul",
+        "passingYards": 1718,
+        "rushingYards": 14,
+        "completions": 154,
+        "tds": 39
       },
       {
-        "name": "Hunter Wagner",
-        "passingYards": 2776,
-        "rushingYards": 349,
-        "completions": 131,
-        "tds": 21
+        "name": "Juan Fuller",
+        "passingYards": 3659,
+        "rushingYards": 268,
+        "completions": 136,
+        "tds": 31
       }
     ],
     "Kicker": [
       {
-        "name": "Denver Fowler",
-        "fgMade": 34,
-        "fgMissed": 27
+        "name": "Blake Wade",
+        "fgMade": 13,
+        "fgMissed": 15
       }
     ],
     "Division": "NFC"
@@ -4095,130 +4189,133 @@
     "teamName": "Redskins",
     "location": "Washington",
     "stadium": "Washington Redskins Stadium",
-    "superbowls": 2,
-    "stadiumCapacity": 98000,
-    "headCoach": "Niko Shaw",
+    "superbowls": 9,
+    "stadiumCapacity": 60000,
+    "headCoach": "Lochlan Schwartz",
+    "manager": "Austin Yang",
+    "owner": "Tobias Esparza",
+    "record": "-5",
     "defence": {
-      "Interceptions": 22,
-      "Sacks": 19,
-      "rshYdsAllowed": 1181,
-      "passYdsAllowed": 3275
+      "Interceptions": 7,
+      "Sacks": 23,
+      "rshYdsAllowed": 1706,
+      "passYdsAllowed": 3783
     },
     "wideReceiver": [
       {
-        "name": "Cole Williamson",
-        "recYards": 926,
-        "catches": 72,
-        "tds": 17,
-        "fumbles": 16,
+        "name": "Emerson Manning",
+        "recYards": 1347,
+        "catches": 130,
+        "tds": 8,
+        "fumbles": 2,
+        "drops": 44
+      },
+      {
+        "name": "Jovanni Whitney",
+        "recYards": 788,
+        "catches": 121,
+        "tds": 18,
+        "fumbles": 9,
+        "drops": 48
+      },
+      {
+        "name": "Brayden Mccall",
+        "recYards": 440,
+        "catches": 2,
+        "tds": 13,
+        "fumbles": 6,
+        "drops": 2
+      },
+      {
+        "name": "Stetson Harrington",
+        "recYards": 1450,
+        "catches": 130,
+        "tds": 4,
+        "fumbles": 8,
+        "drops": 45
+      },
+      {
+        "name": "Houston Dennis",
+        "recYards": 502,
+        "catches": 20,
+        "tds": 7,
+        "fumbles": 11,
         "drops": 46
       },
       {
-        "name": "Ronan Johnston",
-        "recYards": 508,
-        "catches": 134,
+        "name": "Lennox Palmer",
+        "recYards": 488,
+        "catches": 142,
         "tds": 7,
-        "fumbles": 19,
-        "drops": 27
-      },
-      {
-        "name": "Emir Arnold",
-        "recYards": 530,
-        "catches": 103,
-        "tds": 17,
-        "fumbles": 13,
-        "drops": 3
-      },
-      {
-        "name": "Josue Mcpherson",
-        "recYards": 853,
-        "catches": 38,
-        "tds": 10,
-        "fumbles": 9,
-        "drops": 6
-      },
-      {
-        "name": "Brayan Knapp",
-        "recYards": 400,
-        "catches": 117,
-        "tds": 7,
-        "fumbles": 0,
-        "drops": 30
-      },
-      {
-        "name": "Huxley Allen",
-        "recYards": 1208,
-        "catches": 53,
-        "tds": 16,
-        "fumbles": 18,
-        "drops": 39
-      },
-      {
-        "name": "Alonzo Meadows",
-        "recYards": 845,
-        "catches": 69,
-        "tds": 16,
-        "fumbles": 5,
+        "fumbles": 12,
         "drops": 47
+      },
+      {
+        "name": "Bodhi Mu\u00f1oz",
+        "recYards": 1456,
+        "catches": 125,
+        "tds": 1,
+        "fumbles": 0,
+        "drops": 5
       }
     ],
     "RunningBack": [
       {
-        "name": "Idris Carrillo",
-        "recYds": 444,
-        "rshYds": 992,
-        "catches": 5,
-        "tds": 2,
-        "fumbles": 8,
-        "drops": 16
+        "name": "Ira Nava",
+        "recYds": 478,
+        "rshYds": 1265,
+        "catches": 35,
+        "tds": 22,
+        "fumbles": 25,
+        "drops": 25
       },
       {
-        "name": "Zakai Mejia",
-        "recYds": 176,
-        "rshYds": 1490,
-        "catches": 37,
-        "tds": 17,
-        "fumbles": 19,
-        "drops": 7
-      },
-      {
-        "name": "Kasen Keith",
-        "recYds": 15,
-        "rshYds": 748,
-        "catches": 23,
-        "tds": 9,
-        "fumbles": 17,
+        "name": "Jabari Santiago",
+        "recYds": 431,
+        "rshYds": 1424,
+        "catches": 31,
+        "tds": 31,
+        "fumbles": 0,
         "drops": 10
+      },
+      {
+        "name": "Lachlan Wang",
+        "recYds": 638,
+        "rshYds": 895,
+        "catches": 5,
+        "tds": 22,
+        "fumbles": 12,
+        "drops": 14
       }
     ],
     "QuarterBack": [
       {
-        "name": "Holden Vargas",
-        "passingYards": 1725,
-        "rushingYards": 244,
-        "completions": 249,
-        "tds": 28
+        "name": "Malik Nixon",
+        "passingYards": 1670,
+        "rushingYards": 114,
+        "completions": 76,
+        "tds": 24
       },
       {
-        "name": "Kingsley Stanton",
-        "passingYards": 2906,
-        "rushingYards": 455,
-        "completions": 243,
-        "tds": 4
+        "name": "Roland Hoover",
+        "passingYards": 1470,
+        "rushingYards": 52,
+        "completions": 113,
+        "tds": 33
       },
       {
-        "name": "Edward Garrison",
-        "passingYards": 2293,
-        "rushingYards": 67,
-        "completions": 425,
-        "tds": 39
+        "name": "Franklin Church",
+        "passingYards": 3911,
+        "rushingYards": 98,
+        "completions": 37,
+        "tds": 24
       }
     ],
     "Kicker": [
       {
-        "name": "Reign Horne",
-        "fgMade": 49,
-        "fgMissed": 31
+        "name": "Emmitt Mills",
+        "fgMade": 10,
+        "fgMissed": 12
       }
     ],
     "Division": "NFC"

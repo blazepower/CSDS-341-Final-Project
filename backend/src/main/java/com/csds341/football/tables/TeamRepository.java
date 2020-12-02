@@ -7,28 +7,28 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface TeamRepository extends JpaRepository<Team, Integer> {
-    @Query(
-            "select distinct t.teamId, avg(w.recYds) " +
-                    "from WideReceiver w, Team t " +
-                    "where t.division = 'NFC' and w.team = t " +
-                    "group by w.team.teamId"
-    )
-    Integer getId();
+//    @Query(
+//            "select distinct t.teamId, avg(w.recYds) " +
+//                    "from WideReceiver w, Team t " +
+//                    "where t.division = 'NFC' and w.team = t " +
+//                    "group by w.team.teamId"
+//    )
+//    Integer getId();
 
     @Query(
-            "select t.teamId from Team t where t.division = 'NFC'"
+            "select t.teamName from Team t where t.division = 'NFC'"
     )
-    List<Integer> getTeamIdOfTeamNFC();
+    List<String> getTeamIdOfTeamNFC();
 
-    @Query(
-            "select t.teamName from Team t, Kicker k " +
-                    "where k.team.teamId = t.teamId " +
-                    "and k.fgMade = " +
-                    "(select max(k1.fgMade) from Kicker k1 " +
-                    "where k1.team.teamId = k.team.teamId)"
-    )
-    String teamWithKickerWithMostFGMade();
-
+//    @Query(
+//            "select t.teamName from Team t, Kicker k " +
+//                    "where k.team = t.teamId " +
+//                    "and k.fgMade = " +
+//                    "(select max(k1.fgMade) from Kicker k1 " +
+//                    "where k1.team.teamId = k.team.teamId)"
+//    )
+//    String teamWithKickerWithMostFGMade();
+//
     @Query(
             "select t.teamName from Team t " +
                     "where t.division = 'AFC' " +
@@ -36,6 +36,6 @@ public interface TeamRepository extends JpaRepository<Team, Integer> {
                     "(select max(t1.record) from Team t1 " +
                     "where t.teamId = t1.teamId)"
     )
-    String teamNameOfAFCWinner();
+    List<String> teamNameOfAFCWinner();
 
 }

@@ -1,16 +1,13 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class WideReceiver {
     private @Id
     @GeneratedValue
     Integer wId;
-    @ManyToOne
+    @ManyToOne //(cascade = CascadeType.ALL)
     private Team team;
     private String name;
     private Integer recYds;

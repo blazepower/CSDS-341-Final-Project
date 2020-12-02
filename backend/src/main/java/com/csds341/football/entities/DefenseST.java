@@ -1,17 +1,15 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 public class DefenseST {
     private @Id
     @GeneratedValue
     Integer defenseId;
-    @OneToOne
-    private Team team;
+//    @OneToOne(cascade = CascadeType.ALL)
+//    private Team team;
+    private Integer teamId;
     private Integer interceptions;
     private Integer sacks;
     private Integer rshYdsAllowed;
@@ -48,9 +46,9 @@ public class DefenseST {
         return passYdsAllowed;
     }
 
-    public Team getTeam() { return team; }
+    public Integer getTeam() { return teamId; }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeamId(Integer teamId) {
+        this.teamId = teamId;
     }
 }

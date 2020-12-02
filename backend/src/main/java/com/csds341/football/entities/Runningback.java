@@ -1,16 +1,13 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class Runningback {
     private @Id
     @GeneratedValue
     Integer rId;
-    @ManyToOne
+    @ManyToOne //(cascade = CascadeType.MERGE)
     private Team team;
     private String name;
     private Integer recYds;

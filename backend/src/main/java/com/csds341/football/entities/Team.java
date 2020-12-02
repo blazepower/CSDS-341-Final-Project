@@ -16,17 +16,17 @@ public class Team {
     private String generalManager;
     private String owner;
     private String record;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Stadium stadium;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private DefenseST defenseST;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Quarterback> quarterbacks;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Runningback> runningbacks;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<WideReceiver> wideReceivers;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Kicker> kickers;
 
     public Team() {
@@ -110,7 +110,16 @@ public class Team {
     }
 
     public void setDefenseST(DefenseST defenseST) {
+//        if(sameAsFormer(defenseST))
+//            return;
         this.defenseST = defenseST;
+
+        if (defenseST != null) {
+            defenseST.setTeamId(getTeamId());
+            System.out.println(getTeamId());
+            System.out.println(this.getTeamId());
+//            System.out.println(defenseST.getTeam());
+        }
     }
 
     public void setQuarterbacks(List<Quarterback> quarterbacks) {
@@ -127,5 +136,12 @@ public class Team {
 
     public void setKickers(List<Kicker> kickers) {
         this.kickers = kickers;
+    }
+
+    private boolean sameAsFormer(DefenseST st) {
+        if (defenseST == null) {
+            return st == null;
+        }
+        return defenseST.equals(st);
     }
 }

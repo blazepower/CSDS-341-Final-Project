@@ -1,15 +1,12 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class Kicker {
     private @Id @GeneratedValue
     Integer kId;
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Team team;
     private String name;
     private Integer fgMade;
