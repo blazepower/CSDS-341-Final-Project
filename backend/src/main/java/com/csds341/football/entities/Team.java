@@ -16,40 +16,32 @@ public class Team {
     private String generalManager;
     private String owner;
     private String record;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Stadium stadium;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private DefenseST defenseST;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Quarterback> quarterbacks;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Runningback> runningbacks;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<WideReceiver> wideReceivers;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Kicker> kickers;
 
     public Team() {
     }
 
     public Team(
-            Integer teamId, String teamName, String city, Stadium stadium, Integer superBowls,
-            String division, String headCoach, String generalManager, String owner, DefenseST defenseST, String record,
-            List<Quarterback> quarterbacks, List<Runningback> runningbacks, List<WideReceiver> wideReceivers, List<Kicker> kickers) {
-        this.teamId = teamId;
+            String teamName, String city, Integer superBowls,
+            String division, String headCoach, String generalManager, String owner, String record) {
         this.teamName = teamName;
         this.city = city;
-        this.stadium = stadium;
         this.superBowls = superBowls;
         this.division = division;
         this.headCoach = headCoach;
         this.generalManager = generalManager;
         this.owner = owner;
-        this.quarterbacks = quarterbacks;
-        this.defenseST = defenseST;
-        this.runningbacks = runningbacks;
-        this.wideReceivers = wideReceivers;
-        this.kickers = kickers;
         this.record = record;
     }
 
@@ -111,5 +103,45 @@ public class Team {
 
     public List<Kicker> getKickers() {
         return kickers;
+    }
+
+    public void setStadium(Stadium stadium) {
+        this.stadium = stadium;
+    }
+
+    public void setDefenseST(DefenseST defenseST) {
+//        if(sameAsFormer(defenseST))
+//            return;
+        this.defenseST = defenseST;
+
+        if (defenseST != null) {
+            defenseST.setTeamId(getTeamId());
+            System.out.println(getTeamId());
+            System.out.println(this.getTeamId());
+//            System.out.println(defenseST.getTeam());
+        }
+    }
+
+    public void setQuarterbacks(List<Quarterback> quarterbacks) {
+        this.quarterbacks = quarterbacks;
+    }
+
+    public void setRunningbacks(List<Runningback> runningbacks) {
+        this.runningbacks = runningbacks;
+    }
+
+    public void setWideReceivers(List<WideReceiver> wideReceivers) {
+        this.wideReceivers = wideReceivers;
+    }
+
+    public void setKickers(List<Kicker> kickers) {
+        this.kickers = kickers;
+    }
+
+    private boolean sameAsFormer(DefenseST st) {
+        if (defenseST == null) {
+            return st == null;
+        }
+        return defenseST.equals(st);
     }
 }

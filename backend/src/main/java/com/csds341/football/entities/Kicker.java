@@ -1,15 +1,12 @@
 package com.csds341.football.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class Kicker {
     private @Id @GeneratedValue
-    Integer wId;
-    @ManyToOne
+    Integer kId;
+    @ManyToOne(cascade = CascadeType.ALL)
     private Team team;
     private String name;
     private Integer fgMade;
@@ -18,16 +15,14 @@ public class Kicker {
     public Kicker() {
     }
 
-    public Kicker(Integer wId, Team team, String name, Integer fgMade, Integer fgMissed) {
-        this.wId = wId;
-        this.team = team;
+    public Kicker(String name, Integer fgMade, Integer fgMissed) {
         this.name = name;
         this.fgMade = fgMade;
         this.fgMissed = fgMissed;
     }
 
-    public Integer getwId() {
-        return wId;
+    public Integer getwKId() {
+        return kId;
     }
 
     public Team getTeam() {
@@ -44,5 +39,9 @@ public class Kicker {
 
     public Integer getFgMissed() {
         return fgMissed;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }
