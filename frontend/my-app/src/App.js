@@ -16,8 +16,10 @@ class App extends React.Component {
   }
   recYdsTeam() {
     fetch(`http://localhost:8080/api/getAFCWinner`)
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((res) => res.text())
+      .then((data) => {
+        this.setState({ string: data });
+      });
   }
   render() {
     return (
@@ -25,9 +27,9 @@ class App extends React.Component {
         <h1 className='title'>CSDS 341 Final Project</h1>
         <h2 className='members'>Aman, Rishik, Lauren, Jack</h2>
         <div className='query-div'>
-          <div className='button-div' id='recyds-team'>
+          <div className='button-div' id='afc-winner-div'>
             <button onClick={this.recYdsTeam}>Who won the AFC</button>
-            <h1>{this.state.string}</h1>
+            <h1 className='afc-winner'>{this.state.string}</h1>
           </div>
           <div id='nfc-teams' className='button-div'>
             <button>Get the teamid for every team in NFC division</button>

@@ -15,7 +15,6 @@ import javax.persistence.Query;
 import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class TestController {
     @Autowired
