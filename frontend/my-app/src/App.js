@@ -10,15 +10,26 @@ class App extends React.Component {
       number: -1,
       name: '',
       string: '',
-      teams: {},
+      teams: [],
     };
-    this.recYdsTeam = this.recYdsTeam.bind(this);
+    this.afcWinner = this.afcWinner.bind(this);
+    this.nfcTeams = this.nfcTeams.bind(this);
   }
-  recYdsTeam() {
+  afcWinner() {
     fetch(`http://localhost:8080/api/getAFCWinner`)
-      .then((res) => res.text())
+      .then((res) => res.json())
       .then((data) => {
         this.setState({ string: data });
+      });
+  }
+
+  nfcTeams() {
+    fetch(`http://localhost:8080/api/getNFC`)
+      .then((res) => res.json())
+      .then((data) => {
+        this.setState({
+          teams: data,
+        });
       });
   }
   render() {
@@ -28,11 +39,20 @@ class App extends React.Component {
         <h2 className='members'>Aman, Rishik, Lauren, Jack</h2>
         <div className='query-div'>
           <div className='button-div' id='afc-winner-div'>
-            <button onClick={this.recYdsTeam}>Who won the AFC</button>
+            <button onClick={this.afcWinner}>Who won the AFC</button>
             <h1 className='afc-winner'>{this.state.string}</h1>
           </div>
           <div id='nfc-teams' className='button-div'>
-            <button>Get the teamid for every team in NFC division</button>
+            <button onClick={this.nfcTeams}>
+              Get the name for every team in NFC division
+            </button>
+            <div className='team-list'>
+              <ul>
+                {this.state.teams.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div id='most-wins-afc' className='button-div'>
             <button>

@@ -67,4 +67,21 @@ body {
   color: white;
   text-align: center;
 }
+
+#nfc-teams {
+  height: 500px;
+}
+
+.team-list {
+  margin-top: 1rem;
+  height: 80%;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.team-list ul {
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+}
 /*# sourceMappingURL=App.css.map */
