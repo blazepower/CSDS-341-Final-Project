@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
@@ -38,7 +36,6 @@ public class TestController {
 
     @Autowired
     WideReceiverRepository wideReceiverRepository;
-    EntityManager em;
 
     @GetMapping("/api/getAll/def")
     public List<DefenseST> getAll() {
@@ -64,6 +61,13 @@ public class TestController {
     public List<String> getAFCWinner() {
         List<String> res = new ArrayList<>();
         res.add(teamRepository.teamNameOfAFCWinner().get(0).trim());
+        return res;
+    }
+
+    @GetMapping("/api/getMostInterceptions")
+    public List<String> getTeamNameWithMostInterceptions() {
+        List<String> res = new ArrayList<>();
+        res.add(teamRepository.teamNameWithMostInterceptions().get(0).trim());
         return res;
     }
 }

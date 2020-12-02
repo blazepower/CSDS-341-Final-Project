@@ -28,18 +28,19 @@ public interface TeamRepository extends JpaRepository<Team, Integer> {
 //                    "where k1.team.teamId = k.team.teamId)"
 //    )
 //    String teamWithKickerWithMostFGMade();
-//
+
     @Query(
             "select t.teamName from Team t " +
                     "where t.division = 'AFC' " +
                     "and t.record = " +
-                    "(select max(t1.record) from Team t1 " +
-                    "where t.teamId = t1.teamId)"
+                    "(select max(t1.record) from Team t1)"
     )
     List<String> teamNameOfAFCWinner();
 
-//    @Query(
-//            "select t.teamName from Team t, DefenseST d where t.teamId = d.teamId and "
-//    )
+    @Query(
+            "select t.teamName from Team t, DefenseST d " +
+                    "where d.interceptions = (select max(d1.interceptions) from DefenseST d1) and d.teamId = t.teamId"
+    )
+    List<String> teamNameWithMostInterceptions();
 
 }
