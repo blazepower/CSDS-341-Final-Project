@@ -2,7 +2,6 @@ package com.csds341.football.controllers;
 
 import com.csds341.football.entities.DefenseST;
 import com.csds341.football.entities.Kicker;
-import com.csds341.football.entities.Stadium;
 import com.csds341.football.entities.Team;
 import com.csds341.football.tables.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,7 +71,7 @@ public class TestController {
     }
 
     @GetMapping("/api/getTeamWithKickerWithMostFGMade")
-    public List<String> getTeamWithKicketWithMostFGs() {
+    public List<String> getTeamWithKickerWithMostFGs() {
         List<String> res = new ArrayList<>();
         res.add(teamRepository.teamWithKickerWithMostFGMade().get(0).trim());
         return res;
