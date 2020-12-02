@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   afcWinner() {
     fetch(`http://localhost:8080/api/getAFCWinner`)
-      .then((res) => res.text())
+      .then((res) => res.json())
       .then((data) => {
         this.setState({ string: data });
       });
