@@ -38,4 +38,8 @@ public interface TeamRepository extends JpaRepository<Team, Integer> {
     )
     List<String> teamNameOfAFCWinner();
 
+//    @Query(
+//            "select t.teamName from Team t, DefenseST d where t.teamId = d.teamId and "
+//    )
+
 }
