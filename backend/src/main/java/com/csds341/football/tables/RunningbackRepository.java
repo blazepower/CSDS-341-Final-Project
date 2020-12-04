@@ -8,7 +8,7 @@ public interface RunningbackRepository extends JpaRepository<Runningback, Intege
     @Query(
             "select count(r.rId) " +
                     "from Team t, Runningback r" +
-                    " where t.teamName = 'Chargers' and r.team.teamId = t.teamId"
+                    " where t.teamName = 'Chargers' and r.teamId = t.teamId"
     )
     Integer getNumRunningbackByTeamContainingChargers();
 }

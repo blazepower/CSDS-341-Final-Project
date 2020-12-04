@@ -48,8 +48,8 @@ public class LoadTables {
                 List<Quarterback> quarterbacks = new ArrayList<>();
                 List<Runningback> runningbacks = new ArrayList<>();
                 List<Kicker> kickers = new ArrayList<>();
-
                 List<WideReceiver> wideReceivers = new ArrayList<>();
+
                 Team t = new Team(
                         i+1,
                         team.getString("teamName"),
@@ -68,8 +68,8 @@ public class LoadTables {
                         team.getInt("stadiumCapacity"),
                         team.getString("teamName")
                 );
-//                stadium.setTeam(t);
-//                stadiumRepository.save(stadium);
+                stadium.setTeam(t.getTeamId());
+                stadiumRepository.save(stadium);
 
                 JSONObject defenceObj = team.getJSONObject("defence");
                 DefenseST defenseST = new DefenseST(
@@ -79,56 +79,56 @@ public class LoadTables {
                         defenceObj.getInt("passYdsAllowed")
                 );
                 defenseST.setTeamId(t.getTeamId());
-//                defenseSTRepository.save(defenseST);
+                defenseSTRepository.save(defenseST);
 
-//                JSONArray quarterbackArray = team.getJSONArray("QuarterBack");
-//                for (int j = 0; j < quarterbackArray.length(); j++) {
-//                    JSONObject currQB = quarterbackArray.getJSONObject(j);
-//                    Quarterback q = new Quarterback(
-//                            currQB.getString("name"),
-//                            currQB.getInt("passingYards"),
-//                            currQB.getInt("rushingYards"),
-//                            currQB.getInt("completions"),
-//                            currQB.getInt("tds")
-//                    );
-//                    q.setTeam(t);
-//                    quarterbackRepository.save(q);
-//                    quarterbacks.add(q);
-//                }
-//
-//                JSONArray rbArray = team.getJSONArray("RunningBack");
-//                for (int j = 0; j < rbArray.length(); j++) {
-//                    JSONObject currRB = rbArray.getJSONObject(j);
-//                    Runningback r = new Runningback(
-//                            currRB.getString("name"),
-//                            currRB.getInt("recYds"),
-//                            currRB.getInt("rshYds"),
-//                            currRB.getInt("catches"),
-//                            currRB.getInt("tds"),
-//                            currRB.getInt("fumbles"),
-//                            currRB.getInt("drops")
-//                    );
-//                    r.setTeam(t);
-//                    runningbackRepository.save(r);
-//                    runningbacks.add(r);
-//                }
-//
-//                JSONArray wrArray = team.getJSONArray("wideReceiver");
-//                for (int j = 0; j < wrArray.length(); j++) {
-//                    JSONObject currWR = wrArray.getJSONObject(j);
-//                    WideReceiver w = new WideReceiver(
-//                            currWR.getString("name"),
-//                            currWR.getInt("recYards"),
-//                            currWR.getInt("catches"),
-//                            currWR.getInt("tds"),
-//                            currWR.getInt("fumbles"),
-//                            currWR.getInt("drops")
-//                    );
-//                    w.setTeam(t);
-//                    wideReceiverRepository.save(w);
-//                    wideReceivers.add(w);
-//                }
-//
+                JSONArray quarterbackArray = team.getJSONArray("QuarterBack");
+                for (int j = 0; j < quarterbackArray.length(); j++) {
+                    JSONObject currQB = quarterbackArray.getJSONObject(j);
+                    Quarterback q = new Quarterback(
+                            currQB.getString("name"),
+                            currQB.getInt("passingYards"),
+                            currQB.getInt("rushingYards"),
+                            currQB.getInt("completions"),
+                            currQB.getInt("tds")
+                    );
+                    q.setTeamId(t.getTeamId());
+                    quarterbackRepository.save(q);
+                    quarterbacks.add(q);
+                }
+
+                JSONArray rbArray = team.getJSONArray("RunningBack");
+                for (int j = 0; j < rbArray.length(); j++) {
+                    JSONObject currRB = rbArray.getJSONObject(j);
+                    Runningback r = new Runningback(
+                            currRB.getString("name"),
+                            currRB.getInt("recYds"),
+                            currRB.getInt("rshYds"),
+                            currRB.getInt("catches"),
+                            currRB.getInt("tds"),
+                            currRB.getInt("fumbles"),
+                            currRB.getInt("drops")
+                    );
+                    r.setTeam(t.getTeamId());
+                    runningbackRepository.save(r);
+                    runningbacks.add(r);
+                }
+
+                JSONArray wrArray = team.getJSONArray("wideReceiver");
+                for (int j = 0; j < wrArray.length(); j++) {
+                    JSONObject currWR = wrArray.getJSONObject(j);
+                    WideReceiver w = new WideReceiver(
+                            currWR.getString("name"),
+                            currWR.getInt("recYards"),
+                            currWR.getInt("catches"),
+                            currWR.getInt("tds"),
+                            currWR.getInt("fumbles"),
+                            currWR.getInt("drops")
+                    );
+                    w.setTeam(t.getTeamId());
+                    wideReceiverRepository.save(w);
+                    wideReceivers.add(w);
+                }
+
                 JSONArray kArray = team.getJSONArray("Kicker");
                 for (int j = 0; j < kArray.length(); j++) {
                     JSONObject currKicker = kArray.getJSONObject(j);
@@ -137,17 +137,17 @@ public class LoadTables {
                             currKicker.getInt("fgMade"),
                             currKicker.getInt("fgMissed")
                     );
-//                    k.setTeam(t);
-//                    kickerRepository.save(k);
+                    k.setTeam(t.getTeamId());
+                    kickerRepository.save(k);
                     kickers.add(k);
                 }
 
                 t.setDefenseST(defenseST);
                 t.setKickers(kickers);
-//                t.setQuarterbacks(quarterbacks);
-//                t.setRunningbacks(runningbacks);
-//                t.setStadium(stadium);
-//                t.setWideReceivers(wideReceivers);
+                t.setQuarterbacks(quarterbacks);
+                t.setRunningbacks(runningbacks);
+                t.setStadium(stadium);
+                t.setWideReceivers(wideReceivers);
                 teams.save(t);
             }
         };

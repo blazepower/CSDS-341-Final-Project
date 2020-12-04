@@ -1,14 +1,14 @@
 package com.csds341.football.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class DefenseST {
     private @Id
     @GeneratedValue
     Integer defenseId;
-//    @OneToOne(cascade = CascadeType.ALL)
-//    private Team team;
     private Integer teamId;
     private Integer interceptions;
     private Integer sacks;
@@ -46,7 +46,7 @@ public class DefenseST {
         return passYdsAllowed;
     }
 
-    public Integer getTeam() { return teamId; }
+    public Integer getTeamId() { return teamId; }
 
     public void setTeamId(Integer teamId) {
         this.teamId = teamId;

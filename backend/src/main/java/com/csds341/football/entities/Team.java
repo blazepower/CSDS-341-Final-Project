@@ -107,6 +107,10 @@ public class Team {
 
     public void setStadium(Stadium stadium) {
         this.stadium = stadium;
+
+        if (stadium != null) {
+            stadium.setTeam(getTeamId());
+        }
     }
 
     public void setDefenseST(DefenseST defenseST) {
@@ -119,14 +123,32 @@ public class Team {
 
     public void setQuarterbacks(List<Quarterback> quarterbacks) {
         this.quarterbacks = quarterbacks;
+
+        if (quarterbacks != null) {
+            for (Quarterback quarterback : quarterbacks) {
+                quarterback.setTeamId(getTeamId());
+            }
+        }
     }
 
     public void setRunningbacks(List<Runningback> runningbacks) {
         this.runningbacks = runningbacks;
+
+        if (runningbacks != null) {
+            for (Runningback runningback : runningbacks) {
+                runningback.setTeam(getTeamId());
+            }
+        }
     }
 
     public void setWideReceivers(List<WideReceiver> wideReceivers) {
         this.wideReceivers = wideReceivers;
+
+        if (wideReceivers != null) {
+            for (WideReceiver wideReceiver : wideReceivers) {
+                wideReceiver.setTeam(getTeamId());
+            }
+        }
     }
 
     public void setKickers(List<Kicker> kickers) {

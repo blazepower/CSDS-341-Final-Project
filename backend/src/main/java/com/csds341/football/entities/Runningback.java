@@ -1,14 +1,15 @@
 package com.csds341.football.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Runningback {
     private @Id
     @GeneratedValue
     Integer rId;
-    @ManyToOne //(cascade = CascadeType.MERGE)
-    private Team team;
+    private Integer teamId;
     private String name;
     private Integer recYds;
     private Integer rshYds;
@@ -20,7 +21,13 @@ public class Runningback {
     public Runningback() {
     }
 
-    public Runningback(String name, Integer recYds, Integer rshYds, Integer catches, Integer tds, Integer fumbles, Integer drops) {
+    public Runningback(String name,
+                       Integer recYds,
+                       Integer rshYds,
+                       Integer catches,
+                       Integer tds,
+                       Integer fumbles,
+                       Integer drops) {
         this.name = name;
         this.recYds = recYds;
         this.rshYds = rshYds;
@@ -34,8 +41,8 @@ public class Runningback {
         return rId;
     }
 
-    public Team getTeam() {
-        return team;
+    public Integer getTeamId() {
+        return teamId;
     }
 
     public String getName() {
@@ -66,7 +73,7 @@ public class Runningback {
         return drops;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeam(Integer teamId) {
+        this.teamId = teamId;
     }
 }

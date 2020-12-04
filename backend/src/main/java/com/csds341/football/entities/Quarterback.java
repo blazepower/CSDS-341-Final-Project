@@ -1,14 +1,14 @@
 package com.csds341.football.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Quarterback {
     private @Id
     @GeneratedValue
     Integer quId;
-//    @ManyToOne(cascade = CascadeType.ALL)
-//    private Team team;
     private Integer teamId;
     private String name;
     private Integer passYds;
@@ -31,7 +31,7 @@ public class Quarterback {
         return quId;
     }
 
-    public Integer getTeam() {
+    public Integer getTeamId() {
         return teamId;
     }
 

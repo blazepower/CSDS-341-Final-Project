@@ -1,14 +1,15 @@
 package com.csds341.football.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class WideReceiver {
     private @Id
     @GeneratedValue
     Integer wId;
-    @ManyToOne //(cascade = CascadeType.ALL)
-    private Team team;
+    private Integer teamId;
     private String name;
     private Integer recYds;
     private Integer catches;
@@ -33,8 +34,8 @@ public class WideReceiver {
         return wId;
     }
 
-    public Team getTeam() {
-        return team;
+    public Integer getTeamId() {
+        return teamId;
     }
 
     public String getName() {
@@ -61,7 +62,7 @@ public class WideReceiver {
         return drops;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeam(Integer teamId) {
+        this.teamId = teamId;
     }
 }
